@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <AbilityDef Name="RB_CastOnSelf_Abilities" Abstract="True">
+    <jobDef>CastAbilityOnThing</jobDef>
+    <targetRequired>false</targetRequired>
+    <canUseAoeToGetTargets>false</canUseAoeToGetTargets>
+    <stunTargetWhileCasting>true</stunTargetWhileCasting>
+    <showPsycastEffects>false</showPsycastEffects>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
+    <hotKey>Misc12</hotKey>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <soundCast>RB_Novakin_IWasTheSun</soundCast>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>false</canTargetHumans>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+  </AbilityDef>
+
+  <AbilityDef ParentName="RB_CastOnSelf_Abilities">
+    <defName>RB_Dead_Eye</defName>
+    <label>dead eye</label>
+    <description>Grant accuracy buffs on the caster's shooting, last about 7 hours before the ability wears off.</description>
+    <iconPath>UI/Gizmos/Abilities/RB_Dead_Eye</iconPath>
+    <cooldownTicksRange>180000</cooldownTicksRange>
+    <comps>
+      <li Class="RimboundCore.CompProperties_GiveHediff">
+        <hediffDef>RB_Dead_Eye</hediffDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef ParentName="RB_CastOnSelf_Abilities">
+    <defName>RB_Trigger_Finger</defName>
+    <label>trigger finger</label>
+    <description>Halved aiming cooldown on the caster's shooting, last about 7 hours before the ability wears off.</description>
+    <iconPath>UI/Gizmos/Abilities/RB_Trigger_Finger</iconPath>
+    <cooldownTicksRange>180000</cooldownTicksRange>
+    <comps>
+      <li Class="RimboundCore.CompProperties_GiveHediff">
+        <hediffDef>RB_Trigger_Finger</hediffDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef ParentName="RB_CastOnSelf_Abilities">
+    <defName>RB_Magnetic_Shield</defName>
+    <label>magnetic shield</label>
+    <description>Increases damage resistance on the caster's body, last about 7 hours before the ability wears off.</description>
+    <iconPath>UI/Gizmos/Abilities/RB_Magnetic_Shield</iconPath>
+    <cooldownTicksRange>180000</cooldownTicksRange>
+    <comps>
+      <li Class="RimboundCore.CompProperties_GiveHediff">
+        <hediffDef>RB_Magnetic_Shield</hediffDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef ParentName="RB_CastOnSelf_Abilities">
+    <defName>RB_IsIt_CECompatible</defName>
+    <label>is it CE compatible</label>
+    <description>Increases melee combat compatibility on the caster's body, last about 7 hours before the ability wears off.</description>
+    <iconPath>UI/Gizmos/Abilities/RB_IsIt_CECompatible</iconPath>
+    <cooldownTicksRange>180000</cooldownTicksRange>
+    <comps>
+      <li Class="RimboundCore.CompProperties_GiveHediff">
+        <hediffDef>RB_IsIt_CECompatible</hediffDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+</Defs>

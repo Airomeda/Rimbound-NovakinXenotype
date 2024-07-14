@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HediffDef Name="RB_AbilityHediffBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="HediffCompProperties_Effecter">
+        <stateEffecter>RB_Plasma_Sparks</stateEffecter>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="RB_AbilityHediffBase">
+    <defName>RB_Dead_Eye</defName>
+    <label>dead eye</label>
+    <description>Enhances the user's shooting accuracy.\n\n"You can go anywhere, but you won't be away from my gaze."</description>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>17500~17500</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="RB_AbilityHediffBase">
+    <defName>RB_Trigger_Finger</defName>
+    <label>trigger finger</label>
+    <description>Decreases the user's firing cooldown.\n\n"It's high noon. Let's dance, Partner!."</description>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>17500~17500</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <VEF_RangeAttackSpeedFactor>5</VEF_RangeAttackSpeedFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="RB_AbilityHediffBase">
+    <defName>RB_Magnetic_Shield</defName>
+    <label>magnetic shield</label>
+    <description>Enhances the user's magnetic field to increase damage resistance.\n\n"My magnetic wave took that personally."</description>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>17500~17500</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.5</painFactor>
+        <statFactors>
+          <IncomingDamageFactor>0.75</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="RB_AbilityHediffBase">
+    <defName>RB_IsIt_CECompatible</defName>
+    <label>is it CE compatible</label>
+    <description>Enhances the user's melee compatibility to stronger hit and decrease cooldown, increases movement speed.\n\n"I alone am the compatible one."</description>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>17500~17500</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <MoveSpeed>2</MoveSpeed>
+          <VEF_MeleeAttackSpeedFactor>2</VEF_MeleeAttackSpeedFactor>
+          <VEF_MeleeAttackDamageFactor>2</VEF_MeleeAttackDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GeneDef>
+    <defName>RB_Vibrant_Mind</defName>
+    <label>vibrant mind</label>
+    <labelShortAdj>short-span mind</labelShortAdj>
+    <description>Carriers of this gene have short attention and memory. Though they have a high intuition and aptitude for learning they lack patience and attention span to the point of making them terrible students and teachers, and events harder to recall makes it easier for them to forget both good and bad things. They enjoy the present life more than the past.</description>
+    <customEffectDescriptions>
+      <li>moodlet or thought duration lowered by 50%.</li>
+      <li>global skill loss and learning rate increased by 25%.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/RB_Gene_VibrantMind</iconPath>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <displayCategory>Miscellaneous</displayCategory>
+    <statOffsets>
+      <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+      <ResearchSpeed>-0.15</ResearchSpeed>
+      <ReadingSpeed>-0.15</ReadingSpeed>
+      <GlobalLearningFactor>0.25</GlobalLearningFactor>
+    </statOffsets>
+    <biostatMet>2</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>attention</symbol>
+        </li>
+        <li>
+          <symbol>forget</symbol>
+        </li>
+        <li>
+          <symbol>disorder</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+    <passOnDirectly>false</passOnDirectly>
+    <geneClass>RimboundCore.GeneMemory</geneClass>
+    <modExtensions>
+      <li Class="RimboundCore.GeneMemoryExtension">
+        <thoughtDurationMultiplier>0.5</thoughtDurationMultiplier>
+      </li>
+      <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <globalSkillLossMultiplier>1.25</globalSkillLossMultiplier>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+</Defs>

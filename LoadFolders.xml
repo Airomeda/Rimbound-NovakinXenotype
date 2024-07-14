@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loadFolders>
+  <v1.5>
+    <li>1.5</li>
+    <li>Common</li>
+    <li IfModActive="CETeam.CombatExtended">Mods/1.5/CombatExtended</li>
+    <li IfModActive="sarg.alphagenes">Mods/1.5/AlphaGenes</li>
+    <li IfModActive="kentington.saveourship2">Mods/1.5/SaveOurShip2</li>
+    <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Mods/1.5/VFESettler</li>
+  </v1.5>
+</loadFolders>

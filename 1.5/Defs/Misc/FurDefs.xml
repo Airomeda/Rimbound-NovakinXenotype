@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FurDef>
+    <defName>RB_NovakinBody</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Pawn/Humanlike/Novakin/Bodies/RB_Novakin_Male</Male>
+      <Female>Things/Pawn/Humanlike/Novakin/Bodies/RB_Novakin_Female</Female>
+      <Hulk>Things/Pawn/Humanlike/Novakin/Bodies/RB_Novakin_Hulk</Hulk>
+      <Fat>Things/Pawn/Humanlike/Novakin/Bodies/RB_Novakin_Fat</Fat>
+      <Thin>Things/Pawn/Humanlike/Novakin/Bodies/RB_Novakin_Thin</Thin>
+      <Child>Things/Pawn/Humanlike/Novakin/Bodies/RB_Novakin_Child</Child>
+      <Baby>Things/Pawn/Humanlike/Novakin/Bodies/RB_Novakin_Child</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+
+</Defs>

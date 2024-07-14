@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HeadTypeDef Name="RB_NovakinHeadBase" ParentName="AverageBase" Abstract="True">
+    <selectionWeight>100000</selectionWeight>
+    <randomChosen>false</randomChosen>
+    <requiredGenes>
+      <li>RB_Novaborn</li>
+    </requiredGenes>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Female_Average_Normal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Female/RB_Novakin_FemaleAverageNormal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Female_Average_Pointy</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Female/RB_Novakin_FemaleAveragePointy</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Female_Average_Wide</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Female/RB_Novakin_FemaleAverageWide</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Female_Narrow_Normal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Female/RB_Novakin_FemaleNarrowNormal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Female_Narrow_Pointy</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Female/RB_Novakin_FemaleNarrowPointy</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Female_Narrow_Wide</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Female/RB_Novakin_FemaleNarrowWide</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Male_Average_Normal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Male/RB_Novakin_MaleAverageNormal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Male_Average_Pointy</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Male/RB_Novakin_MaleAveragePointy</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Male_Average_Wide</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Male/RB_Novakin_MaleAverageWide</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Male_Narrow_Normal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Male/RB_Novakin_MaleNarrowNormal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Male_Narrow_Pointy</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Male/RB_Novakin_MaleNarrowPointy</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="RB_NovakinHeadBase">
+    <defName>RB_Novakin_Male_Narrow_Wide</defName>
+    <graphicPath>Things/Pawn/Humanlike/Novakin/Heads/Male/RB_Novakin_MaleNarrowWide</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+</Defs>

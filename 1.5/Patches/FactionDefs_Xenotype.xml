@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <RB_Novakin>0.015</RB_Novakin>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[@Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <RB_Novakin>0.025</RB_Novakin>
+    </value>
+  </Operation>
+
+</Patch>
