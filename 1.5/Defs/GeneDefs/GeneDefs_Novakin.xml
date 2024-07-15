@@ -4,7 +4,7 @@
   <GeneDef>
     <defName>RB_Novaborn</defName>
     <label>novaborn</label>
-    <description>Carriers of this gene have gas-like body that was born as a result of the death star. They are immune to most environmental and health conditions like human disease and chronic conditions.\nUpon death, they will explode just like how they were born.</description>
+    <description>Carriers of this gene have gas-like body that was born as a result of the death of a star. They are immune to most environmental and health conditions like human disease and chronic conditions.\nUpon death, they will explode just like how they were born.</description>
     <customEffectDescriptions>
       <li>tox gas and flame immunity.</li>
       <li>extreme environment immunity.</li>
