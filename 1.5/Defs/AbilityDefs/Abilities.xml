@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <AbilityDef Name="RB_CastOnSelf_Abilities" Abstract="True">
-    <jobDef>CastAbilityOnThing</jobDef>
-    <targetRequired>false</targetRequired>
-    <canUseAoeToGetTargets>false</canUseAoeToGetTargets>
-    <stunTargetWhileCasting>true</stunTargetWhileCasting>
-    <showPsycastEffects>false</showPsycastEffects>
-    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
-    <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
-    <hotKey>Misc12</hotKey>
-    <verbProperties>
-      <verbClass>Verb_CastAbility</verbClass>
-      <warmupTime>0.5</warmupTime>
-      <drawAimPie>false</drawAimPie>
-      <requireLineOfSight>false</requireLineOfSight>
-      <soundCast>RB_Novakin_IWasTheSun</soundCast>
-      <targetParams>
-        <canTargetSelf>true</canTargetSelf>
-        <canTargetPawns>false</canTargetPawns>
-        <canTargetBuildings>false</canTargetBuildings>
-        <canTargetAnimals>false</canTargetAnimals>
-        <canTargetHumans>false</canTargetHumans>
-        <canTargetMechs>false</canTargetMechs>
-      </targetParams>
-    </verbProperties>
-  </AbilityDef>
-
   <AbilityDef ParentName="RB_CastOnSelf_Abilities">
     <defName>RB_Dead_Eye</defName>
     <label>dead eye</label>

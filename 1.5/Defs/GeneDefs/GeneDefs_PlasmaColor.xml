@@ -61,6 +61,7 @@
       </li>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <hideGene>true</hideGene>
       </li>
     </modExtensions>
   </GeneDef>

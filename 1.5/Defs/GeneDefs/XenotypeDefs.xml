@@ -5,7 +5,7 @@
     <defName>RB_Novakin</defName>
     <label>novakin</label>
     <description>Easily one of the most enigmatic known races, the Novakin are sapient plasma-shelled "gas-bags" in a humanoid shape, with metallic "brands" where their faces would be. \nA generally carefree and capricious people with notoriously short memories and attention spans, they live in the moment, wandering the stars in search of adventure, with little reflection on the past. So unconcerned are they with what happened before now, they have forgotten their origins, having never bothered to catalog their history. \nThus where they came from and how they were formed may forever be a mystery.</description>
-    <descriptionShort>Novakin differs in personality depending on their brands and naturally has short memories and attention spans. They are immune to most diseases, chronic and environment conditions, have high-temperature resistance, and regenerate their missing body parts every 30 days.</descriptionShort>
+    <descriptionShort>Novakin differs in personality depending on their brand symbol, naturally has short memories and attention spans. They are immune to most diseases, chronic and environmental conditions, have very high-temperature resistance, regenerate their missing or heal damaged body parts every 30 days.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/RB_Novakin</iconPath>
     <combatPowerFactor>1.4</combatPowerFactor>
     <factionlessGenerationWeight>0.25</factionlessGenerationWeight>

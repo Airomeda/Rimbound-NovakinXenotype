@@ -64,22 +64,13 @@
           <li>RB_Brand_Social</li>
           <li>RB_Brand_Intellectual</li>
           <li>RB_Brand_None</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">RB_Brand_Psychic</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">RB_Brand_Priest</li>
         </geneDefs>
       </li>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
-      </li>
-    </modExtensions>
-  </GeneDef>
-
-  <GeneDef Name="RB_GeneBrandsBase" Abstract="True">
-    <displayCategory>RB_Novakin_Category</displayCategory>
-    <biostatCpx>2</biostatCpx>
-    <biostatMet>-1</biostatMet>
-    <selectionWeight>0</selectionWeight>
-    <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
-        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <hideGene>true</hideGene>
       </li>
     </modExtensions>
   </GeneDef>
@@ -87,7 +78,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_AccuracyShooting</defName>
     <label>facial brand (marksman)</label>
-    <description>Carriers of this brand excels in accurate aiming with ranged weapon.</description>
+    <description>Carriers of this brand excel in accurate aiming with ranged weapons.</description>
     <descriptionHyperlinks>
       <AbilityDef>RB_Dead_Eye</AbilityDef>
     </descriptionHyperlinks>
@@ -112,6 +103,11 @@
         </drawData>
       </li>
     </renderNodeProperties>
+    <suppressedTraits>
+      <li>
+        <def>Brawler</def>
+      </li>
+    </suppressedTraits>
     <abilities>
       <li>RB_Dead_Eye</li>
     </abilities>
@@ -132,7 +128,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_QuickShooting</defName>
     <label>facial brand (stellar)</label>
-    <description>Carriers of this brand excels in quick-firing with ranged weapon.</description>
+    <description>Carriers of this brand excel in quick-firing with ranged weapons.</description>
     <descriptionHyperlinks>
       <AbilityDef>RB_Trigger_Finger</AbilityDef>
     </descriptionHyperlinks>
@@ -157,6 +153,11 @@
         </drawData>
       </li>
     </renderNodeProperties>
+    <suppressedTraits>
+      <li>
+        <def>Brawler</def>
+      </li>
+    </suppressedTraits>
     <abilities>
       <li>RB_Trigger_Finger</li>
     </abilities>
@@ -177,7 +178,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_MeleeSustain</defName>
     <label>facial brand (fortitude)</label>
-    <description>Carriers of this brand excels in sustaining combat engagement with melee weapon.</description>
+    <description>Carriers of this brand excel in sustaining combat engagement with melee weapons.</description>
     <descriptionHyperlinks>
       <AbilityDef>RB_Magnetic_Shield</AbilityDef>
     </descriptionHyperlinks>
@@ -202,6 +203,14 @@
         </drawData>
       </li>
     </renderNodeProperties>
+    <suppressedTraits>
+      <li>
+        <def>Wimp</def>
+      </li>
+      <li>
+        <def>Delicate</def>
+      </li>
+    </suppressedTraits>
     <abilities>
       <li>RB_Magnetic_Shield</li>
     </abilities>
@@ -222,7 +231,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_MeleeBerserk</defName>
     <label>facial brand (moustaChE)</label>
-    <description>Carriers of this brand excels in combat engagement compatibility with melee weapon.</description>
+    <description>Carriers of this brand excel in combat engagement compatibility with melee weapons.</description>
     <descriptionHyperlinks>
       <AbilityDef>RB_IsIt_CECompatible</AbilityDef>
     </descriptionHyperlinks>
@@ -267,7 +276,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_Construction</defName>
     <label>facial brand (square)</label>
-    <description>Carriers of this brand excels in constructing and smoothing building.</description>
+    <description>Carriers of this brand excel in constructing and smoothing buildings.</description>
     <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandSquare</iconPath>
     <renderNodeProperties>
       <li>
@@ -305,7 +314,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_Mining</defName>
     <label>facial brand (spade)</label>
-    <description>Carriers of this brand excels in mining and drilling activity.</description>
+    <description>Carriers of this brand excel in mining and drilling minerals.</description>
     <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandSpade</iconPath>
     <renderNodeProperties>
       <li>
@@ -343,7 +352,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_Cooking</defName>
     <label>facial brand (heart)</label>
-    <description>Carriers of this brand excels in culinary activity.</description>
+    <description>Carriers of this brand excel in culinary works.</description>
     <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandHeart</iconPath>
     <renderNodeProperties>
       <li>
@@ -381,7 +390,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_Animals</defName>
     <label>facial brand (ohm)</label>
-    <description>Carriers of this brand excels in taming, training and handling animals.</description>
+    <description>Carriers of this brand excel in taming, training, and handling animals.</description>
     <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandOhm</iconPath>
     <renderNodeProperties>
       <li>
@@ -418,9 +427,9 @@
 
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_Plants</defName>
-    <label>facial brand (psi)</label>
-    <description>Carriers of this brand excels in growing, cutting, and harvesting plants.</description>
-    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandPsi</iconPath>
+    <label>facial brand (club)</label>
+    <description>Carriers of this brand excel in growing, cutting, and harvesting plants.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandClub</iconPath>
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
@@ -430,7 +439,7 @@
         <useRottenColor>true</useRottenColor>
         <useSkinShader>false</useSkinShader>
         <rotDrawMode>Fresh, Rotting</rotDrawMode>
-        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandPsi</texPath>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandClub</texPath>
         <visibleFacing>
           <li>South</li>
         </visibleFacing>
@@ -457,7 +466,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_Crafting</defName>
     <label>facial brand (cog)</label>
-    <description>Carriers of this brand excels in crafting and manufacturing.</description>
+    <description>Carriers of this brand excel in crafting and manufacturing products.</description>
     <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandCog</iconPath>
     <renderNodeProperties>
       <li>
@@ -494,9 +503,9 @@
 
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_Artistic</defName>
-    <label>facial brand (diamonds)</label>
-    <description>Carriers of this brand excels in artistic activity.</description>
-    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandDiamonds</iconPath>
+    <label>facial brand (diamond)</label>
+    <description>Carriers of this brand excel in artistic and creative artworks.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandDiamond</iconPath>
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
@@ -506,7 +515,7 @@
         <useRottenColor>true</useRottenColor>
         <useSkinShader>false</useSkinShader>
         <rotDrawMode>Fresh, Rotting</rotDrawMode>
-        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandDiamonds</texPath>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandDiamond</texPath>
         <visibleFacing>
           <li>South</li>
         </visibleFacing>
@@ -533,7 +542,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_Medicine</defName>
     <label>facial brand (cross)</label>
-    <description>Carriers of this brand excels in tending and curing patients.</description>
+    <description>Carriers of this brand excel in tending and curing patients.</description>
     <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandCross</iconPath>
     <prerequisite>RB_Novaborn</prerequisite>
     <renderNodeProperties>
@@ -571,7 +580,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_Social</defName>
     <label>facial brand (rimstar)</label>
-    <description>Carriers of this brand excels in social interaction.</description>
+    <description>Carriers of this brand excel in social and negotiation interactions.</description>
     <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandRimstar</iconPath>
     <renderNodeProperties>
       <li>
@@ -593,6 +602,14 @@
         </drawData>
       </li>
     </renderNodeProperties>
+    <suppressedTraits>
+      <li>
+        <def>AnnoyingVoice</def>
+      </li>
+      <li>
+        <def>CreepyBreathing</def>
+      </li>
+    </suppressedTraits>
     <passionMod>
       <skill>Social</skill>
       <modType>AddOneLevel</modType>
@@ -609,9 +626,9 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_Intellectual</defName>
     <label>facial brand (delta)</label>
-    <description>Carriers of this brand excels in research and drug refining activity.</description>
+    <description>Carriers of this brand excel in research and drug refining.</description>
     <customEffectDescriptions>
-      <li>cancel out the research and reading debuff of their vibrant mind.</li>
+      <li>Nullify the research and reading debuff of their natural vibrant mind.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandDelta</iconPath>
     <renderNodeProperties>
@@ -634,14 +651,19 @@
         </drawData>
       </li>
     </renderNodeProperties>
-    <statOffsets>
-      <ResearchSpeed>0.15</ResearchSpeed>
-      <ReadingSpeed>0.15</ReadingSpeed>
-    </statOffsets>
+    <suppressedTraits>
+      <li>
+        <def>SlowLearner</def>
+      </li>
+    </suppressedTraits>
     <passionMod>
       <skill>Intellectual</skill>
       <modType>AddOneLevel</modType>
     </passionMod>
+    <statOffsets>
+      <ResearchSpeed>0.15</ResearchSpeed>
+      <ReadingSpeed>0.15</ReadingSpeed>
+    </statOffsets>
     <prerequisite>RB_Novaborn</prerequisite>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
@@ -654,9 +676,9 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_None</defName>
     <label>facial brandless</label>
-    <description>Carriers of this brand has nothing special aside remarkable manipulation of keeping body shape without visible facial brand, and they remember memory longer than others.</description>
+    <description>Carriers of this brand have nothing special aside from remarkable manipulation of keeping body shape without visible brand, they also remember memory longer than others.</description>
     <customEffectDescriptions>
-      <li>moodlet or thought duration increased by 50%, total 75% if vibrant mind gene is present.</li>
+      <li>Moodlet or thought duration increased by 50%, total 75% with vibrant mind.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandNone</iconPath>
     <renderNodeProperties>

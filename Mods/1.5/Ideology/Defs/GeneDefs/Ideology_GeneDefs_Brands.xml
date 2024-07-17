@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Priest</defName>
+    <label>facial brand (bulb)</label>
+    <description>Carriers of this brand excel in converting other people to their beliefs and are difficult to sway.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandBulb</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandBulb</texPath>
+        <visibleFacing>
+          <li>South</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <passionMod>
+      <skill>Social</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <statFactors>
+      <CertaintyLossFactor>0.5</CertaintyLossFactor>
+      <ConversionPower>2</ConversionPower>
+    </statFactors>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension">
+        <noSkillLoss>Social</noSkillLoss>
+        <skillRecreation>Social</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+</Defs>

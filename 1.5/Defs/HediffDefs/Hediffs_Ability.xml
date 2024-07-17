@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <HediffDef Name="RB_AbilityHediffBase" Abstract="True">
-    <hediffClass>HediffWithComps</hediffClass>
-    <comps>
-      <li Class="HediffCompProperties_DisappearsOnDeath" />
-      <li Class="HediffCompProperties_Effecter">
-        <stateEffecter>RB_Plasma_Sparks</stateEffecter>
-      </li>
-    </comps>
-  </HediffDef>
-
   <HediffDef ParentName="RB_AbilityHediffBase">
     <defName>RB_Dead_Eye</defName>
     <label>dead eye</label>
@@ -75,7 +65,7 @@
   <HediffDef ParentName="RB_AbilityHediffBase">
     <defName>RB_IsIt_CECompatible</defName>
     <label>is it CE compatible</label>
-    <description>Enhances the user's melee compatibility to stronger hit and decrease cooldown, increases movement speed.\n\n"I alone am the compatible one."</description>
+    <description>Enhances the user's melee compatibility to stronger hits, decreases cooldown, and increases movement speed.\n\n"I alone am the compatible one."</description>
     <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_Disappears">

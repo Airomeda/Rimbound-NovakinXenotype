@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GeneDef Name="RB_GeneBrandsBase" Abstract="True">
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>0</selectionWeight>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+</Defs>

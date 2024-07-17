@@ -6,15 +6,15 @@
     <label>novaborn</label>
     <description>Carriers of this gene have gas-like body that was born as a result of the death of a star. They are immune to most environmental and health conditions like human disease and chronic conditions.\nUpon death, they will explode just like how they were born.</description>
     <customEffectDescriptions>
-      <li>tox gas and flame immunity.</li>
-      <li>extreme environment immunity.</li>
-      <li>very high temperature resistance.</li>
-      <li>immune to all human disease and chronic condition.</li>
-      <li>regenerate missing and heal damaged body part every 30 days.</li>
-      <li>can't reproduce or sterile.</li>
-      <li>bleeds chemfuel instead of blood.</li>
-      <li MayRequire="kentington.saveourship2">can survive direct vacuum exposure</li>
-      <li>explode upon death.</li>
+      <li>Tox gas and flame immunity.</li>
+      <li>Extreme environment immunity.</li>
+      <li>Very high temperature resistance.</li>
+      <li>Immune to all human disease and chronic condition.</li>
+      <li>Regenerate missing and heal damaged body part every 30 days.</li>
+      <li>Can't reproduce or sterile.</li>
+      <li>Bleeds chemfuel instead of blood.</li>
+      <li MayRequire="kentington.saveourship2">Can survive direct vacuum exposure without EVA gear.</li>
+      <li>Explode upon death.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_Novaborn</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
@@ -30,6 +30,7 @@
         <rotDrawMode>Fresh, Rotting</rotDrawMode>
         <colorType>Hair</colorType>
         <parentTagDef>Body</parentTagDef>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
       </li>
     </renderNodeProperties>
     <fur>RB_NovakinBody</fur>

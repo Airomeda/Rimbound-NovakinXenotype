@@ -7,6 +7,12 @@
     <requiredGenes>
       <li>RB_Novaborn</li>
     </requiredGenes>
+    <modExtensions>
+      <li Class="RimboundCore.HeadTypeDefExtension">
+        <useSkinShader>false</useSkinShader>
+        <shaderType>CutoutComplex</shaderType>
+      </li>
+    </modExtensions>
   </HeadTypeDef>
 
   <HeadTypeDef ParentName="RB_NovakinHeadBase">

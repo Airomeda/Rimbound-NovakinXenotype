@@ -7,12 +7,15 @@
     <labelShortAdj>short-span mind</labelShortAdj>
     <description>Carriers of this gene have short attention and memory. Though they have a high intuition and aptitude for learning they lack patience and attention span to the point of making them terrible students and teachers, and events harder to recall makes it easier for them to forget both good and bad things. They enjoy the present life more than the past.</description>
     <customEffectDescriptions>
-      <li>moodlet or thought duration lowered by 50%.</li>
-      <li>global skill loss and learning rate increased by 25%.</li>
+      <li>Moodlet or thought duration lowered by 50%.</li>
+      <li>Global skill loss and learning rate increased by 25%.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_VibrantMind</iconPath>
     <displayOrderInCategory>100</displayOrderInCategory>
     <displayCategory>Miscellaneous</displayCategory>
+    <statFactors>
+      <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">1.5</CertaintyLossFactor>
+    </statFactors>
     <statOffsets>
       <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
       <ResearchSpeed>-0.15</ResearchSpeed>

@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute("")]
+[assembly: System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute("Assembly-CSharp")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RimboundCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

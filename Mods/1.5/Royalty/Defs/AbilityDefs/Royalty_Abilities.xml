@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <AbilityDef ParentName="RB_CastOnSelf_Abilities">
+    <defName>RB_Psychic_Alteration</defName>
+    <label>psymagnetic alteration</label>
+    <description>Decreases current psychic sensitivity and improve neural heat loss on the caster's body, last about a day before the ability wears off.</description>
+    <iconPath>UI/Gizmos/Abilities/RB_Psychic_Alteration</iconPath>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <cooldownTicksRange>180000</cooldownTicksRange>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <comps>
+      <li Class="RimboundCore.CompProperties_GiveHediff">
+        <hediffDef>RB_Supressed_Psychic</hediffDef>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+</Defs>

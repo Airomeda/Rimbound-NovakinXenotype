@@ -19,7 +19,7 @@
         <damageDef>Flame</damageDef>
         <soundCreated>Explosion_Flame</soundCreated>
         <thingCreated>Filth_Fuel</thingCreated>
-        <thingCreatedChance>0.3</thingCreatedChance>
+        <thingCreatedChance>0.2</thingCreatedChance>
         <damageAmount>30</damageAmount>
       </li>
       <li Class="RimboundCore.HediffCompProperties_BodyRegeneration">
