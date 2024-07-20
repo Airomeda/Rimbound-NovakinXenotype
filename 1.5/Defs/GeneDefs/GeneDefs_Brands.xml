@@ -352,7 +352,7 @@
   <GeneDef ParentName="RB_GeneBrandsBase">
     <defName>RB_Brand_Cooking</defName>
     <label>facial brand (heart)</label>
-    <description>Carriers of this brand excel in culinary works.</description>
+    <description>Carriers of this brand excel in culinary and brewery works.</description>
     <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandHeart</iconPath>
     <renderNodeProperties>
       <li>

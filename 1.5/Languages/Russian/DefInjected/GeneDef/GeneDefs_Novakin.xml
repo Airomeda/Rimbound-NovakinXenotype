@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_Novaborn.label>рождённый сверхновой</RB_Novaborn.label>
+  <RB_Novaborn.description>Носители этого гена имеют газообразное тело, которое появилось на свет в результате гибели звезды. Они невосприимчивы к большинству факторов окружающей среды и здоровья, таких как болезни человека и хронические заболевания.\nПри смерти они взрываются,прямо как и были когда-то рождены.</RB_Novaborn.description>
+
+  <RB_Fusion_Metabolism.label>термоядерный метаболизм</RB_Fusion_Metabolism.label>
+  <RB_Fusion_Metabolism.description>У носителей этого гена в организме происходят особые реакции слияния, которые облегчают и оптимизируют обмен веществ. Это улучшает общее генетическое и метаболическое качество.</RB_Fusion_Metabolism.description>
+
+  <RB_Radiant_Aura.label>сияющая аура</RB_Radiant_Aura.label>
+  <RB_Radiant_Aura.description>Носители этого гена излучают ауру света вокруг своего тела.</RB_Radiant_Aura.description>
+
+  <RB_Voice_Novakin.label>магнитный голос</RB_Voice_Novakin.label>
+  <RB_Voice_Novakin.description>Носители передают голос с помощью магнитной волны, которая имитирует человеческий голос.</RB_Voice_Novakin.description>
+
+
+</LanguageData>

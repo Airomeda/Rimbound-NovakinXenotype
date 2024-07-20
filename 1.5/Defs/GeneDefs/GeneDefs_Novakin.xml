@@ -13,6 +13,7 @@
       <li>Regenerate missing and heal damaged body part every 30 days.</li>
       <li>Can't reproduce or sterile.</li>
       <li>Bleeds chemfuel instead of blood.</li>
+      <li>Butcher yields Neutroamine and Chemfuel.</li>
       <li MayRequire="kentington.saveourship2">Can survive direct vacuum exposure without EVA gear.</li>
       <li>Explode upon death.</li>
     </customEffectDescriptions>
@@ -156,7 +157,7 @@
     <labelShortAdj>fusion-metabolic</labelShortAdj>
     <description>Carriers of this gene have special fusion reactions in their body that facilitate and optimize metabolism. This improves overall genetic and metabolic quality.</description>
     <customEffectDescriptions>
-      <li>do not mind eating anything, immune to food poisoning</li>
+      <li>Do not mind eating anything.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_FusionMetabolism</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
@@ -211,7 +212,7 @@
     <label>radiant aura</label>
     <description>Carriers of this gene emanate an aura of light around their body.</description>
     <customEffectDescriptions>
-      <li>emanates aura around carriers body, does not glow surrounding environment.</li>
+      <li>Emanates aura around carriers body, does not glow surrounding environment.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_RadiantAura</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
