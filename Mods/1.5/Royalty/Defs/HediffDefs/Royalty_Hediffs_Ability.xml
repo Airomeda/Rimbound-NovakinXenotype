@@ -19,7 +19,7 @@
           <PsychicSensitivity>0.5</PsychicSensitivity>
         </statFactors>
         <statOffsets>
-          <PsychicEntropyRecoveryRate>0.25</PsychicEntropyRecoveryRate>
+          <PsychicEntropyRecoveryRate>1.0</PsychicEntropyRecoveryRate>
         </statOffsets>
       </li>
     </stages>

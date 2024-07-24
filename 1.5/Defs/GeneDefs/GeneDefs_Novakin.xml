@@ -135,6 +135,7 @@
     <passOnDirectly>false</passOnDirectly>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
         <hediffToWholeBody>RB_Novalike</hediffToWholeBody>
@@ -168,7 +169,6 @@
     <biostatCpx>6</biostatCpx>
     <biostatMet>5</biostatMet>
     <biostatArc>1</biostatArc>
-    <prerequisite>RB_Novaborn</prerequisite>
     <selectionWeight>0</selectionWeight>
     <canGenerateInGeneSet>false</canGenerateInGeneSet>
     <symbolPack>
@@ -201,6 +201,7 @@
     <passOnDirectly>false</passOnDirectly>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
       </li>
@@ -271,7 +272,9 @@
     <passOnDirectly>false</passOnDirectly>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
       </li>
     </modExtensions>
   </GeneDef>
@@ -327,7 +330,9 @@
     <passOnDirectly>false</passOnDirectly>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
       </li>
     </modExtensions>
   </GeneDef>

@@ -15,7 +15,7 @@
     <stages>
       <li>
         <statFactors>
-          <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+          <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
         </statFactors>
       </li>
     </stages>
