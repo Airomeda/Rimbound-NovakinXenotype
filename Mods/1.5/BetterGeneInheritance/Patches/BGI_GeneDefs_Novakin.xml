@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GeneDef[defName="RB_Novaborn"]/customEffectDescriptions/li[text()="Can't reproduce or sterile."]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GeneDef[defName="RB_Novaborn"]/exclusionTags/li[text()="Fertility"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GeneDef[defName="RB_Novaborn"]/sterilize</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GeneDef[defName="RB_Novaborn"]/statFactors/Fertility</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/XenotypeDef[defName="RB_Novakin"]</xpath>
+    <value>
+      <inheritable>true</inheritable>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/XenotypeDef[defName="RB_Novakin"]/genes</xpath>
+    <value>
+      <li>BGI_BinaryInheritance</li>
+    </value>
+  </Operation>
+
+</Patch>

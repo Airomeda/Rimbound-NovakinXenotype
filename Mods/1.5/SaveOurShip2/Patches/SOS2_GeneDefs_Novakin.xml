@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GeneDef[defName="RB_Plasma_Innards"]/statOffsets</xpath>
+    <value>
+      <DecompressionResistance>1</DecompressionResistance>
+      <HypoxiaResistance>1</HypoxiaResistance>
+			<VacuumSpeedMultiplier>1</VacuumSpeedMultiplier>
+    </value>
+  </Operation>
+
+</Patch>

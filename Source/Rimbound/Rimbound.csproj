@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
-    <BaseOutputPath>C:\Penyimpanan\RimWorld Mod Project\[A] Development\Rimbound Series\Rimbound Core\Assemblies</BaseOutputPath>
+    <BaseOutputPath>C:\Penyimpanan\RimWorld Mod Development\Rimbound Series\Rimbound Core\Assemblies</BaseOutputPath>
 	<AssemblyName>RimboundCore</AssemblyName>
 	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
@@ -13,6 +13,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
 	<Publicize Include="Assembly-CSharp:Verse.HeadTypeDef.graphics">
+	  <Private>false</Private>
+	</Publicize>
+	<Publicize Include="Assembly-CSharp:Verse.PawnGenerator.GenerateGenes">
 	  <Private>false</Private>
 	</Publicize>
     <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.4104" />

@@ -3,9 +3,15 @@
 
   <GeneDef Name="RB_GeneBrandsBase" Abstract="True">
     <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>7</displayOrderInCategory>
     <biostatCpx>2</biostatCpx>
     <biostatMet>-1</biostatMet>
     <selectionWeight>0</selectionWeight>
+    <exclusionTags>
+      <li>EyeColor</li>
+      <li>Nose</li>
+      <li>RB_Brands</li>
+    </exclusionTags>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>

@@ -4,24 +4,22 @@
   <GeneDef>
     <defName>RB_Novaborn</defName>
     <label>novaborn</label>
-    <description>Carriers of this gene have gas-like body that was born as a result of the death of a star. They are immune to most environmental and health conditions like human disease and chronic conditions.\nUpon death, they will explode just like how they were born.</description>
+    <description>Carriers of this gene have gas-like body that was born as a result of the death of a star.\nUpon death, they will explode just like how they were born.</description>
     <customEffectDescriptions>
-      <li>Tox gas and flame immunity.</li>
-      <li>Extreme environment immunity.</li>
-      <li>Very high temperature resistance.</li>
-      <li>Immune to all human disease and chronic condition.</li>
-      <li>Regenerate missing and heal damaged body part every 30 days.</li>
+      <li>Core gene required by most Novakin related genes.</li>
+      <li>Blessed by the star, turning their appearance into a gas-like body.</li>
       <li>Can't reproduce or sterile.</li>
-      <li>Bleeds chemfuel instead of blood.</li>
-      <li>Butcher yields Neutroamine and Chemfuel.</li>
-      <li MayRequire="kentington.saveourship2">Can survive direct vacuum exposure without EVA gear.</li>
       <li>Explode upon death.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_Novaborn</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>1</displayOrderInCategory>
     <neverGrayHair>true</neverGrayHair>
-    <skinIsHairColor>true</skinIsHairColor>
+    <skinIsHairColor>false</skinIsHairColor>
+    <statFactors>
+      <Fertility>0</Fertility>
+    </statFactors>
+    <sterilize>true</sterilize>
     <tattoosVisible>false</tattoosVisible>
     <renderNodeProperties>
       <li>
@@ -29,12 +27,89 @@
         <workerClass>PawnRenderNodeWorker_Fur</workerClass>
         <baseLayer>5</baseLayer>
         <rotDrawMode>Fresh, Rotting</rotDrawMode>
-        <colorType>Hair</colorType>
+        <colorType>Skin</colorType>
         <parentTagDef>Body</parentTagDef>
         <shaderTypeDef>CutoutComplex</shaderTypeDef>
       </li>
     </renderNodeProperties>
     <fur>RB_NovakinBody</fur>
+    <forcedHeadTypes>
+      <li>RB_Novakin_Female_Average_Normal</li>
+      <li>RB_Novakin_Female_Average_Pointy</li>
+      <li>RB_Novakin_Female_Average_Wide</li>
+      <li>RB_Novakin_Female_Narrow_Normal</li>
+      <li>RB_Novakin_Female_Narrow_Pointy</li>
+      <li>RB_Novakin_Female_Narrow_Wide</li>
+      <li>RB_Novakin_Male_Average_Normal</li>
+      <li>RB_Novakin_Male_Average_Pointy</li>
+      <li>RB_Novakin_Male_Average_Wide</li>
+      <li>RB_Novakin_Male_Narrow_Normal</li>
+      <li>RB_Novakin_Male_Narrow_Pointy</li>
+      <li>RB_Novakin_Male_Narrow_Wide</li>
+    </forcedHeadTypes>
+    <beardTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>NoBeard</li>
+        <li>BeardShort</li>
+        <li>MoustacheOnly</li>
+      </tags>
+    </beardTagFilter>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <biostatArc>1</biostatArc>
+    <exclusionTags>
+      <li>Fertility</li>
+      <li>Bodies</li>
+      <li>Body</li>
+      <li>Heads</li>
+      <li>Head</li>
+      <li>Jaw</li>
+      <li>BeardStyle</li>
+    </exclusionTags>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>gas</symbol>
+        </li>
+        <li>
+          <symbol>sun</symbol>
+        </li>
+        <li>
+          <symbol>nova</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+        <hediffToWholeBody>RB_Novalike</hediffToWholeBody>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Bodies/Dessicated/RB_Novakin_DessicatedBody</bodyDessicatedGraphicPath>
+        <headDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Dessicated/RB_Novakin_DessicatedHead</headDessicatedGraphicPath>
+        <skullGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Skull/RB_Novakin_Skull</skullGraphicPath>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>RB_Plasma_Shell</defName>
+    <label>plasma shell</label>
+    <description>Carriers of this gene have outer plasma shells that cover their entire body. They are very resistant to extreme temperatures and immune to most environmental conditions.</description>
+    <customEffectDescriptions>
+      <li>Tox gas and flame immunity.</li>
+      <li>Extreme environment immunity.</li>
+      <li>Very high temperature resistance.</li>
+      <li>Immune to all human disease and chronic condition.</li>
+      <li>Butcher yields Neutroamine as leather.</li>
+      <li MayRequire="kentington.saveourship2">Can survive radiation exposure in outer space.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/RB_Gene_PlasmaShell</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>2</displayOrderInCategory>
     <immuneToToxGasExposure>true</immuneToToxGasExposure>
     <statOffsets>
       <ComfyTemperatureMax>125</ComfyTemperatureMax>
@@ -44,11 +119,62 @@
     </statOffsets>
     <statFactors>
       <Flammability>0</Flammability>
-      <Fertility>0</Fertility>
     </statFactors>
     <damageFactors>
       <Flame>0.25</Flame>
     </damageFactors>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <biostatArc>1</biostatArc>
+    <exclusionTags>
+      <li>ToxicEnvironmentResistance</li>
+      <li>ToxResistance</li>
+      <li>FireDamage</li>
+      <li>MinTemperature</li>
+      <li>MaxTemperature</li>
+      <li>UVSensitivity</li>
+    </exclusionTags>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>plasmic</symbol>
+        </li>
+        <li>
+          <symbol>shell</symbol>
+        </li>
+        <li>
+          <symbol>heat</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+        <customWoundsFromFleshtype>RB_Gaslike</customWoundsFromFleshtype>
+        <customLeatherThingDef>Neutroamine</customLeatherThingDef>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>RB_Plasma_Innards</defName>
+    <label>plasma innards</label>
+    <description>Carriers of this gene have plasma-like inner organs that can regenerate themselves. They are immune to most health conditions like human disease and chronic conditions.</description>
+    <customEffectDescriptions>
+      <li>Immune to all human disease and chronic condition.</li>
+      <li>Regenerate missing and heal damaged body part every 30 days.</li>
+      <li>Bleeds chemfuel instead of blood.</li>
+      <li>Butcher yields Chemfuel as meat.</li>
+      <li MayRequire="kentington.saveourship2">Can survive direct vacuum exposure without EVA gear.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/RB_Gene_PlasmaInnards</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>3</displayOrderInCategory>
+    <statOffsets />
     <makeImmuneTo>
       <li>Flu</li>
       <li>Malaria</li>
@@ -72,82 +198,36 @@
       <li>HeartArteryBlockage</li>
       <li>HearingLoss</li>
     </hediffGiversCannotGive>
-    <sterilize>true</sterilize>
-    <forcedHeadTypes>
-      <li>RB_Novakin_Female_Average_Normal</li>
-      <li>RB_Novakin_Female_Average_Pointy</li>
-      <li>RB_Novakin_Female_Average_Wide</li>
-      <li>RB_Novakin_Female_Narrow_Normal</li>
-      <li>RB_Novakin_Female_Narrow_Pointy</li>
-      <li>RB_Novakin_Female_Narrow_Wide</li>
-      <li>RB_Novakin_Male_Average_Normal</li>
-      <li>RB_Novakin_Male_Average_Pointy</li>
-      <li>RB_Novakin_Male_Average_Wide</li>
-      <li>RB_Novakin_Male_Narrow_Normal</li>
-      <li>RB_Novakin_Male_Narrow_Pointy</li>
-      <li>RB_Novakin_Male_Narrow_Wide</li>
-    </forcedHeadTypes>
-    <beardTagFilter>
-      <whitelist>true</whitelist>
-      <tags>
-        <li>NoBeard</li>
-        <li>BeardShort</li>
-        <li>MoustacheOnly</li>
-      </tags>
-    </beardTagFilter>
-    <biostatCpx>7</biostatCpx>
-    <biostatMet>-2</biostatMet>
-    <biostatArc>3</biostatArc>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <biostatArc>1</biostatArc>
     <exclusionTags>
       <li>Immunity</li>
-      <li>ToxicEnvironmentResistance</li>
-      <li>ToxResistance</li>
-      <li>Fertility</li>
-      <li>FireDamage</li>
-      <li>MinTemperature</li>
-      <li>MaxTemperature</li>
-      <li>UVSensitivity</li>
-      <li>Bodies</li>
-      <li>Body</li>
-      <li>Heads</li>
-      <li>Head</li>
-      <li>Jaw</li>
-      <li>BeardStyle</li>
     </exclusionTags>
     <selectionWeight>0</selectionWeight>
     <canGenerateInGeneSet>false</canGenerateInGeneSet>
     <symbolPack>
       <prefixSymbols>
         <li>
-          <symbol>hot</symbol>
+          <symbol>plasmic</symbol>
         </li>
         <li>
-          <symbol>heat</symbol>
+          <symbol>innards</symbol>
         </li>
         <li>
-          <symbol>sun</symbol>
-        </li>
-        <li>
-          <symbol>nova</symbol>
+          <symbol>regenerate</symbol>
         </li>
       </prefixSymbols>
     </symbolPack>
-    <passOnDirectly>false</passOnDirectly>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
-        <hediffToWholeBody>RB_Novalike</hediffToWholeBody>
-        <customBloodThingDef>Filth_Fuel</customBloodThingDef>
-        <customBloodIcon>UI/Icons/Medical/RB_GasBlood_Bleeding</customBloodIcon>
+        <customBloodThingDef>RB_Filth_ChemfuelBlood</customBloodThingDef>
+        <customBloodIcon>UI/Icons/Medical/RB_ChemfuelBlood_Bleeding</customBloodIcon>
         <customBloodEffect>RB_Damage_HitGas</customBloodEffect>
-        <customWoundsFromFleshtype>RB_WoundsGas</customWoundsFromFleshtype>
         <customMeatThingDef>Chemfuel</customMeatThingDef>
-        <customLeatherThingDef>Neutroamine</customLeatherThingDef>
-        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Bodies/Dessicated/RB_Novakin_DessicatedBody</bodyDessicatedGraphicPath>
-        <headDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Dessicated/RB_Novakin_DessicatedHead</headDessicatedGraphicPath>
-        <skullGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Skull/RB_Novakin_Skull</skullGraphicPath>
       </li>
     </modExtensions>
   </GeneDef>
@@ -162,7 +242,7 @@
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_FusionMetabolism</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
-    <displayOrderInCategory>2</displayOrderInCategory>
+    <displayOrderInCategory>4</displayOrderInCategory>
     <randomChosen>false</randomChosen>
     <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
     <dontMindRawFood>true</dontMindRawFood>
@@ -198,7 +278,6 @@
         </li>
       </suffixSymbols>
     </symbolPack>
-    <passOnDirectly>false</passOnDirectly>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
@@ -217,17 +296,17 @@
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_RadiantAura</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
-    <displayOrderInCategory>3</displayOrderInCategory>
+    <displayOrderInCategory>5</displayOrderInCategory>
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
         <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
         <texPath>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_Novakin_Aura</texPath>
-        <drawSize>1.25</drawSize>
+        <drawSize>1.15</drawSize>
         <parentTagDef>Body</parentTagDef>
         <shaderTypeDef>MoteGlow</shaderTypeDef>
-        <color>(255, 255, 255, 25)</color>
-        <colorType>Hair</colorType>
+        <color>(255, 255, 255, 20)</color>
+        <colorType>Skin</colorType>
         <rotDrawMode>Fresh</rotDrawMode>
         <drawData>
           <defaultData>
@@ -269,7 +348,6 @@
         </li>
       </suffixSymbols>
     </symbolPack>
-    <passOnDirectly>false</passOnDirectly>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
@@ -294,7 +372,7 @@
     <label>magnetic voice</label>
     <description>Carriers vibrate voice via magnetic wave that mimics human-like voice.</description>
     <iconPath>UI/Icons/Genes/RB_Gene_VoiceNovakin</iconPath>
-    <displayOrderInCategory>16</displayOrderInCategory>
+    <displayOrderInCategory>6</displayOrderInCategory>
     <soundCall>RB_Pawn_Novakin_Call</soundCall>
     <soundDeath>RB_Pawn_Novakin_Death</soundDeath>
     <soundWounded>RB_Pawn_Novakin_Wounded</soundWounded>
@@ -327,7 +405,6 @@
         </li>
       </suffixSymbols>
     </symbolPack>
-    <passOnDirectly>false</passOnDirectly>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>

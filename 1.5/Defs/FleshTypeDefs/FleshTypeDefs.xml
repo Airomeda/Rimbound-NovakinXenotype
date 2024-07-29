@@ -2,7 +2,7 @@
 <Defs>
 
   <FleshTypeDef>
-    <defName>RB_WoundsGas</defName>
+    <defName>RB_Gaslike</defName>
     <corpseCategory>CorpsesAnimal</corpseCategory>
     <damageEffecter>RB_Damage_HitGas</damageEffecter>
     <genericWounds>

@@ -39,7 +39,6 @@
         </li>
       </prefixSymbols>
     </symbolPack>
-    <passOnDirectly>false</passOnDirectly>
     <geneClass>RimboundCore.GeneMemory</geneClass>
     <modExtensions>
       <li Class="RimboundCore.GeneMemoryExtension">

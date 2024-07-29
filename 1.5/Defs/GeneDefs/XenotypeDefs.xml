@@ -12,6 +12,8 @@
     <displayPriority>-700</displayPriority>
     <genes>
       <li>RB_Novaborn</li>
+      <li>RB_Plasma_Shell</li>
+      <li>RB_Plasma_Innards</li>
       <li>RB_Fusion_Metabolism</li>
       <li>RB_Plasma_Body</li>
       <li>RB_Radiant_Aura</li>

@@ -9,7 +9,7 @@
     <iconPath>UI/Icons/Genes/RB_Gene_Facial_Brands</iconPath>
     <geneClass>RimboundCore.GeneRandomize</geneClass>
     <displayCategory>RB_Novakin_Category</displayCategory>
-    <displayOrderInCategory>15</displayOrderInCategory>
+    <displayOrderInCategory>7</displayOrderInCategory>
     <randomChosen>true</randomChosen>
     <biostatCpx>2</biostatCpx>
     <biostatMet>-1</biostatMet>
@@ -45,7 +45,6 @@
         </li>
       </suffixSymbols>
     </symbolPack>
-    <passOnDirectly>false</passOnDirectly>
     <modExtensions>
       <li Class="RimboundCore.GeneRandomizeExtension">
         <geneDefs>

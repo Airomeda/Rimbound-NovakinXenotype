@@ -298,11 +298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Penyimpanan\\RimWorld Mod Project\\[A] Development\\Rimbound Series\\Rimbound Core\\Source\\Rimbound\\Rimbound.csproj",
+      "projectUniqueName": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound Core\\Source\\Rimbound\\Rimbound.csproj",
       "projectName": "RimboundCore",
-      "projectPath": "C:\\Penyimpanan\\RimWorld Mod Project\\[A] Development\\Rimbound Series\\Rimbound Core\\Source\\Rimbound\\Rimbound.csproj",
+      "projectPath": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound Core\\Source\\Rimbound\\Rimbound.csproj",
       "packagesPath": "C:\\Users\\Rayyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Penyimpanan\\RimWorld Mod Project\\[A] Development\\Rimbound Series\\Rimbound Core\\Source\\Rimbound\\obj\\",
+      "outputPath": "C:\\Penyimpanan\\RimWorld Mod Development\\Rimbound Series\\Rimbound Core\\Source\\Rimbound\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rayyan\\AppData\\Roaming\\NuGet\\NuGet.Config",

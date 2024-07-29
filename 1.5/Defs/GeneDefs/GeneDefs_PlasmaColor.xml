@@ -3,19 +3,18 @@
 
   <GeneDef>
     <defName>RB_Plasma_Body</defName>
-    <label>plasma shell bodies</label>
+    <label>plasma color bodies</label>
     <labelShortAdj>plasma body</labelShortAdj>
-    <description>Carriers of this gene have a plasma shell body. With multiple plasma pigment, one is randomly selected.</description>
-    <iconPath>UI/Icons/Genes/RB_Gene_PlasmaBody</iconPath>
+    <description>Carriers of this gene have a plasma color body. With multiple plasma pigment, one is randomly selected.</description>
+    <iconPath>UI/Icons/Genes/RB_Gene_PlasmaColor</iconPath>
     <geneClass>RimboundCore.GeneRandomize</geneClass>
     <displayCategory>RB_Novakin_Category</displayCategory>
-    <displayOrderInCategory>5</displayOrderInCategory>
+    <displayOrderInCategory>0</displayOrderInCategory>
     <randomChosen>true</randomChosen>
     <biostatCpx>0</biostatCpx>
     <prerequisite>RB_Novaborn</prerequisite>
     <selectionWeight>0</selectionWeight>
     <exclusionTags>
-      <li>HairColor</li>
       <li>SkinColor</li>
       <li>SkinColorOverride</li>
       <li>RB_PlasmaColor</li>
@@ -44,13 +43,13 @@
         </li>
       </suffixSymbols>
     </symbolPack>
-    <passOnDirectly>false</passOnDirectly>
     <modExtensions>
       <li Class="RimboundCore.GeneRandomizeExtension">
         <geneDefs>
           <li>RB_Plasma_Blue</li>
           <li>RB_Plasma_Cyan</li>
           <li>RB_Plasma_Green</li>
+          <li>RB_Plasma_LightGreen</li>
           <li>RB_Plasma_Orange</li>
           <li>RB_Plasma_Pink</li>
           <li>RB_Plasma_Purple</li>
@@ -72,21 +71,23 @@
     <biostatCpx>0</biostatCpx>
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaColor</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>0</displayOrderInCategory>
     <randomBrightnessFactor>0</randomBrightnessFactor>
     <prerequisite>RB_Novaborn</prerequisite>
     <selectionWeight>0</selectionWeight>
     <exclusionTags>
-      <li>HairColor</li>
       <li>SkinColor</li>
       <li>SkinColorOverride</li>
       <li>RB_PlasmaColor</li>
     </exclusionTags>
-    <passOnDirectly>false</passOnDirectly>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+      </li>
+      <li Class="RimboundCore.GeneHairSkinColorExtension">
+        <hairUsesSkinColor>true</hairUsesSkinColor>
       </li>
     </modExtensions>
   </GeneDef>
@@ -95,7 +96,6 @@
     <defName>RB_Plasma_Blue</defName>
     <label>blue plasma color</label>
     <description>Carriers of this gene produce a pigment that turns their body shell a bright blue color.</description>
-    <displayOrderInCategory>6</displayOrderInCategory>
     <hairColorOverride>(178, 200, 248)</hairColorOverride>
     <skinColorOverride>(178, 200, 248)</skinColorOverride>
   </GeneDef>
@@ -104,7 +104,6 @@
     <defName>RB_Plasma_Cyan</defName>
     <label>cyan plasma color</label>
     <description>Carriers of this gene produce a pigment that turns their body shell a bright cyan color.</description>
-    <displayOrderInCategory>7</displayOrderInCategory>
     <hairColorOverride>(146, 250, 238)</hairColorOverride>
     <skinColorOverride>(146, 250, 238)</skinColorOverride>
   </GeneDef>
@@ -113,16 +112,22 @@
     <defName>RB_Plasma_Green</defName>
     <label>green plasma color</label>
     <description>Carriers of this gene produce a pigment that turns their body shell a bright green color.</description>
-    <displayOrderInCategory>8</displayOrderInCategory>
     <hairColorOverride>(152, 250, 190)</hairColorOverride>
     <skinColorOverride>(152, 250, 190)</skinColorOverride>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GenePlasmaColorBase">
+    <defName>RB_Plasma_LightGreen</defName>
+    <label>light green plasma color</label>
+    <description>Carriers of this gene produce a pigment that turns their body shell a bright light green color.</description>
+    <hairColorOverride>(215, 250, 70)</hairColorOverride>
+    <skinColorOverride>(215, 250, 70)</skinColorOverride>
   </GeneDef>
 
   <GeneDef ParentName="RB_GenePlasmaColorBase">
     <defName>RB_Plasma_Orange</defName>
     <label>orange plasma color</label>
     <description>Carriers of this gene produce a pigment that turns their body shell a bright orange color.</description>
-    <displayOrderInCategory>9</displayOrderInCategory>
     <hairColorOverride>(250, 186, 80)</hairColorOverride>
     <skinColorOverride>(250, 186, 80)</skinColorOverride>
   </GeneDef>
@@ -131,7 +136,6 @@
     <defName>RB_Plasma_Pink</defName>
     <label>pink plasma color</label>
     <description>Carriers of this gene produce a pigment that turns their body shell a bright pink color.</description>
-    <displayOrderInCategory>10</displayOrderInCategory>
     <hairColorOverride>(251, 182, 200)</hairColorOverride>
     <skinColorOverride>(251, 182, 200)</skinColorOverride>
   </GeneDef>
@@ -139,7 +143,6 @@
   <GeneDef ParentName="RB_GenePlasmaColorBase">
     <defName>RB_Plasma_Purple</defName>
     <label>purple plasma color</label>
-    <displayOrderInCategory>11</displayOrderInCategory>
     <description>Carriers of this gene produce a pigment that turns their body shell a bright purple color.</description>
     <hairColorOverride>(186, 152, 250)</hairColorOverride>
     <skinColorOverride>(186, 152, 250)</skinColorOverride>
@@ -149,7 +152,6 @@
     <defName>RB_Plasma_Red</defName>
     <label>red plasma color</label>
     <description>Carriers of this gene produce a pigment that turns their body shell a bright red color.</description>
-    <displayOrderInCategory>12</displayOrderInCategory>
     <hairColorOverride>(224, 105, 105)</hairColorOverride>
     <skinColorOverride>(224, 105, 105)</skinColorOverride>
   </GeneDef>
@@ -158,7 +160,6 @@
     <defName>RB_Plasma_Yellow</defName>
     <label>yellow plasma color</label>
     <description>Carriers of this gene produce a pigment that turns their body shell a bright yellow color.</description>
-    <displayOrderInCategory>13</displayOrderInCategory>
     <hairColorOverride>(250, 245, 140)</hairColorOverride>
     <skinColorOverride>(250, 245, 140)</skinColorOverride>
   </GeneDef>
@@ -167,7 +168,6 @@
     <defName>RB_Plasma_White</defName>
     <label>white plasma color</label>
     <description>Carriers of this gene produce a pigment that turns their body shell a bright white color.</description>
-    <displayOrderInCategory>14</displayOrderInCategory>
     <hairColorOverride>(250, 250, 250)</hairColorOverride>
     <skinColorOverride>(250, 250, 250)</skinColorOverride>
   </GeneDef>
