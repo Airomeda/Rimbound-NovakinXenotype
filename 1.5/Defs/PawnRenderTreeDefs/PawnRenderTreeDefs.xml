@@ -15,7 +15,7 @@
           <children>
             <li>
               <debugLabel>Aura</debugLabel>
-              <tagDef>Body</tagDef>
+              <tagDef>Head</tagDef>
               <texPath>Things/Special/Snugget/RB_Snugget_Aura</texPath>
               <drawSize>1</drawSize>
               <baseLayer>10</baseLayer>
