@@ -6,6 +6,9 @@
     <label>plasma color bodies</label>
     <labelShortAdj>plasma body</labelShortAdj>
     <description>Carriers of this gene have a plasma color body. With multiple plasma pigment, one is randomly selected.</description>
+    <customEffectDescriptions>
+      <li>This gene will add random plasma color upon addition, useful for player custom xenotype.</li>
+    </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaColor</iconPath>
     <geneClass>RimboundCore.GeneRandomize</geneClass>
     <displayCategory>RB_Novakin_Category</displayCategory>
@@ -14,11 +17,6 @@
     <biostatCpx>0</biostatCpx>
     <prerequisite>RB_Novaborn</prerequisite>
     <selectionWeight>0</selectionWeight>
-    <exclusionTags>
-      <li>SkinColor</li>
-      <li>SkinColorOverride</li>
-      <li>RB_PlasmaColor</li>
-    </exclusionTags>
     <symbolPack>
       <prefixSymbols>
         <li>
@@ -63,31 +61,6 @@
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
         <hideGene>true</hideGene>
-      </li>
-    </modExtensions>
-  </GeneDef>
-
-  <GeneDef Name="RB_GenePlasmaColorBase" Abstract="True">
-    <biostatCpx>0</biostatCpx>
-    <iconPath>UI/Icons/Genes/RB_Gene_PlasmaColor</iconPath>
-    <displayCategory>RB_Novakin_Category</displayCategory>
-    <displayOrderInCategory>0</displayOrderInCategory>
-    <randomBrightnessFactor>0</randomBrightnessFactor>
-    <prerequisite>RB_Novaborn</prerequisite>
-    <selectionWeight>0</selectionWeight>
-    <exclusionTags>
-      <li>SkinColor</li>
-      <li>SkinColorOverride</li>
-      <li>RB_PlasmaColor</li>
-    </exclusionTags>
-    <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
-        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
-        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
-        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
-      </li>
-      <li Class="RimboundCore.GeneHairSkinColorExtension">
-        <hairUsesSkinColor>true</hairUsesSkinColor>
       </li>
     </modExtensions>
   </GeneDef>

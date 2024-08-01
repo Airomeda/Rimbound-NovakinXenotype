@@ -6,6 +6,9 @@
     <label>facial brands</label>
     <labelShortAdj>face brand</labelShortAdj>
     <description>Carriers of this gene have a metallic brand-like symbol on their face. Depending on the symbol that decides their personality, one excels in a particular skill or condition.</description>
+    <customEffectDescriptions>
+      <li>This gene will add random facial brand upon addition, useful for player custom xenotype.</li>
+    </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_Facial_Brands</iconPath>
     <geneClass>RimboundCore.GeneRandomize</geneClass>
     <displayCategory>RB_Novakin_Category</displayCategory>
@@ -16,11 +19,6 @@
     <prerequisite>RB_Novaborn</prerequisite>
     <selectionWeight>0</selectionWeight>
     <canGenerateInGeneSet>false</canGenerateInGeneSet>
-    <exclusionTags>
-      <li>EyeColor</li>
-      <li>Nose</li>
-      <li>RB_Brands</li>
-    </exclusionTags>
     <symbolPack>
       <prefixSymbols>
         <li>

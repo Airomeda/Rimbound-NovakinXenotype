@@ -21,4 +21,29 @@
     </modExtensions>
   </GeneDef>
 
+  <GeneDef Name="RB_GenePlasmaColorBase" Abstract="True">
+    <biostatCpx>0</biostatCpx>
+    <iconPath>UI/Icons/Genes/RB_Gene_PlasmaColor</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <randomBrightnessFactor>0</randomBrightnessFactor>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <selectionWeight>0</selectionWeight>
+    <exclusionTags>
+      <li>SkinColor</li>
+      <li>SkinColorOverride</li>
+      <li>RB_PlasmaColor</li>
+    </exclusionTags>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+      </li>
+      <li Class="RimboundCore.GeneHairSkinColorExtension">
+        <hairUsesSkinColor>true</hairUsesSkinColor>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
 </Defs>
