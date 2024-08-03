@@ -245,7 +245,6 @@
     <displayOrderInCategory>4</displayOrderInCategory>
     <randomChosen>false</randomChosen>
     <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
-    <dontMindRawFood>true</dontMindRawFood>
     <biostatCpx>6</biostatCpx>
     <biostatMet>5</biostatMet>
     <biostatArc>1</biostatArc>
