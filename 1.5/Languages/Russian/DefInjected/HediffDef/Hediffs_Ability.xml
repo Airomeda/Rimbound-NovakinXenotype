@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RB_Dead_Eye.label>мёртвый глаз</RB_Dead_Eye.label>
+  <RB_Dead_Eye.label>Взгляд Охотника</RB_Dead_Eye.label>
   <RB_Dead_Eye.description>Улучшает точность стрельбы пользователя.\n\n"Ты можешь идти куда угодно, но никогда не убежишь от моего взора."</RB_Dead_Eye.description>
 
-  <RB_Trigger_Finger.label>спусковой палец</RB_Trigger_Finger.label>
-  <RB_Trigger_Finger.description>Уменьшает время перезарядки пользователя.\n\n"Время полдень. Потанцуем, Партнёр!."</RB_Trigger_Finger.description>
+  <RB_Trigger_Finger.label>Шальной Курок</RB_Trigger_Finger.label>
+  <RB_Trigger_Finger.description>Уменьшает время перезарядки и прицеливания пользователя.\n\n"Время полдень. Потанцуем, Партнёр!."</RB_Trigger_Finger.description>
 
-  <RB_Magnetic_Shield.label>магнитное поле</RB_Magnetic_Shield.label>
-  <RB_Magnetic_Shield.description>Улучшает магнитное поле вокруг пользователя, увеличивая сопротивление урону.\n\n"И моё магнитное поле восприняло это на свой счёт."</RB_Magnetic_Shield.description>
+  <RB_Magnetic_Shield.label>Магнитная Завеса</RB_Magnetic_Shield.label>
+  <RB_Magnetic_Shield.description>Укрепляет магнитное поле вокруг пользователя, подавляя боль и уменьшая получаемый урон.\n\n"И моё магнитное поле восприняло это на свой счёт."</RB_Magnetic_Shield.description>
 
-  <RB_IsIt_CECompatible.label>оно совместимо с СЕ</RB_IsIt_CECompatible.label>
-  <RB_IsIt_CECompatible.description>Повышает совместимость пользователя в ближнем бою, обеспечивая более сильный удар и уменьшая время перезарядки, увеличивает скорость передвижения..\n\n"Меж небом и землёй Я один совместимый."</RB_IsIt_CECompatible.description>
+  <RB_IsIt_CECompatible.label>Боевая закалка</RB_IsIt_CECompatible.label>
+  <RB_IsIt_CECompatible.description>Повышает навыки пользователя в ближнем бою, обеспечивая более сильный удар и уменьшая время перезарядки и увеличивая скорость передвижения.\n\n"Меж небом и землёй Я один совместимый."</RB_IsIt_CECompatible.description>
 
 
 </LanguageData>

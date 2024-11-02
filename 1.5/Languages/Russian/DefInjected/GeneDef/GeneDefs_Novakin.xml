@@ -11,7 +11,13 @@
   <RB_Radiant_Aura.description>Носители этого гена излучают ауру света вокруг своего тела.</RB_Radiant_Aura.description>
 
   <RB_Voice_Novakin.label>магнитный голос</RB_Voice_Novakin.label>
-  <RB_Voice_Novakin.description>Носители передают голос с помощью магнитной волны, которая имитирует человеческий голос.</RB_Voice_Novakin.description>
+  <RB_Voice_Novakin.description>Носители передают голос с помощью магнитных волн, которые имитируют человеческий голос.</RB_Voice_Novakin.description>
+
+  <RB_Plasma_Innards.label>Плазменный организм</RB_Plasma_Innards.label>
+  <RB_Plasma_Innards.description>Носители этого гена обладают плазмообразными, восстанавливающимися органами. Они невосприимчивы к большинству факторов здоровья, таких как болезни человека и хронические заболевания.</RB_Plasma_Innards.description>
+
+  <RB_Plasma_Shell.label>Плазменная оболочка</RB_Plasma_Shell.label>
+  <RB_Plasma_Shell.description>Носители этого гена имеют внешнюю плазменную оболочку, которая покрывает все их тело. Они очень устойчивы к экстремальным температурам и невосприимчивы к большинству условий окружающей среды.</RB_Plasma_Shell.description>
 
 
 </LanguageData>

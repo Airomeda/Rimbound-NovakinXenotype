@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RB_Dead_Eye.label>мёртвый глаз</RB_Dead_Eye.label>
-  <RB_Dead_Eye.description>Даёт повышение точности стрельбы заклинателя, длится 7 часов перед окончанием действия.</RB_Dead_Eye.description>
+  <RB_Dead_Eye.label>Взгляд Охотника</RB_Dead_Eye.label>
+  <RB_Dead_Eye.description>Повышает точность стрельбы пользователя, длится 7 часов.</RB_Dead_Eye.description>
 
-  <RB_Trigger_Finger.label>Спусковой палец</RB_Trigger_Finger.label>
-  <RB_Trigger_Finger.description>Скорость стрельбы заклинателя увеличена вдвое, длится 7 часов перед окончанием действия.</RB_Trigger_Finger.description>
+  <RB_Trigger_Finger.label>Шальной Курок</RB_Trigger_Finger.label>
+  <RB_Trigger_Finger.description>Уменьшает время перезарядки и прицеливания пользователя, длится 7 часов.</RB_Trigger_Finger.description>
 
-  <RB_Magnetic_Shield.label>магнитное поле</RB_Magnetic_Shield.label>
-  <RB_Magnetic_Shield.description>Увеличивает сопротивление урону телу заклинателя, длится 7 часов перед окончанием действия.</RB_Magnetic_Shield.description>
+  <RB_Magnetic_Shield.label>Магнитная Завеса</RB_Magnetic_Shield.label>
+  <RB_Magnetic_Shield.description>Подавляет боль и уменьшает получаемый пользователем урон на 25%, длится 7 часов.</RB_Magnetic_Shield.description>
 
-  <RB_IsIt_CECompatible.label>оно совместимо с CE</RB_IsIt_CECompatible.label>
-  <RB_IsIt_CECompatible.description>Увеличивает совместимость в ближнем бою на теле кастера, длится 7 часов перед окончанием действия.</RB_IsIt_CECompatible.description>
+  <RB_IsIt_CECompatible.label>Боевая закалка</RB_IsIt_CECompatible.label>
+  <RB_IsIt_CECompatible.description>Придаёт пользователю скорость, ловкость, точность и силу в ближнем бою, длится 7 часов.</RB_IsIt_CECompatible.description>
 
 
 </LanguageData>
