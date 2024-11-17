@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RB_Psychic_Alteration.label>пси-магнитное изменение</RB_Psychic_Alteration.label>
-  <RB_Psychic_Alteration.description>Снижает текущую психическую чувствительность и улучшает теплоотдачу нервной системы в теле заклинателя, действует около суток, прежде чем способность исчезнет..</RB_Psychic_Alteration.description>
+  <RB_Psychic_Alteration.label>пси-магнитное подавление</RB_Psychic_Alteration.label>
+  <RB_Psychic_Alteration.description>Снижает текущую психическую чувствительность и улучшает теплоотдачу нервной системы в теле заклинателя, действует около суток.</RB_Psychic_Alteration.description>
 
 
 </LanguageData>
