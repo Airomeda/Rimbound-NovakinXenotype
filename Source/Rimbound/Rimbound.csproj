@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
-    <BaseOutputPath>C:\Penyimpanan\RimWorld Mod Development\Rimbound Series\Rimbound Core\Assemblies</BaseOutputPath>
+    <BaseOutputPath>..\Output\Assemblies</BaseOutputPath>
 	<AssemblyName>RimboundCore</AssemblyName>
 	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
