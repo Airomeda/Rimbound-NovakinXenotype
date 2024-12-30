@@ -159,6 +159,7 @@
       </li>
       <li Class="AnimalBehaviours.CompProperties_Regeneration">
         <rateInTicks>15000</rateInTicks>
+        <healAmount>1.0</healAmount>
       </li>
       <li Class="AnimalBehaviours.CompProperties_AsexualReproduction">
         <reproductionIntervalDays>30</reproductionIntervalDays>

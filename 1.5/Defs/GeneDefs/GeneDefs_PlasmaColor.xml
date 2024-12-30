@@ -66,6 +66,14 @@
   </GeneDef>
 
   <GeneDef ParentName="RB_GenePlasmaColorBase">
+    <defName>RB_Plasma_Dark</defName>
+    <label>dark plasma color</label>
+    <description>Carriers of this gene produce a pigment that turns their body shell a dark color.</description>
+    <hairColorOverride>(50, 50, 50)</hairColorOverride>
+    <skinColorOverride>(50, 50, 50)</skinColorOverride>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GenePlasmaColorBase">
     <defName>RB_Plasma_Blue</defName>
     <label>blue plasma color</label>
     <description>Carriers of this gene produce a pigment that turns their body shell a bright blue color.</description>
@@ -130,11 +138,11 @@
   </GeneDef>
 
   <GeneDef ParentName="RB_GenePlasmaColorBase">
-    <defName>RB_Plasma_Yellow</defName>
-    <label>yellow plasma color</label>
-    <description>Carriers of this gene produce a pigment that turns their body shell a bright yellow color.</description>
-    <hairColorOverride>(250, 245, 140)</hairColorOverride>
-    <skinColorOverride>(250, 245, 140)</skinColorOverride>
+    <defName>RB_Plasma_Violet</defName>
+    <label>Violet plasma color</label>
+    <description>Carriers of this gene produce a pigment that turns their body shell a bright violet color.</description>
+    <hairColorOverride>(130, 40, 218)</hairColorOverride>
+    <skinColorOverride>(130, 40, 218)</skinColorOverride>
   </GeneDef>
 
   <GeneDef ParentName="RB_GenePlasmaColorBase">
@@ -143,6 +151,14 @@
     <description>Carriers of this gene produce a pigment that turns their body shell a bright white color.</description>
     <hairColorOverride>(250, 250, 250)</hairColorOverride>
     <skinColorOverride>(250, 250, 250)</skinColorOverride>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GenePlasmaColorBase">
+    <defName>RB_Plasma_Yellow</defName>
+    <label>yellow plasma color</label>
+    <description>Carriers of this gene produce a pigment that turns their body shell a bright yellow color.</description>
+    <hairColorOverride>(250, 245, 105)</hairColorOverride>
+    <skinColorOverride>(250, 245, 105)</skinColorOverride>
   </GeneDef>
 
 </Defs>

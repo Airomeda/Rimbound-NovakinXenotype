@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RulePackDef>
+    <defName>RB_NameNovakin</defName>
+    <rulePack>
+      <rulesStrings Inherit="false">
+        <li>r_name->[firstName] [lastName]</li>
+        <li>firstName->[name_Novakin]</li>
+        <li>lastName->[name_Celestial]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>name_Novakin->Names/Names_Novakin</li>
+        <li>name_Celestial->Names/Celestial</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

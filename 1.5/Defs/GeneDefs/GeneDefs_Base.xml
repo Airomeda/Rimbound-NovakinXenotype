@@ -18,6 +18,48 @@
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
       </li>
+      <li Class="RimboundCore.RenderProperties_FaceExtension">
+        <offsets>
+          <east>
+            <headTypes>
+              <RB_Novakin_Female_Average_Normal>(0.01, 0, 0)</RB_Novakin_Female_Average_Normal>
+              <RB_Novakin_Female_Average_Pointy>(0.01, 0, 0)</RB_Novakin_Female_Average_Pointy>
+              <RB_Novakin_Female_Average_Wide>(0.01, 0, 0)</RB_Novakin_Female_Average_Wide>
+
+              <RB_Novakin_Female_Narrow_Normal>(-0.052, 0, 0)</RB_Novakin_Female_Narrow_Normal>
+              <RB_Novakin_Female_Narrow_Pointy>(-0.052, 0, 0)</RB_Novakin_Female_Narrow_Pointy>
+              <RB_Novakin_Female_Narrow_Wide>(-0.052, 0, 0)</RB_Novakin_Female_Narrow_Wide>
+
+              <RB_Novakin_Male_Average_Normal>(0.035, 0, 0)</RB_Novakin_Male_Average_Normal>
+              <RB_Novakin_Male_Average_Pointy>(0.035, 0, 0)</RB_Novakin_Male_Average_Pointy>
+              <RB_Novakin_Male_Average_Wide>(0.035, 0, 0)</RB_Novakin_Male_Average_Wide>
+
+              <RB_Novakin_Male_Narrow_Normal>(-0.052, 0, 0)</RB_Novakin_Male_Narrow_Normal>
+              <RB_Novakin_Male_Narrow_Pointy>(-0.052, 0, 0)</RB_Novakin_Male_Narrow_Pointy>
+              <RB_Novakin_Male_Narrow_Wide>(-0.052, 0, 0)</RB_Novakin_Male_Narrow_Wide>
+            </headTypes>
+          </east>
+          <west>
+            <headTypes>
+              <RB_Novakin_Female_Average_Normal>(-0.01, 0, 0)</RB_Novakin_Female_Average_Normal>
+              <RB_Novakin_Female_Average_Pointy>(-0.01, 0, 0)</RB_Novakin_Female_Average_Pointy>
+              <RB_Novakin_Female_Average_Wide>(-0.01, 0, 0)</RB_Novakin_Female_Average_Wide>
+
+              <RB_Novakin_Female_Narrow_Normal>(0.052, 0, 0)</RB_Novakin_Female_Narrow_Normal>
+              <RB_Novakin_Female_Narrow_Pointy>(0.052, 0, 0)</RB_Novakin_Female_Narrow_Pointy>
+              <RB_Novakin_Female_Narrow_Wide>(0.052, 0, 0)</RB_Novakin_Female_Narrow_Wide>
+
+              <RB_Novakin_Male_Average_Normal>(-0.035, 0, 0)</RB_Novakin_Male_Average_Normal>
+              <RB_Novakin_Male_Average_Pointy>(-0.035, 0, 0)</RB_Novakin_Male_Average_Pointy>
+              <RB_Novakin_Male_Average_Wide>(-0.035, 0, 0)</RB_Novakin_Male_Average_Wide>
+
+              <RB_Novakin_Male_Narrow_Normal>(0.052, 0, 0)</RB_Novakin_Male_Narrow_Normal>
+              <RB_Novakin_Male_Narrow_Pointy>(0.052, 0, 0)</RB_Novakin_Male_Narrow_Pointy>
+              <RB_Novakin_Male_Narrow_Wide>(0.052, 0, 0)</RB_Novakin_Male_Narrow_Wide>
+            </headTypes>
+          </west>
+        </offsets>
+      </li>
     </modExtensions>
   </GeneDef>
 

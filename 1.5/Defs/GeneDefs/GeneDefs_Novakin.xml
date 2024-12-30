@@ -8,7 +8,7 @@
     <customEffectDescriptions>
       <li>Core gene required by most Novakin related genes.</li>
       <li>Blessed by the star, turning their appearance into a gas-like body.</li>
-      <li>Can't reproduce or sterile.</li>
+      <li>Offspring has a chance to inherit their parent xenotype.</li>
       <li>Explode upon death.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_Novaborn</iconPath>
@@ -16,10 +16,6 @@
     <displayOrderInCategory>1</displayOrderInCategory>
     <neverGrayHair>true</neverGrayHair>
     <skinIsHairColor>false</skinIsHairColor>
-    <statFactors>
-      <Fertility>0</Fertility>
-    </statFactors>
-    <sterilize>true</sterilize>
     <tattoosVisible>false</tattoosVisible>
     <renderNodeProperties>
       <li>
@@ -47,25 +43,15 @@
       <li>RB_Novakin_Male_Narrow_Pointy</li>
       <li>RB_Novakin_Male_Narrow_Wide</li>
     </forcedHeadTypes>
-    <beardTagFilter>
-      <whitelist>true</whitelist>
-      <tags>
-        <li>NoBeard</li>
-        <li>BeardShort</li>
-        <li>MoustacheOnly</li>
-      </tags>
-    </beardTagFilter>
     <biostatCpx>3</biostatCpx>
     <biostatMet>0</biostatMet>
     <biostatArc>1</biostatArc>
     <exclusionTags>
-      <li>Fertility</li>
       <li>Bodies</li>
       <li>Body</li>
       <li>Heads</li>
       <li>Head</li>
       <li>Jaw</li>
-      <li>BeardStyle</li>
     </exclusionTags>
     <selectionWeight>0</selectionWeight>
     <canGenerateInGeneSet>false</canGenerateInGeneSet>
@@ -91,6 +77,19 @@
         <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Bodies/Dessicated/RB_Novakin_DessicatedBody</bodyDessicatedGraphicPath>
         <headDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Dessicated/RB_Novakin_DessicatedHead</headDessicatedGraphicPath>
         <skullGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Skull/RB_Novakin_Skull</skullGraphicPath>
+      </li>
+      <li Class="RimboundCore.GeneFertilityByAgeExtension">
+        <fertilityAgeFactor>
+          <points>
+            <li>(14, 0)</li>
+            <li>(17, 1)</li>
+          </points>
+        </fertilityAgeFactor>
+      </li>
+      <li Class="RimboundCore.GeneInheritanceExtension">
+        <passXenotypeGenes>true</passXenotypeGenes>
+        <xenotypeDefName>RB_Novakin</xenotypeDefName>
+        <xenotypeGenesChance>0.5</xenotypeGenesChance>
       </li>
     </modExtensions>
   </GeneDef>
@@ -274,6 +273,67 @@
         </li>
         <li>
           <symbol>metabolism</symbol>
+        </li>
+      </suffixSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>RB_Corona_Hair</defName>
+    <label>corona hair</label>
+    <description>Carriers of this gene have sun corona-like hair.</description>
+    <iconPath>UI/Icons/Genes/RB_Gene_CoronaHair</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>8</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <exclusionTags>
+      <li>HairStyle</li>
+      <li>BeardStyle</li>
+      <li>RB_HairStyle</li>
+    </exclusionTags>
+    <beardTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>NoBeard</li>
+      </tags>
+    </beardTagFilter>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>RB_CoronaHair</li>
+      </tags>
+    </hairTagFilter>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <randomChosen>false</randomChosen>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>sunburst</symbol>
+        </li>
+        <li>
+          <symbol>starburst</symbol>
+        </li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li>
+          <symbol>corona</symbol>
+        </li>
+        <li>
+          <symbol>star</symbol>
+        </li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li>
+          <symbol>halo</symbol>
         </li>
       </suffixSymbols>
     </symbolPack>
