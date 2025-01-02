@@ -173,7 +173,6 @@
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaInnards</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>3</displayOrderInCategory>
-    <statOffsets />
     <makeImmuneTo>
       <li>Flu</li>
       <li>Malaria</li>
@@ -197,9 +196,6 @@
     <biostatCpx>3</biostatCpx>
     <biostatMet>-1</biostatMet>
     <biostatArc>1</biostatArc>
-    <exclusionTags>
-      <li>Immunity</li>
-    </exclusionTags>
     <selectionWeight>0</selectionWeight>
     <canGenerateInGeneSet>true</canGenerateInGeneSet>
     <symbolPack>
