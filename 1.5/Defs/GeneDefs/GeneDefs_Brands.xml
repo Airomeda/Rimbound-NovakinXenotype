@@ -9,7 +9,7 @@
     <customEffectDescriptions>
       <li>This gene will add random facial brand upon addition, useful for player custom xenotype.</li>
     </customEffectDescriptions>
-    <iconPath>UI/Icons/Genes/RB_Gene_Facial_Brands</iconPath>
+    <iconPath>UI/Icons/Genes/RB_Gene_FacialBrands</iconPath>
     <geneClass>RimboundCore.GeneRandomize</geneClass>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>7</displayOrderInCategory>
@@ -20,18 +20,7 @@
     <selectionWeight>0</selectionWeight>
     <canGenerateInGeneSet>false</canGenerateInGeneSet>
     <symbolPack>
-      <prefixSymbols>
-        <li>
-          <symbol>brand</symbol>
-        </li>
-        <li>
-          <symbol>metal</symbol>
-        </li>
-        <li>
-          <symbol>personality</symbol>
-        </li>
-      </prefixSymbols>
-      <suffixSymbols>
+      <wholeNameSymbols>
         <li>
           <symbol>branding</symbol>
         </li>
@@ -41,7 +30,7 @@
         <li>
           <symbol>personalities</symbol>
         </li>
-      </suffixSymbols>
+      </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
       <li Class="RimboundCore.GeneRandomizeExtension">

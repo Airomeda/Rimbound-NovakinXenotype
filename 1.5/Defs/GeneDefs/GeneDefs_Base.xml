@@ -4,14 +4,27 @@
   <GeneDef Name="RB_GeneBrandsBase" Abstract="True">
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>7</displayOrderInCategory>
+    <randomChosen>true</randomChosen>
     <biostatCpx>2</biostatCpx>
     <biostatMet>-1</biostatMet>
     <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
     <exclusionTags>
-      <li>EyeColor</li>
-      <li>Nose</li>
       <li>RB_Brands</li>
     </exclusionTags>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>branding</symbol>
+        </li>
+        <li>
+          <symbol>metallic</symbol>
+        </li>
+        <li>
+          <symbol>personalities</symbol>
+        </li>
+      </wholeNameSymbols>
+    </symbolPack>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
@@ -68,14 +81,29 @@
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaColor</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>0</displayOrderInCategory>
+    <randomChosen>true</randomChosen>
     <randomBrightnessFactor>0</randomBrightnessFactor>
     <prerequisite>RB_Novaborn</prerequisite>
     <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
     <exclusionTags>
       <li>SkinColor</li>
       <li>SkinColorOverride</li>
       <li>RB_PlasmaColor</li>
     </exclusionTags>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>attention</symbol>
+        </li>
+        <li>
+          <symbol>forget</symbol>
+        </li>
+        <li>
+          <symbol>disorder</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
@@ -86,6 +114,18 @@
         <hairUsesSkinColor>true</hairUsesSkinColor>
       </li>
     </modExtensions>
+  </GeneDef>
+
+  <GeneDef Name="RB_GeneVoiceBase" Abstract="True">
+    <biostatCpx>0</biostatCpx>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <randomChosen>true</randomChosen>
+    <exclusionTags>
+      <li>Voice</li>
+      <li>RB_Voice</li>
+    </exclusionTags>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
   </GeneDef>
 
 </Defs>

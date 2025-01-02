@@ -18,18 +18,7 @@
     <prerequisite>RB_Novaborn</prerequisite>
     <selectionWeight>0</selectionWeight>
     <symbolPack>
-      <prefixSymbols>
-        <li>
-          <symbol>plasma</symbol>
-        </li>
-        <li>
-          <symbol>shell</symbol>
-        </li>
-        <li>
-          <symbol>pigment</symbol>
-        </li>
-      </prefixSymbols>
-      <suffixSymbols>
+      <wholeNameSymbols>
         <li>
           <symbol>plasmic</symbol>
         </li>
@@ -39,11 +28,12 @@
         <li>
           <symbol>pigmentation</symbol>
         </li>
-      </suffixSymbols>
+      </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
       <li Class="RimboundCore.GeneRandomizeExtension">
         <geneDefs>
+          <li>RB_Plasma_Dark</li>
           <li>RB_Plasma_Blue</li>
           <li>RB_Plasma_Cyan</li>
           <li>RB_Plasma_Green</li>
