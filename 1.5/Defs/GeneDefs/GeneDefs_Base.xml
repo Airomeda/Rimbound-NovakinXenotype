@@ -116,16 +116,4 @@
     </modExtensions>
   </GeneDef>
 
-  <GeneDef Name="RB_GeneVoiceBase" Abstract="True">
-    <biostatCpx>0</biostatCpx>
-    <displayCategory>RB_Novakin_Category</displayCategory>
-    <randomChosen>true</randomChosen>
-    <exclusionTags>
-      <li>Voice</li>
-      <li>RB_Voice</li>
-    </exclusionTags>
-    <selectionWeight>0</selectionWeight>
-    <canGenerateInGeneSet>true</canGenerateInGeneSet>
-  </GeneDef>
-
 </Defs>

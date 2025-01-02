@@ -412,16 +412,23 @@
     </modExtensions>
   </GeneDef>
 
-  <GeneDef ParentName="RB_GeneVoiceBase">
+  <GeneDef>
     <defName>RB_Voice_Novakin</defName>
     <label>magnetic voice</label>
     <description>Carriers vibrate voice via magnetic wave that mimics human-like voice.</description>
     <iconPath>UI/Icons/Genes/RB_Gene_VoiceNovakin</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>6</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
     <soundCall>RB_Pawn_Novakin_Call</soundCall>
     <soundDeath>RB_Pawn_Novakin_Death</soundDeath>
     <soundWounded>RB_Pawn_Novakin_Wounded</soundWounded>
     <prerequisite>RB_Novaborn</prerequisite>
+    <exclusionTags>
+      <li>Voice</li>
+    </exclusionTags>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
     <symbolPack>
       <wholeNameSymbols>
         <li>
