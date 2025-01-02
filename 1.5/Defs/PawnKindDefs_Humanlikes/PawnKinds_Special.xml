@@ -15,7 +15,7 @@
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
-    <invNutrition>10.0</invNutrition>
+    <invNutrition>2.0</invNutrition>
     <gearHealthRange>1~1</gearHealthRange>
     <itemQuality>Normal</itemQuality>
     <weaponMoney>500~500</weaponMoney>

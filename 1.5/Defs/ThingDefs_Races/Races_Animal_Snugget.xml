@@ -179,6 +179,9 @@
     <alternateGraphicChance>0.99</alternateGraphicChance>
     <alternateGraphics>
       <li>
+        <color>(50, 50, 50)</color>
+      </li>
+      <li>
         <color>(178, 200, 248)</color>
       </li>
       <li>
@@ -203,10 +206,13 @@
         <color>(224, 105, 105)</color>
       </li>
       <li>
-        <color>(250, 245, 140)</color>
+        <color>(130, 40, 218)</color>
       </li>
       <li>
-        <color>(245, 245, 245)</color>
+        <color>(250, 250, 250)</color>
+      </li>
+      <li>
+        <color>(250, 245, 105)</color>
       </li>
     </alternateGraphics>
     <lifeStages>
