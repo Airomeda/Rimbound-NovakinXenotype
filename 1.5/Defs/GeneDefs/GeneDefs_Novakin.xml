@@ -343,6 +343,7 @@
     <iconPath>UI/Icons/Genes/RB_Gene_RadiantAura</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>5</displayOrderInCategory>
+    <iconColor>(1, 1, 1)</iconColor>
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
