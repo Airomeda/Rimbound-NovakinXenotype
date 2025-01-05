@@ -3,21 +3,34 @@
 
   <RB_Novaborn.label>народжений надновою</RB_Novaborn.label>
   <RB_Novaborn.description>Носії цього гена мають газоподібне тіло, яке з'явилося на світ внаслідок вибуху Наднової. Вони несприйнятливі до більшості факторів довкілля та здоров'я, таких як хвороби людини та хронічні захворювання. При смерті вони вибухають, прямо як і були колись народжені.</RB_Novaborn.description>
+  <RB_Novaborn.customEffectDescriptions.0>Основний ген, необхідний для більшості генів, пов'язаних з Новакінами.</RB_Novaborn.customEffectDescriptions.0>
+  <RB_Novaborn.customEffectDescriptions.1>Благословення зірки, що дає газоподібний зовнішній вигляд.</RB_Novaborn.customEffectDescriptions.1>
+  <RB_Novaborn.customEffectDescriptions.2>Нащадок може успадкувати ксенотип батька.</RB_Novaborn.customEffectDescriptions.2>
+  <RB_Novaborn.customEffectDescriptions.3>Вибухають після смерті.</RB_Novaborn.customEffectDescriptions.3>
 
   <RB_Fusion_Metabolism.label>термоядерний метаболізм</RB_Fusion_Metabolism.label>
   <RB_Fusion_Metabolism.description>У носіїв цього гена в організмі відбуваються спеціальні реакції ядерного синтезу, які полегшують та оптимізують обмін речовин. Це покращує загальну генетичну та метаболічну якість.</RB_Fusion_Metabolism.description>
+  <RB_Fusion_Metabolism.customEffectDescriptions.0>Не проти їсти сиру їжу.</RB_Fusion_Metabolism.customEffectDescriptions.0>
 
   <RB_Radiant_Aura.label>сяюча аура</RB_Radiant_Aura.label>
   <RB_Radiant_Aura.description>Носії цього гена випромінюють ауру світла навколо свого тіла.</RB_Radiant_Aura.description>
+  <RB_Radiant_Aura.customEffectDescriptions.0>Випромінює ауру навколо тіла носія, не освітлює навколишнє середовище.</RB_Radiant_Aura.customEffectDescriptions.0>
 
   <RB_Voice_Novakin.label>магнітний голос</RB_Voice_Novakin.label>
   <RB_Voice_Novakin.description>Носії спілкуються за допомогою магнітних хвиль, які імітують людський голос.</RB_Voice_Novakin.description>
 
   <RB_Plasma_Innards.label>Плазмовий організм</RB_Plasma_Innards.label>
   <RB_Plasma_Innards.description>Носії цього гена мають плазмоподібні органи, що відновлюються. Вони несприйнятливі до більшості факторів здоров'я, таких як хвороби людини та хронічні захворювання.</RB_Plasma_Innards.description>
-
+  <RB_Plasma_Innards.customEffectDescriptions.0>Несприйнятливі до більшості людських та хронічних хвороб.</RB_Plasma_Innards.customEffectDescriptions.0>
+  <RB_Plasma_Innards.customEffectDescriptions.1>Відновлюють недостатню або пошкоджену частину тіла кожні 15-30 днів.</RB_Plasma_Innards.customEffectDescriptions.1>
+  <RB_Plasma_Innards.customEffectDescriptions.2>Кровотеча залишає на землі калюжі хімпалива замість крові.</RB_Plasma_Innards.customEffectDescriptions.2>
+  <RB_Plasma_Innards.customEffectDescriptions.3>При обробці дає хімпаливо замість м'яса.</RB_Plasma_Innards.customEffectDescriptions.3>
+  <RB_Plasma_Innards.customEffectDescriptions.4>Може витримати вплив радіації у відкритому космосі.</RB_Plasma_Innards.customEffectDescriptions.4>
+  
   <RB_Plasma_Shell.label>Плазмова оболонка</RB_Plasma_Shell.label>
   <RB_Plasma_Shell.description>Носії цього гена мають зовнішню плазмову оболонку, яка покриває їхнє тіло. Вони дуже стійкі до екстремальних температур і несприйнятливі до більшості умов довкілля..</RB_Plasma_Shell.description>
 
+  <RB_Corona_Hair.label>Сонячне волосся</RB_Corona_Hair.label>
+  <RB_Corona_Hair.description>Носії цього гена мають волосся, що нагадує сонячну корону.</RB_Corona_Hair.description>
 
 </LanguageData>

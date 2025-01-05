@@ -333,7 +333,7 @@
     </modExtensions>
   </GeneDef>
 
-  <GeneDef ParentName="GeneHeadboneBase">
+  <GeneDef>
     <defName>RB_Radiant_Aura</defName>
     <label>radiant aura</label>
     <description>Carriers of this gene emanate an aura of light around their body.</description>
@@ -343,7 +343,6 @@
     <iconPath>UI/Icons/Genes/RB_Gene_RadiantAura</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>5</displayOrderInCategory>
-    <iconColor>(1, 1, 1)</iconColor>
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>  <!-- Лицевые узоры-->
+<LanguageData>
 
   <RB_Facial_Brands.label>лицевой узор</RB_Facial_Brands.label>
-  <RB_Facial_Brands.description>Носители этого гена имеют на лице металлический символ, похожий на клеймо. Символ определяет личность, и в зависимости от него человек преуспевает в том или ином навыке.</RB_Facial_Brands.description>
+  <RB_Facial_Brands.description>Носители этого гена имеют на лице металлический символ, похожий на клеймо. Символ определяет личность, и в зависимости от него человек преуспевает в том или ином деле.</RB_Facial_Brands.description>
 
   <RB_Brand_AccuracyShooting.label>лицевой узор (стрелок)</RB_Brand_AccuracyShooting.label>
   <RB_Brand_AccuracyShooting.description>Носители этого узора превосходны в меткой стрельбе.</RB_Brand_AccuracyShooting.description>

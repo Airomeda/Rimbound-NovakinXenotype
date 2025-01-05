@@ -74,8 +74,8 @@
               <enemyFaction>$hunterFaction</enemyFaction>
               <points>$raidPoints</points>
               <walkInSpot>$walkInSpot</walkInSpot>
-              <customLetterLabel TKey="LetterLabelLoyaltySquad">{BASELABEL}: Pursuing bounty hunters</customLetterLabel>
-              <customLetterText TKey="LetterTextLoyaltySquad">{BASETEXT}\n\nThese are the bounty hunters that were hunting [../asker_nameFull].</customLetterText>
+              <customLetterLabel TKey="LetterLabelHunterSquad">{BASELABEL}: Pursuing bounty hunters</customLetterLabel>
+              <customLetterText TKey="LetterTextHunterSquad">{BASETEXT}\n\nThese are the bounty hunters that were hunting [../asker_nameFull].</customLetterText>
             </parms>
           </node>
         </li>

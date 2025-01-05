@@ -11,7 +11,7 @@
   <RB_Magnetic_Shield.description>Подавляет боль и уменьшает получаемый пользователем урон на 25%, длится 7 часов.</RB_Magnetic_Shield.description>
 
   <RB_IsIt_CECompatible.label>Боевая закалка</RB_IsIt_CECompatible.label>
-  <RB_IsIt_CECompatible.description>Придаёт пользователю скорость, ловкость, точность и силу в ближнем бою, длится 7 часов.</RB_IsIt_CECompatible.description>
+  <RB_IsIt_CECompatible.description>Придаёт пользователю скорость, ловкость, силу и точность в ближнем бою, длится 7 часов.</RB_IsIt_CECompatible.description>
 
 
 </LanguageData>

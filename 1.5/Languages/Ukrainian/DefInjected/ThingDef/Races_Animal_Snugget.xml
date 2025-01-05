@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RB_Snugget.label>снаггет</RB_Snugget.label>
+  <RB_Snugget.description>Гризуноподібні істоти з газоподібним тілом, у них є сімейний зв'язок із Новакінами як компаньйонами, але інформація про те, чому так, була втрачена з часом. У них ті ж характеристики, що й у Новакінів, але без лицьових тавр, багато хто любить їх за веселий характер і пухнастий вигляд.</RB_Snugget.description>
+  <RB_Snugget.tools.left_claw.label>лівий кіготь</RB_Snugget.tools.left_claw.label>
+  <RB_Snugget.tools.left_claw.labelNoLocation>кіготь</RB_Snugget.tools.left_claw.labelNoLocation>
+  <RB_Snugget.tools.right_claw.label>правий кіготь</RB_Snugget.tools.right_claw.label>
+  <RB_Snugget.tools.right_claw.labelNoLocation>кіготь</RB_Snugget.tools.right_claw.labelNoLocation>
+  <RB_Snugget.tools.head.label>голова</RB_Snugget.tools.head.label>
+
+</LanguageData>

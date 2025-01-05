@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <RB_Intro_Novakin.questNameRules.rulesStrings>
+    <li>questName->[questTitle_any]: Новакін [asker_nameFull]</li>
+    <li>questTitle_any->розшук</li>
+    <li>questTitle_any->винагорода</li>
+  </RB_Intro_Novakin.questNameRules.rulesStrings>
+  <RB_Intro_Novakin.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameFull], таємничий новакін, зв'язується з нами з околиць. [asker_pronoun] розшукується фракцією [hunterFaction_name] за порушення закону, і [asker_possessive] переслідує загін мисливців за головами. Загін переслідувачів складається з: \n\n[raid/raidPawnKinds]\n\n[asker_nameFull] хоче, щоб ви захистили [asker_possessive] у [map_definite]. Якщо ви погодитеся, [asker_pronoun] прибуде негайно, але ви повинні будете подолати мисливців за головами.\nВрахуйте, що якщо нагорода призначена дружньою фракцією, вони можуть стати ворожими до вас.\n\n Новакіни - розумні плазмоподібні гуманоїди з металевим "тавром" замість обличчя. Особистості новакінів відрізнаються залежно від їх тавра, вони від природи мають коротку пам'ять та проблеми з увагою, проте добиваються успіху у тому, що їм дійсно цікаво, відповідно до їх особистості.</li>
+  </RB_Intro_Novakin.questDescriptionRules.rulesStrings>
+  <RB_Intro_Novakin.LetterLabelHunterSquad.value.slateRef>{BASELABEL} - Переслідуючі мисливці за головами</RB_Intro_Novakin.LetterLabelHunterSquad.value.slateRef>
+  <RB_Intro_Novakin.LetterTextHunterSquad.value.slateRef>{BASETEXT}\n\nЦе мисливці за головами, які переслідують [../asker_nameFull].</RB_Intro_Novakin.LetterTextHunterSquad.value.slateRef>
+  <RB_Intro_Novakin.LetterLabelAskerBecameHostile.value.slateRef>{BASETEXT}\n\nОскільки ви прийняли [asker_nameDef], банда мисливців за головами, які переслідують [asker_possessive], скоро прибуде</RB_Intro_Novakin.LetterLabelAskerBecameHostile.value.slateRef>
+
+</LanguageData>

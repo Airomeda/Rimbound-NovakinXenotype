@@ -2,16 +2,16 @@
 <LanguageData>
 
   <RB_Dead_Eye.label>Погляд Мисливця</RB_Dead_Eye.label>
-  <RB_Dead_Eye.description>Підвищує точність стрільби користувача, триває 7 годин.</RB_Dead_Eye.description>
+  <RB_Dead_Eye.description>Підвищує влучність стрільби користувача. Діє протягом 7 годин.</RB_Dead_Eye.description>
 
   <RB_Trigger_Finger.label>Шалений Курок</RB_Trigger_Finger.label>
-  <RB_Trigger_Finger.description>Зменшує час перезарядки та прицілювання користувача, триває 7 годин.</RB_Trigger_Finger.description>
+  <RB_Trigger_Finger.description>Зменшує час перезарядки та прицілювання користувача. Діє протягом 7 годин.</RB_Trigger_Finger.description>
 
   <RB_Magnetic_Shield.label>Магнітна Завіса</RB_Magnetic_Shield.label>
-  <RB_Magnetic_Shield.description>Приглушує біль та зменшує отримувану користувачем шкоду на 25%, триває 7 годин.</RB_Magnetic_Shield.description>
+  <RB_Magnetic_Shield.description>Пригнічує біль та знижує отримувану шкоду на 25%. Діє протягом 7 годин.</RB_Magnetic_Shield.description>
 
   <RB_IsIt_CECompatible.label>Бойова Кмітливість</RB_IsIt_CECompatible.label>
-  <RB_IsIt_CECompatible.description>Надає користувачеві швидкість, спритність, точність і силу в ближньому бою, триває 7 годин.</RB_IsIt_CECompatible.description>
+  <RB_IsIt_CECompatible.description>Надає користувачеві швидкість, спритність, точність і силу в ближньому бою. Діє протягом 7 годин.</RB_IsIt_CECompatible.description>
 
 
 </LanguageData>

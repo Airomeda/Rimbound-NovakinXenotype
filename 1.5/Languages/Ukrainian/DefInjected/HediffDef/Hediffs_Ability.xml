@@ -2,16 +2,16 @@
 <LanguageData>
 
   <RB_Dead_Eye.label>Погляд Мисливця</RB_Dead_Eye.label>
-  <RB_Dead_Eye.description>Підвищує точність стрільби користувача.\n\n"Можеш бігти куди завгодно, але ніколи не сховаєшся від мого погляду."</RB_Dead_Eye.description>
+  <RB_Dead_Eye.description>Підвищує точність стрільби користувача.\n\n"Можеш бігти куди завгодно, але тобі не втекти від мого погляду."</RB_Dead_Eye.description>
 
   <RB_Trigger_Finger.label>Шалений Курок</RB_Trigger_Finger.label>
-  <RB_Trigger_Finger.description>Зменшує час перезарядки та прицілювання користувача.\n\n"Час опівдні. Потанцюємо, Партнере!"</RB_Trigger_Finger.description>
+  <RB_Trigger_Finger.description>Зменшує час перезарядки та прицілювання користувача.\n\n"На годиннику опівдні. Потанцюємо!"</RB_Trigger_Finger.description>
 
   <RB_Magnetic_Shield.label>Магнітна Завіса</RB_Magnetic_Shield.label>
   <RB_Magnetic_Shield.description>Зміцнює магнітне поле навколо користувача, пригнічуючи біль і зменшуючи отримувану шкоду.\n\n"І моє магнітне поле сприйняло це на свій рахунок."</RB_Magnetic_Shield.description>
 
   <RB_IsIt_CECompatible.label>Бойова кмітливість</RB_IsIt_CECompatible.label>
-  <RB_IsIt_CECompatible.description>Підвищує навички користувача у ближньому бою, забезпечуючи сильніший удар та зменшуючи час перезарядки та збільшуючи швидкість пересування.\n\n"Між небом та землею Я один сумісний."</RB_IsIt_CECompatible.description>
+  <RB_IsIt_CECompatible.description>Підвищує навички користувача у ближньому бою, забезпечуючи сильніші та швидші удари та збільшуючи швидкість пересування.\n\n"Між небом та землею Я один сумісний."</RB_IsIt_CECompatible.description>
 
 
 </LanguageData>
