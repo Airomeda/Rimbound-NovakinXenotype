@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <RB_GiveQuest_Intro_Novakin.label>странствующий новакин</RB_GiveQuest_Intro_Novakin.label>
+	<!-- EN: wandering novakin -->
+	<RB_GiveQuest_Intro_Novakin.label>блуждающий новакин</RB_GiveQuest_Intro_Novakin.label>
 
 </LanguageData>

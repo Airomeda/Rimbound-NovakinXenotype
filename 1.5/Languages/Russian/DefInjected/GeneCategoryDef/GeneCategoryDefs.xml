@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <RB_Novakin_Category.label>новакин</RB_Novakin_Category.label>
-
+	<!-- EN: novakin -->
+	<RB_Novakin_Category.label>новакин</RB_Novakin_Category.label>
 
 </LanguageData>

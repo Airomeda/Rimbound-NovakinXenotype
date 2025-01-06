@@ -1,17 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
+	<!-- EN: dead eye -->
   <RB_Dead_Eye.label>Погляд Мисливця</RB_Dead_Eye.label>
+	<!-- EN: Enhances the user's shooting accuracy.\n\n"You can go anywhere, but you won't be away from my gaze." -->
   <RB_Dead_Eye.description>Підвищує точність стрільби користувача.\n\n"Можеш бігти куди завгодно, але тобі не втекти від мого погляду."</RB_Dead_Eye.description>
-
+	
+	<!-- EN: trigger finger -->
   <RB_Trigger_Finger.label>Шалений Курок</RB_Trigger_Finger.label>
+	<!-- EN: Decreases the user's firing cooldown.\n\n"It's high noon. Let's dance, Partner!." -->
   <RB_Trigger_Finger.description>Зменшує час перезарядки та прицілювання користувача.\n\n"На годиннику опівдні. Потанцюємо!"</RB_Trigger_Finger.description>
-
+	
+	<!-- EN: magnetic shield -->
   <RB_Magnetic_Shield.label>Магнітна Завіса</RB_Magnetic_Shield.label>
+	<!-- EN: Enhances the user's magnetic field to increase damage resistance.\n\n"My magnetic wave took that personally." -->
   <RB_Magnetic_Shield.description>Зміцнює магнітне поле навколо користувача, пригнічуючи біль і зменшуючи отримувану шкоду.\n\n"І моє магнітне поле сприйняло це на свій рахунок."</RB_Magnetic_Shield.description>
-
-  <RB_IsIt_CECompatible.label>Бойова кмітливість</RB_IsIt_CECompatible.label>
-  <RB_IsIt_CECompatible.description>Підвищує навички користувача у ближньому бою, забезпечуючи сильніші та швидші удари та збільшуючи швидкість пересування.\n\n"Між небом та землею Я один сумісний."</RB_IsIt_CECompatible.description>
-
+	
+	<!-- EN: is it CE compatible -->
+  <RB_IsIt_CECompatible.label>Боевая закалка</RB_IsIt_CECompatible.label>
+	<!-- EN: Enhances the user's melee compatibility to stronger hits, decreases cooldown, and increases movement speed.\n\n"I alone am the compatible one." -->
+  <RB_IsIt_CECompatible.description>Підвищує навички користувача у ближньому бою, забезпечуючи сильніші та швидші удари та збільшуючи швидкість пересування.\n\n"Лиш я один сумісний."</RB_IsIt_CECompatible.description>
 
 </LanguageData>

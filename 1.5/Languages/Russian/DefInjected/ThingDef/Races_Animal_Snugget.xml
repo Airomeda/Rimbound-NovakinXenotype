@@ -1,12 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <RB_Snugget.label>снаггет</RB_Snugget.label>
-  <RB_Snugget.description>Грызуноподобные существа с газообразным телом, у них есть семейная связь с Новакинами как компаньонами, но информация о том, почему, была утеряна со временем. У них те же характеристики, что и у Новакинов, но без лицевых узоров, их веселый характер и пушистый вид сделали их очень обожаемыми большинством.</RB_Snugget.description>
-  <RB_Snugget.tools.left_claw.label>левый коготь</RB_Snugget.tools.left_claw.label>
-  <RB_Snugget.tools.left_claw.labelNoLocation>коготь</RB_Snugget.tools.left_claw.labelNoLocation>
-  <RB_Snugget.tools.right_claw.label>правый коготь</RB_Snugget.tools.right_claw.label>
-  <RB_Snugget.tools.right_claw.labelNoLocation>коготь</RB_Snugget.tools.right_claw.labelNoLocation>
-  <RB_Snugget.tools.head.label>голова</RB_Snugget.tools.head.label>
+	<!-- EN: snugget -->
+	<RB_Snugget.label>снаггет</RB_Snugget.label>
+	<!-- EN: A rodent-like creature with a gas-like body, they have a familial bond with Novakin as a companion but the information as to why is lost in time. They have the same characteristics as Novakin but without the facial brands, their cheerful nature and fluffy appearance made them highly adored by most. -->
+	<RB_Snugget.description>Грызуноподобные существа с газообразным телом, у них есть семейная связь с Новакинами как компаньонами, но информация о том, почему, была утеряна со временем. У них те же характеристики, что и у Новакинов, но без лицевых узоров, многие полюбили их за игривый характер и пушистый вид.</RB_Snugget.description>
+	<!-- EN: левый коготь -->
+	<RB_Snugget.tools.0.label>левый коготь</RB_Snugget.tools.0.label>
+	<!-- EN: claw -->
+	<RB_Snugget.tools.0.labelNoLocation>коготь</RB_Snugget.tools.0.labelNoLocation>
+	<!-- EN: правый коготь -->
+	<RB_Snugget.tools.1.label>правый коготь</RB_Snugget.tools.1.label>
+	<!-- EN: claw -->
+	<RB_Snugget.tools.1.labelNoLocation>коготь</RB_Snugget.tools.1.labelNoLocation>
+	<!-- EN: голова -->
+	<RB_Snugget.tools.3.label>голова</RB_Snugget.tools.3.label>
+	<!-- EN: Cloning in:  -->
+	<RB_Snugget.comps.7.customString>Клонируется через: </RB_Snugget.comps.7.customString>
 
 </LanguageData>

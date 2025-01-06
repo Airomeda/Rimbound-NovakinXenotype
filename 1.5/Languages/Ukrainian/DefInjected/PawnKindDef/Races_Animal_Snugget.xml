@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <RB_Snugget.label>снаггет</RB_Snugget.label>
+	<!-- EN: snugget -->
+	<RB_Snugget.label>снаггет</RB_Snugget.label>
 
 </LanguageData>

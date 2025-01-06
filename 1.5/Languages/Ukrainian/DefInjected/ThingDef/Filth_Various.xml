@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- EN: chemfuel blood -->
+	<RB_Filth_ChemfuelBlood.label>хімпаливна кров</RB_Filth_ChemfuelBlood.label>
+	<!-- EN: A blood puddle of flammable chemfuel. -->
+	<RB_Filth_ChemfuelBlood.description>Калюжа крові з легкозаймистого хімпалива.</RB_Filth_ChemfuelBlood.description>
+	<!-- EN: chemfuel smear -->
+	<RB_Filth_ChemfuelSmear.label>хімпаливний слід</RB_Filth_ChemfuelSmear.label>
+
+</LanguageData>

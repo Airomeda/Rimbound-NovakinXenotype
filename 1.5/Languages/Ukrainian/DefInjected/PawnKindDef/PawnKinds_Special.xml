@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <RB_NovakinFugitive.label>втікач</RB_NovakinFugitive.label>
-  <RB_NovakinFugitive.labelPlural>втікачі</RB_NovakinFugitive.labelPlural>
+	<!-- EN: fugitive -->
+	<RB_NovakinFugitive.label>біженець</RB_NovakinFugitive.label>
+	<!-- EN: fugitives -->
+	<RB_NovakinFugitive.labelPlural>біженці</RB_NovakinFugitive.labelPlural>
 
 </LanguageData>
