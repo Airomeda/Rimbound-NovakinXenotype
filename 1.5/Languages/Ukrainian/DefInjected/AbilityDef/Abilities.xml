@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
 	<!-- EN: dead eye -->
 	<RB_Dead_Eye.label>Погляд Мисливця</RB_Dead_Eye.label>
 	<!-- EN: Grant accuracy buffs on the caster's shooting, last about 7 hours before the ability wears off. -->
