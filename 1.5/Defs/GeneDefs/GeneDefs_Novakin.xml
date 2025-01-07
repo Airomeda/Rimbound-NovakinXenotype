@@ -88,7 +88,6 @@
       </li>
       <li Class="RimboundCore.GeneInheritanceExtension">
         <passXenotypeGenes>true</passXenotypeGenes>
-        <xenotypeDefName>RB_Novakin</xenotypeDefName>
         <xenotypeGenesChance>0.5</xenotypeGenesChance>
       </li>
     </modExtensions>
@@ -173,6 +172,7 @@
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaInnards</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>3</displayOrderInCategory>
+    <statOffsets />
     <makeImmuneTo>
       <li>Flu</li>
       <li>Malaria</li>

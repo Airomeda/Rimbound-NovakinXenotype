@@ -17,11 +17,11 @@
               <debugLabel>Aura</debugLabel>
               <tagDef>Head</tagDef>
               <texPath>Things/Special/Snugget/RB_Snugget_Aura</texPath>
-              <drawSize>0.95</drawSize>
+              <drawSize>1</drawSize>
               <baseLayer>10</baseLayer>
               <useRottenColor>true</useRottenColor>
               <shaderTypeDef>MoteGlow</shaderTypeDef>
-              <color>(255, 255, 255, 125)</color>
+              <color>(255, 255, 255, 155)</color>
               <colorType>Custom</colorType>
               <rotDrawMode>Fresh</rotDrawMode>
             </li>
