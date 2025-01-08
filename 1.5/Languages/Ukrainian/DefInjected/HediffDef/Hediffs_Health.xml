@@ -3,7 +3,7 @@
 
 	<!-- EN: supernova blessing -->
 	<RB_Novalike.label>благословення наднової</RB_Novalike.label>
-	<!-- EN: Born from the death star, this person will regenerate their missing body part every 30 days. The body will blow up upon death just like how they were born. -->
-	<RB_Novalike.description>Будучи зоренародженим, ця людина буде відновлювати недостатню частину тіла або шрам кожні 30 днів. Існування тіла буде закінчено так само, як було розпочато - яскравим та барвистим вибухом!</RB_Novalike.description>
+	<!-- EN: Born from the death star, this person will regenerate their missing body part every 15-30 days. The body will blow up upon death just like how they were born. -->
+	<RB_Novalike.description>Будучи зоренародженим, ця людина буде відновлювати недостатню частину тіла або шрам кожні 15-30 днів. Існування тіла буде закінчено так само, як було розпочато - яскравим та барвистим вибухом!</RB_Novalike.description>
 
 </LanguageData>
