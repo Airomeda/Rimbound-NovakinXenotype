@@ -4,6 +4,7 @@
   <HediffDef ParentName="RB_AbilityHediffBase">
     <defName>RB_Supressed_Psychic</defName>
     <label>psychic supress</label>
+    <defaultLabelColor>(0.8, 0.8, 0.54)</defaultLabelColor>
     <description>Halved the user's psychic sentivity and increases neural heat recovery.\n\n"I've cooled down, but I was the sun."</description>
     <isBad>false</isBad>
     <comps Inherit="False">
