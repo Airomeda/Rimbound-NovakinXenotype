@@ -1,53 +1,92 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>  <!-- Лицевые узоры-->
+<LanguageData>
 
-  <RB_Facial_Brands.label>лицевой узор</RB_Facial_Brands.label>
-  <RB_Facial_Brands.description>Носители этого гена имеют на лице металлический символ, похожий на клеймо. Символ определяет личность, и в зависимости от него человек преуспевает в том или ином навыке.</RB_Facial_Brands.description>
-
-  <RB_Brand_AccuracyShooting.label>лицевой узор (стрелок)</RB_Brand_AccuracyShooting.label>
-  <RB_Brand_AccuracyShooting.description>Носители этого узора превосходны в меткой стрельбе.</RB_Brand_AccuracyShooting.description>
-
-  <RB_Brand_QuickShooting.label>лицевой узор (звезда)</RB_Brand_QuickShooting.label>
-  <RB_Brand_QuickShooting.description>Носители этого узора превосходны в скоростной стрельбе.</RB_Brand_QuickShooting.description>
-
-  <RB_Brand_MeleeSustain.label>лицевой узор (крепость)</RB_Brand_MeleeSustain.label>
-  <RB_Brand_MeleeSustain.description>Носители этого узора превосходно выдерживают вражеские атаки.</RB_Brand_MeleeSustain.description>
-
-  <RB_Brand_MeleeBerserk.label>лицевой узор (уСЕщи)</RB_Brand_MeleeBerserk.label>
-  <RB_Brand_MeleeBerserk.description>Носители этого узора отличаются превосходными навыками ближнего боя.</RB_Brand_MeleeBerserk.description>
-
-  <RB_Brand_Construction.label>лицевой узор(квадрат)</RB_Brand_Construction.label>
-  <RB_Brand_Construction.description>Носители этого узора превосходны в строительстве.</RB_Brand_Construction.description>
-
-  <RB_Brand_Mining.label>лицевой узор (пики)</RB_Brand_Mining.label>
-  <RB_Brand_Mining.description>Носители этого узора превосходны в горнодобыче.</RB_Brand_Mining.description>
-
-  <RB_Brand_Cooking.label>лицевой узор (червы)</RB_Brand_Cooking.label>
-  <RB_Brand_Cooking.description>Носители этого узора превосходны в готовке.</RB_Brand_Cooking.description>
-
-  <RB_Brand_Animals.label>лицевой узор (омега)</RB_Brand_Animals.label>
-  <RB_Brand_Animals.description>Носители этого узора превосходны в приручении, обучении животных и уходе за ними.</RB_Brand_Animals.description>
-
-  <RB_Brand_Plants.label>лицевой узор (трефы)</RB_Brand_Plants.label>
-  <RB_Brand_Plants.description>Носители этого узора превосходны в посадке, сборе и вырубке растений.</RB_Brand_Plants.description>
-
-  <RB_Brand_Crafting.label>лицевой узор(шестерня)</RB_Brand_Crafting.label>
-  <RB_Brand_Crafting.description>Носители этого узора превосходны в ремесле.</RB_Brand_Crafting.description>
-
-  <RB_Brand_Artistic.label>лицевой узор (бубны)</RB_Brand_Artistic.label>
-  <RB_Brand_Artistic.description>Носители этого узора превосходны в искусстве.</RB_Brand_Artistic.description>
-
-  <RB_Brand_Medicine.label>лицевой узор (крест)</RB_Brand_Medicine.label>
-  <RB_Brand_Medicine.description>Носители этого узора превосходны в уходе и лечении пациентов.</RB_Brand_Medicine.description>
-
-  <RB_Brand_Social.label>лицевой узор (звезда шерифа)</RB_Brand_Social.label>
-  <RB_Brand_Social.description>Носители этого узора превосходны в социальных взаимодействиях.</RB_Brand_Social.description>
-
-  <RB_Brand_Intellectual.label>лицевой узор (дельта)</RB_Brand_Intellectual.label>
-  <RB_Brand_Intellectual.description>Носители этого узора превосходны в исследованиях и производстве препаратов.</RB_Brand_Intellectual.description>
-
-  <RB_Brand_None.label>безузорное лицо</RB_Brand_None.label>
-  <RB_Brand_None.description>У носителей нет никакого узора, но они отличаются ловкостью рук и слегка лучшей памятью и вниманием.</RB_Brand_None.description>
-
+	<!-- EN: facial brands -->
+    <RB_Facial_Brands.label>лицевой узор</RB_Facial_Brands.label>
+	<!-- EN: face brand -->
+	<RB_Facial_Brands.labelShortAdj>лицевой узор</RB_Facial_Brands.labelShortAdj>
+	<!-- EN: Carriers of this gene have a metallic brand-like symbol on their face. Depending on the symbol that decides their personality, one excels in a particular skill or condition. -->
+    <RB_Facial_Brands.description>Носители этого гена имеют на лице металлический символ, похожий на клеймо. Символ определяет личность, и в зависимости от него человек преуспевает в том или ином деле.</RB_Facial_Brands.description>
+	<!-- EN: This gene will add random facial brand upon addition, useful for player custom xenotype. -->
+	<RB_Facial_Brands.customEffectDescriptions.0>Этот ген добавит случайный лицевой узор при добавлении, полезно для создания пользовательских ксенотипов.</RB_Facial_Brands.customEffectDescriptions.0>
+	
+	<!-- EN: facial brand (marksman) -->
+    <RB_Brand_AccuracyShooting.label>лицевой узор (стрелок)</RB_Brand_AccuracyShooting.label>
+	<!-- EN: Carriers of this brand excel in accurate aiming with ranged weapons. -->
+    <RB_Brand_AccuracyShooting.description>Носители этого узора превосходны в меткой стрельбе.</RB_Brand_AccuracyShooting.description>
+	
+	<!-- EN: facial brand (stellar) -->
+    <RB_Brand_QuickShooting.label>лицевой узор (звезда)</RB_Brand_QuickShooting.label>
+	<!-- EN: Carriers of this brand excel in quick-firing with ranged weapons. -->
+    <RB_Brand_QuickShooting.description>Носители этого узора превосходны в скоростной стрельбе.</RB_Brand_QuickShooting.description>
+	
+	<!-- EN: facial brand (fortitude) -->
+    <RB_Brand_MeleeSustain.label>лицевой узор (крепость)</RB_Brand_MeleeSustain.label>
+	<!-- EN: Carriers of this brand excel in sustaining combat engagement with melee weapons. -->
+    <RB_Brand_MeleeSustain.description>Носители этого узора превосходно выдерживают вражеские атаки.</RB_Brand_MeleeSustain.description>
+	
+	<!-- EN: facial brand (moustaChE) -->
+    <RB_Brand_MeleeBerserk.label>лицевой узор (уСЕщи)</RB_Brand_MeleeBerserk.label>
+	<!-- EN: Carriers of this brand excel in combat engagement compatibility with melee weapons. -->
+    <RB_Brand_MeleeBerserk.description>Носители этого узора отличаются превосходными навыками ближнего боя.</RB_Brand_MeleeBerserk.description>
+	
+	<!-- EN: facial brand (square) -->
+    <RB_Brand_Construction.label>лицевой узор(квадрат)</RB_Brand_Construction.label>
+	<!-- EN: Carriers of this brand excel in constructing and smoothing buildings. -->
+    <RB_Brand_Construction.description>Носители этого узора превосходны в строительстве.</RB_Brand_Construction.description>
+	
+	<!-- EN: facial brand (spade) -->
+    <RB_Brand_Mining.label>лицевой узор (пики)</RB_Brand_Mining.label>
+	<!-- EN: Carriers of this brand excel in mining and drilling minerals. -->
+    <RB_Brand_Mining.description>Носители этого узора превосходны в горнодобыче.</RB_Brand_Mining.description>
+	
+	<!-- EN: facial brand (heart) -->
+    <RB_Brand_Cooking.label>лицевой узор (червы)</RB_Brand_Cooking.label>
+	<!-- EN: Carriers of this brand excel in culinary and brewery works. -->
+    <RB_Brand_Cooking.description>Носители этого узора превосходны в готовке.</RB_Brand_Cooking.description>
+	
+	<!-- EN: facial brand (ohm) -->
+    <RB_Brand_Animals.label>лицевой узор (омега)</RB_Brand_Animals.label>
+	<!-- EN: Carriers of this brand excel in taming, training, and handling animals. -->
+    <RB_Brand_Animals.description>Носители этого узора превосходны в приручении, обучении животных и уходе за ними.</RB_Brand_Animals.description>
+	
+	<!-- EN: facial brand (club) -->
+    <RB_Brand_Plants.label>лицевой узор (трефы)</RB_Brand_Plants.label>
+	<!-- EN: Carriers of this brand excel in growing, cutting, and harvesting plants. -->
+    <RB_Brand_Plants.description>Носители этого узора превосходны в посадке, сборе и вырубке растений.</RB_Brand_Plants.description>
+	
+	<!-- EN: facial brand (cog) -->
+    <RB_Brand_Crafting.label>лицевой узор(шестерня)</RB_Brand_Crafting.label>
+	<!-- EN: Carriers of this brand excel in crafting and manufacturing products. -->
+    <RB_Brand_Crafting.description>Носители этого узора превосходны в ремесле.</RB_Brand_Crafting.description>
+	
+	<!-- EN: facial brand (diamond) -->
+    <RB_Brand_Artistic.label>лицевой узор (бубны)</RB_Brand_Artistic.label>
+	<!-- EN: Carriers of this brand excel in artistic and creative artworks. -->
+    <RB_Brand_Artistic.description>Носители этого узора превосходны в искусстве.</RB_Brand_Artistic.description>
+	
+	<!-- EN: facial brand (cross) -->
+    <RB_Brand_Medicine.label>лицевой узор (крест)</RB_Brand_Medicine.label>
+	<!-- EN: Carriers of this brand excel in tending and curing patients. -->
+    <RB_Brand_Medicine.description>Носители этого узора превосходны в уходе и лечении пациентов.</RB_Brand_Medicine.description>
+	
+	<!-- EN: facial brand (rimstar) -->
+    <RB_Brand_Social.label>лицевой узор (звезда шерифа)</RB_Brand_Social.label>
+	<!-- EN: Carriers of this brand excel in social and negotiation interactions. -->
+    <RB_Brand_Social.description>Носители этого узора превосходны в социальных взаимодействиях.</RB_Brand_Social.description>
+	
+	<!-- EN: facial brand (delta) -->
+    <RB_Brand_Intellectual.label>лицевой узор (дельта)</RB_Brand_Intellectual.label>
+	<!-- EN: Carriers of this brand excel in research and drug refining. -->
+    <RB_Brand_Intellectual.description>Носители этого узора превосходны в исследованиях и производстве препаратов.</RB_Brand_Intellectual.description>
+	<!-- EN: Nullify the research and reading debuff of their natural vibrant mind. -->
+	<RB_Brand_Intellectual.customEffectDescriptions.0>Снимает отрицательный эффект Ветреного Ума к исследованиям и чтению.</RB_Brand_Intellectual.customEffectDescriptions.0>
+	
+	<!-- EN: facial brandless -->
+    <RB_Brand_None.label>безузорное лицо</RB_Brand_None.label>
+	<!-- EN: Carriers of this brand have nothing special aside from remarkable manipulation of keeping body shape without visible brand, they also remember memory longer than others. -->
+    <RB_Brand_None.description>У носителей нет никакого узора, но они отличаются ловкостью рук и слегка лучшей памятью и вниманием.</RB_Brand_None.description>
+	<!-- EN: Moodlet or thought duration increased by 50%, total 75% with vibrant mind. -->
+	<RB_Brand_None.customEffectDescriptions.0>Длительность мыслей увеличена на 50%, в сумме с Ветреным Умом - 75%.</RB_Brand_None.customEffectDescriptions.0>
 
 </LanguageData>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- === Male === -->
+  <HairDef>
+    <defName>RB_Corona_Educator</defName>
+    <label>Corona Educator</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Male/RB_CoronaHair_Educator</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <HairDef>
+    <defName>RB_Corona_Noble</defName>
+    <label>Corona Noble</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Male/RB_CoronaHair_Noble</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <HairDef>
+    <defName>RB_Corona_Outlaw</defName>
+    <label>Corona Outlaw</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Male/RB_CoronaHair_Outlaw</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <HairDef>
+    <defName>RB_Corona_Fixer</defName>
+    <label>Corona Fixer</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Male/RB_CoronaHair_Fixer</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <HairDef>
+    <defName>RB_Corona_Fiery</defName>
+    <label>Corona Fiery</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Male/RB_CoronaHair_Fiery</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <!-- === Female === -->
+  <HairDef>
+    <defName>RB_Corona_Stellar</defName>
+    <label>Corona Stellar</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Female/RB_CoronaHair_Stellar</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <HairDef>
+    <defName>RB_Corona_Flametail</defName>
+    <label>Corona Flametail</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Female/RB_CoronaHair_Flametail</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <HairDef>
+    <defName>RB_Corona_Warden</defName>
+    <label>Corona Warden</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Female/RB_CoronaHair_Warden</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <HairDef>
+    <defName>RB_Corona_Keeper</defName>
+    <label>Corona Keeper</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Female/RB_CoronaHair_Keeper</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <HairDef>
+    <defName>RB_Corona_Eccentric</defName>
+    <label>Corona Eccentric</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Female/RB_CoronaHair_Eccentric</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <!-- === Any === -->
+  <HairDef>
+    <defName>RB_Corona_Spiky</defName>
+    <label>Corona Spiky</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Any/RB_CoronaHair_Spiky</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <HairDef>
+    <defName>RB_Corona_Comet</defName>
+    <label>Corona Comet</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Any/RB_CoronaHair_Comet</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+</Defs>

@@ -25,17 +25,19 @@
     <biostatMet>2</biostatMet>
     <biostatCpx>1</biostatCpx>
     <selectionWeight>0</selectionWeight>
-    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
     <symbolPack>
-      <prefixSymbols>
+      <wholeNameSymbols>
         <li>
           <symbol>attention</symbol>
         </li>
         <li>
-          <symbol>forget</symbol>
-        </li>
-        <li>
           <symbol>disorder</symbol>
+        </li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li>
+          <symbol>forget</symbol>
         </li>
       </prefixSymbols>
     </symbolPack>

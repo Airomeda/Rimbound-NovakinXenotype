@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <IncidentDef ParentName="GiveQuestBase">
+    <defName>RB_GiveQuest_Intro_Novakin</defName>
+    <label>wandering novakin</label>
+    <questScriptDef>RB_Intro_Novakin</questScriptDef>
+    <baseChance>0.7</baseChance>
+    <minRefireDays>30</minRefireDays>
+  </IncidentDef>
+
+</Defs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <StyleItemCategoryDef>
+    <defName>RB_Corona_HairStyle</defName>
+    <label>corona</label>
+  </StyleItemCategoryDef>
+
+</Defs>

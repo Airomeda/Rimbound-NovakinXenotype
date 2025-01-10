@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HediffDef ParentName="RB_AbilityHediffBase">
+    <defName>RB_Supressed_Psychic</defName>
+    <label>psychic supress</label>
+    <defaultLabelColor>(0.8, 0.8, 0.54)</defaultLabelColor>
+    <description>Halved the user's psychic sentivity and increases neural heat recovery.\n\n"I've cooled down, but I was the sun."</description>
+    <isBad>false</isBad>
+    <comps Inherit="False">
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000~60000</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <PsychicSensitivity>0.5</PsychicSensitivity>
+        </statFactors>
+        <statOffsets>
+          <PsychicEntropyRecoveryRate>1.0</PsychicEntropyRecoveryRate>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

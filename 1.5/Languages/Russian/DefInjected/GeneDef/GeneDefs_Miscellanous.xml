@@ -1,8 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RB_Vibrant_Mind.label>Ветреный ум</RB_Vibrant_Mind.label>
-  <RB_Vibrant_Mind.description>У носителей этого гена плохие память и внимание. Несмотря на острую интуицию и способность к обучению, им не хватает усдичивости и концентрации внимания, что делает их ужасными учениками и учителями, а сложные или тяжёлые события заставляют их забывать как хорошие, так и плохие вещи. Они живут "здесь и сейчас", тогда как прошлое их совершенно не заботит.</RB_Vibrant_Mind.description>
-
+	<!-- EN: vibrant mind -->
+	<RB_Vibrant_Mind.label>Ветреный ум</RB_Vibrant_Mind.label>
+	<!-- EN: short-span mind -->
+	<RB_Vibrant_Mind.labelShortAdj>короткая память</RB_Vibrant_Mind.labelShortAdj>
+	<!-- EN: Carriers of this gene have short attention and memory. Though they have a high intuition and aptitude for learning they lack patience and attention span to the point of making them terrible students and teachers, and events harder to recall makes it easier for them to forget both good and bad things. They enjoy the present life more than the past. -->
+    <RB_Vibrant_Mind.description>У носителей этого гена плохие память и внимание. Несмотря на острую интуицию и способность к обучению, им не хватает усдичивости и концентрации внимания, что делает их ужасными учениками и учителями, а сложные или тяжёлые события заставляют их забывать как хорошие, так и плохие вещи. Они живут "здесь и сейчас", тогда как прошлое их совершенно не заботит.</RB_Vibrant_Mind.description>
+	<!-- EN: Moodlet or thought duration lowered by 50%. -->
+	<RB_Vibrant_Mind.customEffectDescriptions.0>длительность мыслей уменьшена на 50%.</RB_Vibrant_Mind.customEffectDescriptions.0>
+	<!-- EN: Global skill loss and learning rate increased by 25%. -->
+	<RB_Vibrant_Mind.customEffectDescriptions.1>Скорость потери навыков увеличена на 25%.</RB_Vibrant_Mind.customEffectDescriptions.1>
 
 </LanguageData>

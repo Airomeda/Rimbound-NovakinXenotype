@@ -1,53 +1,92 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>  <!-- Лицьові символи-->
+<LanguageData>
 
-  <RB_Facial_Brands.label>лицьовий символ</RB_Facial_Brands.label>
-  <RB_Facial_Brands.description>Носії цього гена мають на обличчі металевий символ, схожий на тавро. Символ визначає особистість, і в залежності від нього людина процвітає в тій чи іншій навичці.</RB_Facial_Brands.description>
-
-  <RB_Brand_AccuracyShooting.label>лицьовий символ (стрілок)</RB_Brand_AccuracyShooting.label>
-  <RB_Brand_AccuracyShooting.description>Носії цього символа чудові у влучній стрільбі.</RB_Brand_AccuracyShooting.description>
-
-  <RB_Brand_QuickShooting.label>лицьовий символ (зірка)</RB_Brand_QuickShooting.label>
-  <RB_Brand_QuickShooting.description>Носії цього символа чудові у швидкісній стрільбі.</RB_Brand_QuickShooting.description>
-
-  <RB_Brand_MeleeSustain.label>лицьовий символ (фортеця)</RB_Brand_MeleeSustain.label>
-  <RB_Brand_MeleeSustain.description>Носії цього символа чудово витримують ворожі атаки.</RB_Brand_MeleeSustain.description>
-
-  <RB_Brand_MeleeBerserk.label>лицьовий символ (вуСЕща)</RB_Brand_MeleeBerserk.label>
-  <RB_Brand_MeleeBerserk.description>Носії цього символа відрізняються чудовими навичками ближнього бою.</RB_Brand_MeleeBerserk.description>
-
-  <RB_Brand_Construction.label>лицьовий символ(куб)</RB_Brand_Construction.label>
-  <RB_Brand_Construction.description>Носії цього символа чудові у будівництві.</RB_Brand_Construction.description>
-
-  <RB_Brand_Mining.label>лицьовий символ (піки)</RB_Brand_Mining.label>
-  <RB_Brand_Mining.description>Носії цього символа чудові у шахтарстві.</RB_Brand_Mining.description>
-
-  <RB_Brand_Cooking.label>лицьовий символ (черви)</RB_Brand_Cooking.label>
-  <RB_Brand_Cooking.description>Носії цього символа чудові у кулінарії.</RB_Brand_Cooking.description>
-
-  <RB_Brand_Animals.label>лицьовий символ (омега)</RB_Brand_Animals.label>
-  <RB_Brand_Animals.description>Носії цього символа чудові у прирученні, навчанні тварин та догляді за ними.</RB_Brand_Animals.description>
-
-  <RB_Brand_Plants.label>лицьовий символ (трефи)</RB_Brand_Plants.label>
-  <RB_Brand_Plants.description>Носії цього символа чудові в посадці, збиранні та вирубці рослин.</RB_Brand_Plants.description>
-
-  <RB_Brand_Crafting.label>лицьовий символ(шестерня)</RB_Brand_Crafting.label>
-  <RB_Brand_Crafting.description>Носії цього символа чудові у ремеслі.</RB_Brand_Crafting.description>
-
-  <RB_Brand_Artistic.label>лицьовий символ (бубни)</RB_Brand_Artistic.label>
-  <RB_Brand_Artistic.description>Носії цього символа чудові у мистецтві.</RB_Brand_Artistic.description>
-
-  <RB_Brand_Medicine.label>лицьовий символ (хрест)</RB_Brand_Medicine.label>
-  <RB_Brand_Medicine.description>Носії цього символа чудові у догляді та лікуванні пацієнтів.</RB_Brand_Medicine.description>
-
-  <RB_Brand_Social.label>лицьовий символ (зірка шерифа)</RB_Brand_Social.label>
-  <RB_Brand_Social.description>Носії цього символа чудові у соціальних взаємодіях.</RB_Brand_Social.description>
-
-  <RB_Brand_Intellectual.label>лицьовий символ (дельта)</RB_Brand_Intellectual.label>
-  <RB_Brand_Intellectual.description>Носії цього символа чудові в досимволженнях та виробництві препаратів.</RB_Brand_Intellectual.description>
-
-  <RB_Brand_None.label>безсимвольне лице</RB_Brand_None.label>
-  <RB_Brand_None.description>У носіїв немає ніякого символа, але вони відрізняються спритністю рук і трохи кращою пам'яттю та увагою.</RB_Brand_None.description>
-
+	<!-- EN: facial brands -->
+    <RB_Facial_Brands.label>лицьовий символ</RB_Facial_Brands.label>
+	<!-- EN: face brand -->
+	<RB_Facial_Brands.labelShortAdj>лицьовий символ</RB_Facial_Brands.labelShortAdj>
+	<!-- EN: Carriers of this gene have a metallic brand-like symbol on their face. Depending on the symbol that decides their personality, one excels in a particular skill or condition. -->
+    <RB_Facial_Brands.description>Носії цього гена мають на обличчі металевий символ, схожий на тавро. Символ визначає особистість, і в залежності від нього людина процвітає в тій чи іншій навичці.</RB_Facial_Brands.description>
+	<!-- EN: This gene will add random facial brand upon addition, useful for player custom xenotype. -->
+	<RB_Facial_Brands.customEffectDescriptions.0>Цей ген додасть випадковий лицьовий символ після додавання, корисно для створення користувацьких ксенотипов.</RB_Facial_Brands.customEffectDescriptions.0>
+	
+	<!-- EN: facial brand (marksman) -->
+    <RB_Brand_AccuracyShooting.label>лицьовий символ (стрілок)</RB_Brand_AccuracyShooting.label>
+	<!-- EN: Carriers of this brand excel in accurate aiming with ranged weapons. -->
+    <RB_Brand_AccuracyShooting.description>Носії цього символа чудові у влучній стрільбі.</RB_Brand_AccuracyShooting.description>
+	
+	<!-- EN: facial brand (stellar) -->
+    <RB_Brand_QuickShooting.label>лицьовий символ (зоря)</RB_Brand_QuickShooting.label>
+	<!-- EN: Carriers of this brand excel in quick-firing with ranged weapons. -->
+    <RB_Brand_QuickShooting.description>Носії цього символа чудові у швидкісній стрільбі.</RB_Brand_QuickShooting.description>
+	
+	<!-- EN: facial brand (fortitude) -->
+    <RB_Brand_MeleeSustain.label>лицьовий символ (фортеця)</RB_Brand_MeleeSustain.label>
+	<!-- EN: Carriers of this brand excel in sustaining combat engagement with melee weapons. -->
+    <RB_Brand_MeleeSustain.description>Носії цього символа чудово витримують ворожі атаки.</RB_Brand_MeleeSustain.description>
+	
+	<!-- EN: facial brand (moustaChE) -->
+    <RB_Brand_MeleeBerserk.label>лицьовий символ (вуСЕща)</RB_Brand_MeleeBerserk.label>
+	<!-- EN: Carriers of this brand excel in combat engagement compatibility with melee weapons. -->
+    <RB_Brand_MeleeBerserk.description>Носії цього символа відрізняються чудовими навичками ближнього бою.</RB_Brand_MeleeBerserk.description>
+	
+	<!-- EN: facial brand (square) -->
+    <RB_Brand_Construction.label>лицьовий символ(квадрат)</RB_Brand_Construction.label>
+	<!-- EN: Carriers of this brand excel in constructing and smoothing buildings. -->
+    <RB_Brand_Construction.description>Носії цього символа чудові у будівництві.</RB_Brand_Construction.description>
+	
+	<!-- EN: facial brand (spade) -->
+    <RB_Brand_Mining.label>лицьовий символ (піки)</RB_Brand_Mining.label>
+	<!-- EN: Carriers of this brand excel in mining and drilling minerals. -->
+    <RB_Brand_Mining.description>Носії цього символа чудові у шахтарстві.</RB_Brand_Mining.description>
+	
+	<!-- EN: facial brand (heart) -->
+    <RB_Brand_Cooking.label>лицьовий символ (черви)</RB_Brand_Cooking.label>
+	<!-- EN: Carriers of this brand excel in culinary and brewery works. -->
+    <RB_Brand_Cooking.description>Носії цього символа чудові у кулінарії.</RB_Brand_Cooking.description>
+	
+	<!-- EN: facial brand (ohm) -->
+    <RB_Brand_Animals.label>лицьовий символ (омега)</RB_Brand_Animals.label>
+	<!-- EN: Carriers of this brand excel in taming, training, and handling animals. -->
+    <RB_Brand_Animals.description>Носії цього символа чудові у прирученні, навчанні тварин та догляді за ними.</RB_Brand_Animals.description>
+	
+	<!-- EN: facial brand (club) -->
+    <RB_Brand_Plants.label>лицьовий символ (трефи)</RB_Brand_Plants.label>
+	<!-- EN: Carriers of this brand excel in growing, cutting, and harvesting plants. -->
+    <RB_Brand_Plants.description>Носії цього символа чудові в посадці, збиранні та вирубці рослин.</RB_Brand_Plants.description>
+	
+	<!-- EN: facial brand (cog) -->
+    <RB_Brand_Crafting.label>лицьовий символ(шестерня)</RB_Brand_Crafting.label>
+	<!-- EN: Carriers of this brand excel in crafting and manufacturing products. -->
+    <RB_Brand_Crafting.description>Носії цього символа чудові у ремеслі.</RB_Brand_Crafting.description>
+	
+	<!-- EN: facial brand (diamond) -->
+    <RB_Brand_Artistic.label>лицьовий символ (бубни)</RB_Brand_Artistic.label>
+	<!-- EN: Carriers of this brand excel in artistic and creative artworks. -->
+    <RB_Brand_Artistic.description>Носії цього символа чудові у мистецтві.</RB_Brand_Artistic.description>
+	
+	<!-- EN: facial brand (cross) -->
+    <RB_Brand_Medicine.label>лицьовий символ (хрест)</RB_Brand_Medicine.label>
+	<!-- EN: Carriers of this brand excel in tending and curing patients. -->
+    <RB_Brand_Medicine.description>Носії цього символа чудові у догляді та лікуванні пацієнтів.</RB_Brand_Medicine.description>
+	
+	<!-- EN: facial brand (rimstar) -->
+    <RB_Brand_Social.label>лицьовий символ (зірка шерифа)</RB_Brand_Social.label>
+	<!-- EN: Carriers of this brand excel in social and negotiation interactions. -->
+    <RB_Brand_Social.description>Носії цього символа чудові у соціальних взаємодіях.</RB_Brand_Social.description>
+	
+	<!-- EN: facial brand (delta) -->
+    <RB_Brand_Intellectual.label>лицьовий символ (дельта)</RB_Brand_Intellectual.label>
+	<!-- EN: Carriers of this brand excel in research and drug refining. -->
+    <RB_Brand_Intellectual.description>Носії цього символа чудові в дослідженнях та виробництві препаратів.</RB_Brand_Intellectual.description>
+	<!-- EN: Nullify the research and reading debuff of their natural vibrant mind. -->
+	<RB_Brand_Intellectual.customEffectDescriptions.0>Знімає негативний ефект Вітреного Розуму до досліджень та читання.</RB_Brand_Intellectual.customEffectDescriptions.0>
+	
+	<!-- EN: facial brandless -->
+    <RB_Brand_None.label>безсимвольне лице</RB_Brand_None.label>
+	<!-- EN: Carriers of this brand have nothing special aside from remarkable manipulation of keeping body shape without visible brand, they also remember memory longer than others. -->
+    <RB_Brand_None.description>У носіїв немає ніякого символа, але вони відрізняються спритністю рук і трохи кращою пам'яттю та увагою.</RB_Brand_None.description>
+	<!-- EN: Moodlet or thought duration increased by 50%, total 75% with vibrant mind. -->
+	<RB_Brand_None.customEffectDescriptions.0>Тривалість думок збільшена на 50%, у сумі з Вітряним Розумом – 75%.</RB_Brand_None.customEffectDescriptions.0>
 
 </LanguageData>

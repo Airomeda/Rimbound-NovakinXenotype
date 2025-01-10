@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: The Outlaw -->
+	<RB_TheOutlaw.label>Изгой</RB_TheOutlaw.label>
+  	<!-- EN: You're being pursued by bounty hunters, luckily you're able to flee using a stolen rich explorer spaceship and start going towards the unknown space. But unfortunately, the fuel of your spaceship ran out. You can't do much except seek nearby planets, without further thinking you decided to land there.\n\nNote: Since your starting character will lack some skills and most faction being wary towards you, this is an especially difficult scenario in the early game. -->
+    <RB_TheOutlaw.description>Вас преследуют охотники за головами, к счастью, вам удается сбежать на украденном корабле богатого исследователя и отправиться в глубины космоса. Но, к сожалению, топливо корабля быстро закончилось. Всё, что вам оставалось - искать ближайшие планеты, и вы без раздумий решили высадиться сюда.\n\nПримечание: поскольку у вашего начального персонажа не будет некоторых навыков, а большинство фракций будут относиться к вам настороженно, это особенно сложный сценарий в начале игры.</RB_TheOutlaw.description>
+	<!-- EN: One outlaw out to experience the universe. Extra difficult. -->
+    <RB_TheOutlaw.scenario.summary>Один преступник отправился исследовать вселенную. Очень сложный сценарий.</RB_TheOutlaw.scenario.summary>
+	<!-- EN: Start with one adult novakin. -->
+    <RB_TheOutlaw.scenario.parts.ConfigurePawnsXenotypes.customSummary>Начало с одним взрослым новакином</RB_TheOutlaw.scenario.parts.ConfigurePawnsXenotypes.customSummary>
+	<!-- EN: adult novakin -->
+	<RB_TheOutlaw.scenario.parts.ConfigurePawnsXenotypes.xenotypeCounts.0.description>взрослый новакин</RB_TheOutlaw.scenario.parts.ConfigurePawnsXenotypes.xenotypeCounts.0.description>
+	<!-- EN: With your arrival, a broadcast has been announced regarding outlaws on the run to the rim.\n\nDo you think you're still free from pursuit and suspicion? -->
+    <RB_TheOutlaw.scenario.parts.GameStartDialog.text>С вашим прибытием была объявлена ​​трансляция о преступниках, скрывающихся в пограничном мире.\n\nВы думаете, что вы все еще свободны от преследования и подозрений?</RB_TheOutlaw.scenario.parts.GameStartDialog.text>
+	<!-- EN: The Outlaw -->
+	<RB_TheOutlaw.scenario.name>Изгой</RB_TheOutlaw.scenario.name>
+	<!-- EN: You're being pursued by bounty hunters, luckily you're able to flee using a stolen rich explorer spaceship and start going towards the unknown space. But unfortunately, the fuel of your spaceship ran out. You can't do much except seek nearby planets, without further thinking you decided to land there.\n\nNote: Since your starting character will lack some skills and most faction being wary towards you, this is an especially difficult scenario in the early game. -->
+    <RB_TheOutlaw.scenario.description>Вас преследуют охотники за головами, к счастью, вам удается сбежать на украденном корабле богатого исследователя и отправиться в глубины космоса. Но, к сожалению, топливо корабля быстро закончилось. Всё, что вам оставалось - искать ближайшие планеты, и вы без раздумий решили высадиться сюда.\n\nПримечание: поскольку у вашего начального персонажа не будет некоторых навыков, а большинство фракций будут относиться к вам настороженно, это особенно сложный сценарий в начале игры.</RB_TheOutlaw.scenario.description>
+	
+	<!-- EN: Newborn Star -->
+	<RB_NewbornStar.label>Новорожденная звезда</RB_NewbornStar.label>
+	<!-- EN: The aftermath of a supernova has scattered newborn Novakin out in space including you, and yet you're unable to go anywhere else except by drifting away using the excess force caused by the explosion. After waking up from your slumber for years, you've crashed into a distant planet. You're naked, alone, and totally unprepared. Yet, is this the mark of an adventure?\n\nNote: This scenario is an improved version of Naked Brutality but with Novakin as the starting pawn. -->
+    <RB_NewbornStar.description>Последствия сверхновой разбросали новорожденных Новакинов по всему космосу, включая вас, и все же вы ничего не можете сделать, кроме как дрейфовать, используя избыточную силу, вызванную взрывом. Проснувшись от многолетнего сна, вы врезались в далекую планету. Голый, одинокий и совершенно неподготовленный. Ну разве это не признак приключения?\n\nПримечание: этот сценарий является улучшенной версией Неприкрытой Жестокости, но с Новакином в качестве стартовой пешки</RB_NewbornStar.description>
+	<!-- EN: Naked, alone, and utterly unprepared. Yet, is this the mark of an adventure? -->
+	<RB_NewbornStar.scenario.summary>Голый, одинокий и совершенно неподготовленный. Ну разве это не признак приключения?</RB_NewbornStar.scenario.summary>
+	<!-- EN: Start with one adult novakin. -->
+	<RB_NewbornStar.scenario.parts.ConfigurePawnsXenotypes.customSummary>Начало с одним взрослым новакином.</RB_NewbornStar.scenario.parts.ConfigurePawnsXenotypes.customSummary>
+	<!-- EN: adult novakin -->
+	<RB_NewbornStar.scenario.parts.ConfigurePawnsXenotypes.xenotypeCounts.0.description>взрослый новакин</RB_NewbornStar.scenario.parts.ConfigurePawnsXenotypes.xenotypeCounts.0.description>
+	<!-- EN: Now you've awoken after punching through the atmosphere of a distant rimworld.\n\nIt is an unfamiliar environment, yet why does it feel adventurous?\n\nYou are totally naked. With no preparation, no supplies, and no tools, can you survive? -->
+	<RB_NewbornStar.scenario.parts.GameStartDialog.text>Вы проснулись от того, что прорываетесь сквозь атмосферу далекого граничного мира.\n\nЭто незнакомая среда, но почему она кажется вам авантюрной?\n\nВы полностью голый. Сможете ли вы выжить без подготовки, припасов и инструментов?</RB_NewbornStar.scenario.parts.GameStartDialog.text>
+	<!-- EN: Newborn Star -->
+	<RB_NewbornStar.scenario.name>Новорожденная звезда</RB_NewbornStar.scenario.name>
+	<!-- EN: The aftermath of a supernova has scattered newborn Novakin out in space including you, and yet you're unable to go anywhere else except by drifting away using the excess force caused by the explosion. After waking up from your slumber for years, you've crashed into a distant planet. You're naked, alone, and totally unprepared. Yet, is this the mark of an adventure?\n\nNote: This scenario is an improved version of Naked Brutality but with Novakin as the starting pawn. -->
+    <RB_NewbornStar.scenario.description>Последствия сверхновой разбросали новорожденных Новакинов по всему космосу, включая вас, и все же вы ничего не можете сделать, кроме как дрейфовать, используя избыточную силу, вызванную взрывом. Проснувшись от многолетнего сна, вы врезались в далекую планету. Голый, одинокий и совершенно неподготовленный. Ну разве это не признак приключения?\n\nПримечание: этот сценарий является улучшенной версией Неприкрытой Жестокости, но с Новакином в качестве стартовой пешки</RB_NewbornStar.scenario.description>
+
+</LanguageData>

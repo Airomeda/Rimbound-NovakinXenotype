@@ -1,35 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RB_Plasma_Body.label>плазмова оболонка</RB_Plasma_Body.label>
-  <RB_Plasma_Body.description>Носії цього гена мають плазмову оболонку тіла. За наявності кількох плазмових пігментів випадково вибирається один.</RB_Plasma_Body.description>
-
-  <RB_Plasma_Blue.label>синя плазма</RB_Plasma_Blue.label>
-  <RB_Plasma_Blue.description>Носії цього гена виробляють пігмент, який забарвлює їхню оболонку в ярко-синій колір.</RB_Plasma_Blue.description>
-
-  <RB_Plasma_Cyan.label>блакитна плазма</RB_Plasma_Cyan.label>
-  <RB_Plasma_Cyan.description>Носії цього гена виробляють пігмент, який забарвлює їхню оболонку в ярко-блакитний колір.</RB_Plasma_Cyan.description>
-
-  <RB_Plasma_Green.label>зелена плазма</RB_Plasma_Green.label>
-  <RB_Plasma_Green.description>Носії цього гена виробляють пігмент, який забарвлює їхню оболонку в ярко-зелений колір.</RB_Plasma_Green.description>
-
-  <RB_Plasma_Orange.label>помаранчева плазма</RB_Plasma_Orange.label>
-  <RB_Plasma_Orange.description>Носії цього гена виробляють пігмент, який забарвлює їхню оболонку в ярко-помаранчевий колір.</RB_Plasma_Orange.description>
-
-  <RB_Plasma_Pink.label>рожева плазма</RB_Plasma_Pink.label>
-  <RB_Plasma_Pink.description>Носії цього гена виробляють пігмент, який забарвлює їхню оболонку в ярко-рожевий колір.</RB_Plasma_Pink.description>
-
-  <RB_Plasma_Purple.label>фіолетова плазма</RB_Plasma_Purple.label>
-  <RB_Plasma_Purple.description>Носії цього гена виробляють пігмент, який забарвлює їхню оболонку в ярко-фіолетовий колір.</RB_Plasma_Purple.description>
-
-  <RB_Plasma_Red.label>червона плазма</RB_Plasma_Red.label>
-  <RB_Plasma_Red.description>Носії цього гена виробляють пігмент, який забарвлює їхню оболонку в ярко-червоний колір.</RB_Plasma_Red.description>
-
-  <RB_Plasma_Yellow.label>жовта плазма</RB_Plasma_Yellow.label>
-  <RB_Plasma_Yellow.description>Носії цього гена виробляють пігмент, який забарвлює їхню оболонку в ярко-жовтий колір.</RB_Plasma_Yellow.description>
-
-  <RB_Plasma_White.label>біла плазма</RB_Plasma_White.label>
-  <RB_Plasma_White.description>Носії цього гена виробляють пігмент, який забарвлює їхню оболонку в ярко-білий колір.</RB_Plasma_White.description>
-
+	<!-- EN: plasma color bodies -->
+	<RB_Plasma_Body.label>кольорове плазмове тіло</RB_Plasma_Body.label>
+	<!-- EN: plasma body -->
+	<RB_Plasma_Body.labelShortAdj>плазмове тіло</RB_Plasma_Body.labelShortAdj>
+	<!-- EN: Carriers of this gene have a plasma color body. With multiple plasma pigment, one is randomly selected. -->
+	<RB_Plasma_Body.description>Носії цього гена мають кольорову плазмову оболонку замість шкіри. За наявності кількох плазмових пігментів випадково вибирається один.</RB_Plasma_Body.description>
+	<!-- EN: This gene will add random plasma color upon addition, useful for player custom xenotype. -->
+	<RB_Plasma_Body.customEffectDescriptions.0>Цей ген додасть випадковий колір плазми при додаванні, корисний для створення користувацьких ксенотипів.</RB_Plasma_Body.customEffectDescriptions.0>
+	
+	<!-- EN: dark plasma color -->
+	<RB_Plasma_Dark.label>чорна плазма</RB_Plasma_Dark.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a dark color. -->
+	<RB_Plasma_Dark.description>Носители этого гена вырабатывают пигмент, который придает их оболочку чёрный цвет.</RB_Plasma_Dark.description>
+	
+	<!-- EN: blue plasma color -->
+	<RB_Plasma_Blue.label>синя плазма</RB_Plasma_Blue.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a bright blue color. -->
+	<RB_Plasma_Blue.description>Носители этого гена вырабатывают пигмент, который окрашивает их оболочку в синий цвет.</RB_Plasma_Blue.description>
+	
+	<!-- EN: cyan plasma color -->
+	<RB_Plasma_Cyan.label>блакитна плазма</RB_Plasma_Cyan.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a bright cyan color. -->
+	<RB_Plasma_Cyan.description>Носители этого гена вырабатывают пигмент, который окрашивает их оболочку в ярко-голубой цвет.</RB_Plasma_Cyan.description>
+	
+	<!-- EN: green plasma color -->
+	<RB_Plasma_Green.label>зелена плазма</RB_Plasma_Green.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a bright green color. -->
+	<RB_Plasma_Green.description>Носители этого гена вырабатывают пигмент, который окрашивает их оболочку в зеленый цвет.</RB_Plasma_Green.description>
+	
+	<!-- EN: light green plasma color -->
+	<RB_Plasma_LightGreen.label>світло-зелена плазма</RB_Plasma_LightGreen.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a bright light green color. -->
+	<RB_Plasma_LightGreen.description>Носители этого гена вырабатывают пигмент, который придает их оболочку ярко-зелёный цвет.</RB_Plasma_LightGreen.description>
+	
+	<!-- EN: orange plasma color -->
+	<RB_Plasma_Orange.label>помаранчева плазма</RB_Plasma_Orange.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a bright orange color. -->
+	<RB_Plasma_Orange.description>Носители этого гена вырабатывают пигмент, который окрашивает их оболочку в ярко-оранжевый цвет.</RB_Plasma_Orange.description>
+	
+	<!-- EN: pink plasma color -->
+	<RB_Plasma_Pink.label>рожева плазма</RB_Plasma_Pink.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a bright pink color. -->
+	<RB_Plasma_Pink.description>Носители этого гена вырабатывают пигмент, который окрашивает их оболочку в ярко-розовый цвет.</RB_Plasma_Pink.description>
+	
+	<!-- EN: purple plasma color -->
+	<RB_Plasma_Purple.label>пурпурна плазма</RB_Plasma_Purple.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a bright purple color. -->
+	<RB_Plasma_Purple.description>Носители этого гена вырабатывают пигмент, который окрашивает их оболочку в ярко-фиолетовый цвет.</RB_Plasma_Purple.description>
+	
+	<!-- EN: red plasma color -->
+	<RB_Plasma_Red.label>червона плазма</RB_Plasma_Red.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a bright red color. -->
+	<RB_Plasma_Red.description>Носители этого гена вырабатывают пигмент, который окрашивает их оболочку в ярко-красный цвет.</RB_Plasma_Red.description>
+	
+	<!-- EN: Violet plasma color -->
+	<RB_Plasma_Violet.label>фіолетова плазма</RB_Plasma_Violet.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a bright violet color. -->
+	<RB_Plasma_Violet.description>Носители этого гена вырабатывают пигмент, который окрашивает их оболочку в тёмно-фиолетовый цвет.</RB_Plasma_Violet.description>
+	
+	<!-- EN: white plasma color -->
+	<RB_Plasma_White.label>біла плазма</RB_Plasma_White.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a bright white color. -->
+	<RB_Plasma_White.description>Носители этого гена вырабатывают пигмент, который придает их оболочку ярко-белый цвет.</RB_Plasma_White.description>
+	
+	<!-- EN: yellow plasma color -->
+	<RB_Plasma_Yellow.label>жовта плазма</RB_Plasma_Yellow.label>
+	<!-- EN: Carriers of this gene produce a pigment that turns their body shell a bright yellow color. -->
+	<RB_Plasma_Yellow.description>Носители этого гена вырабатывают пигмент, который придает их оболочку ярко-жёлтый цвет.</RB_Plasma_Yellow.description>
 
 </LanguageData>

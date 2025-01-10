@@ -18,18 +18,7 @@
     <prerequisite>RB_Novaborn</prerequisite>
     <selectionWeight>0</selectionWeight>
     <symbolPack>
-      <prefixSymbols>
-        <li>
-          <symbol>plasma</symbol>
-        </li>
-        <li>
-          <symbol>shell</symbol>
-        </li>
-        <li>
-          <symbol>pigment</symbol>
-        </li>
-      </prefixSymbols>
-      <suffixSymbols>
+      <wholeNameSymbols>
         <li>
           <symbol>plasmic</symbol>
         </li>
@@ -39,11 +28,12 @@
         <li>
           <symbol>pigmentation</symbol>
         </li>
-      </suffixSymbols>
+      </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
       <li Class="RimboundCore.GeneRandomizeExtension">
         <geneDefs>
+          <li>RB_Plasma_Dark</li>
           <li>RB_Plasma_Blue</li>
           <li>RB_Plasma_Cyan</li>
           <li>RB_Plasma_Green</li>
@@ -52,6 +42,7 @@
           <li>RB_Plasma_Pink</li>
           <li>RB_Plasma_Purple</li>
           <li>RB_Plasma_Red</li>
+          <li>RB_Plasma_Violet</li>
           <li>RB_Plasma_Yellow</li>
           <li>RB_Plasma_White</li>
         </geneDefs>
@@ -64,6 +55,14 @@
       </li>
     </modExtensions>
   </GeneDef>
+
+  <GeneDef ParentName="RB_GenePlasmaColorBase">
+    <defName>RB_Plasma_Dark</defName>
+    <label>dark plasma color</label>
+    <description>Carriers of this gene produce a pigment that turns their body shell a dark color.</description>
+    <hairColorOverride>(50, 50, 50)</hairColorOverride>
+    <skinColorOverride>(50, 50, 50)</skinColorOverride>
+  </GeneDef> 
 
   <GeneDef ParentName="RB_GenePlasmaColorBase">
     <defName>RB_Plasma_Blue</defName>
@@ -130,11 +129,19 @@
   </GeneDef>
 
   <GeneDef ParentName="RB_GenePlasmaColorBase">
+    <defName>RB_Plasma_Violet</defName>
+    <label>Violet plasma color</label>
+    <description>Carriers of this gene produce a pigment that turns their body shell a bright violet color.</description>
+    <hairColorOverride>(116, 65, 218)</hairColorOverride>
+    <skinColorOverride>(116, 65, 218)</skinColorOverride>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GenePlasmaColorBase">
     <defName>RB_Plasma_Yellow</defName>
     <label>yellow plasma color</label>
     <description>Carriers of this gene produce a pigment that turns their body shell a bright yellow color.</description>
-    <hairColorOverride>(250, 245, 140)</hairColorOverride>
-    <skinColorOverride>(250, 245, 140)</skinColorOverride>
+    <hairColorOverride>(250, 245, 105)</hairColorOverride>
+    <skinColorOverride>(250, 245, 105)</skinColorOverride>
   </GeneDef>
 
   <GeneDef ParentName="RB_GenePlasmaColorBase">

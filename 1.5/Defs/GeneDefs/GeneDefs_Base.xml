@@ -4,19 +4,74 @@
   <GeneDef Name="RB_GeneBrandsBase" Abstract="True">
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>7</displayOrderInCategory>
+    <randomChosen>true</randomChosen>
     <biostatCpx>2</biostatCpx>
     <biostatMet>-1</biostatMet>
     <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
     <exclusionTags>
-      <li>EyeColor</li>
-      <li>Nose</li>
       <li>RB_Brands</li>
     </exclusionTags>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>branding</symbol>
+        </li>
+        <li>
+          <symbol>metallic</symbol>
+        </li>
+        <li>
+          <symbol>personalities</symbol>
+        </li>
+      </wholeNameSymbols>
+    </symbolPack>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+      </li>
+      <li Class="RimboundCore.RenderProperties_FaceExtension">
+        <offsets>
+          <east>
+            <headTypes>
+              <RB_Novakin_Female_Average_Normal>(0.01, 0, 0)</RB_Novakin_Female_Average_Normal>
+              <RB_Novakin_Female_Average_Pointy>(0.01, 0, 0)</RB_Novakin_Female_Average_Pointy>
+              <RB_Novakin_Female_Average_Wide>(0.01, 0, 0)</RB_Novakin_Female_Average_Wide>
+
+              <RB_Novakin_Female_Narrow_Normal>(-0.052, 0, 0)</RB_Novakin_Female_Narrow_Normal>
+              <RB_Novakin_Female_Narrow_Pointy>(-0.052, 0, 0)</RB_Novakin_Female_Narrow_Pointy>
+              <RB_Novakin_Female_Narrow_Wide>(-0.052, 0, 0)</RB_Novakin_Female_Narrow_Wide>
+
+              <RB_Novakin_Male_Average_Normal>(0.035, 0, 0)</RB_Novakin_Male_Average_Normal>
+              <RB_Novakin_Male_Average_Pointy>(0.035, 0, 0)</RB_Novakin_Male_Average_Pointy>
+              <RB_Novakin_Male_Average_Wide>(0.035, 0, 0)</RB_Novakin_Male_Average_Wide>
+
+              <RB_Novakin_Male_Narrow_Normal>(-0.052, 0, 0)</RB_Novakin_Male_Narrow_Normal>
+              <RB_Novakin_Male_Narrow_Pointy>(-0.052, 0, 0)</RB_Novakin_Male_Narrow_Pointy>
+              <RB_Novakin_Male_Narrow_Wide>(-0.052, 0, 0)</RB_Novakin_Male_Narrow_Wide>
+            </headTypes>
+          </east>
+          <west>
+            <headTypes>
+              <RB_Novakin_Female_Average_Normal>(-0.01, 0, 0)</RB_Novakin_Female_Average_Normal>
+              <RB_Novakin_Female_Average_Pointy>(-0.01, 0, 0)</RB_Novakin_Female_Average_Pointy>
+              <RB_Novakin_Female_Average_Wide>(-0.01, 0, 0)</RB_Novakin_Female_Average_Wide>
+
+              <RB_Novakin_Female_Narrow_Normal>(0.052, 0, 0)</RB_Novakin_Female_Narrow_Normal>
+              <RB_Novakin_Female_Narrow_Pointy>(0.052, 0, 0)</RB_Novakin_Female_Narrow_Pointy>
+              <RB_Novakin_Female_Narrow_Wide>(0.052, 0, 0)</RB_Novakin_Female_Narrow_Wide>
+
+              <RB_Novakin_Male_Average_Normal>(-0.035, 0, 0)</RB_Novakin_Male_Average_Normal>
+              <RB_Novakin_Male_Average_Pointy>(-0.035, 0, 0)</RB_Novakin_Male_Average_Pointy>
+              <RB_Novakin_Male_Average_Wide>(-0.035, 0, 0)</RB_Novakin_Male_Average_Wide>
+
+              <RB_Novakin_Male_Narrow_Normal>(0.052, 0, 0)</RB_Novakin_Male_Narrow_Normal>
+              <RB_Novakin_Male_Narrow_Pointy>(0.052, 0, 0)</RB_Novakin_Male_Narrow_Pointy>
+              <RB_Novakin_Male_Narrow_Wide>(0.052, 0, 0)</RB_Novakin_Male_Narrow_Wide>
+            </headTypes>
+          </west>
+        </offsets>
       </li>
     </modExtensions>
   </GeneDef>
@@ -26,14 +81,29 @@
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaColor</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>0</displayOrderInCategory>
+    <randomChosen>true</randomChosen>
     <randomBrightnessFactor>0</randomBrightnessFactor>
     <prerequisite>RB_Novaborn</prerequisite>
     <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
     <exclusionTags>
       <li>SkinColor</li>
       <li>SkinColorOverride</li>
       <li>RB_PlasmaColor</li>
     </exclusionTags>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>attention</symbol>
+        </li>
+        <li>
+          <symbol>forget</symbol>
+        </li>
+        <li>
+          <symbol>disorder</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>

@@ -9,7 +9,7 @@
     <customEffectDescriptions>
       <li>This gene will add random facial brand upon addition, useful for player custom xenotype.</li>
     </customEffectDescriptions>
-    <iconPath>UI/Icons/Genes/RB_Gene_Facial_Brands</iconPath>
+    <iconPath>UI/Icons/Genes/RB_Gene_FacialBrands</iconPath>
     <geneClass>RimboundCore.GeneRandomize</geneClass>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>7</displayOrderInCategory>
@@ -20,18 +20,7 @@
     <selectionWeight>0</selectionWeight>
     <canGenerateInGeneSet>false</canGenerateInGeneSet>
     <symbolPack>
-      <prefixSymbols>
-        <li>
-          <symbol>brand</symbol>
-        </li>
-        <li>
-          <symbol>metal</symbol>
-        </li>
-        <li>
-          <symbol>personality</symbol>
-        </li>
-      </prefixSymbols>
-      <suffixSymbols>
+      <wholeNameSymbols>
         <li>
           <symbol>branding</symbol>
         </li>
@@ -41,7 +30,7 @@
         <li>
           <symbol>personalities</symbol>
         </li>
-      </suffixSymbols>
+      </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
       <li Class="RimboundCore.GeneRandomizeExtension">
@@ -85,7 +74,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -94,6 +83,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandMarksman</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -135,7 +126,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -144,6 +135,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandStellar</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -185,7 +178,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -194,6 +187,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandFortitude</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -238,7 +233,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -247,6 +242,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandMoustaChE</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -280,7 +277,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -289,6 +286,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandSquare</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -318,7 +317,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -327,6 +326,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandSpade</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -356,7 +357,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -365,6 +366,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandHeart</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -394,7 +397,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -403,6 +406,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandOhm</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -432,7 +437,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -441,6 +446,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandClub</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -470,7 +477,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -479,6 +486,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandCog</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -508,7 +517,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -517,6 +526,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandDiamond</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -547,7 +558,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -556,6 +567,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandCross</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -584,7 +597,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -593,6 +606,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandRimstar</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -633,7 +648,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -642,6 +657,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandDelta</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>
@@ -683,7 +700,7 @@
     <renderNodeProperties>
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
         <parentTagDef>Head</parentTagDef>
         <colorType>Custom</colorType>
         <useRottenColor>true</useRottenColor>
@@ -692,6 +709,8 @@
         <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandNone</texPath>
         <visibleFacing>
           <li>South</li>
+          <li>East</li>
+          <li>West</li>
         </visibleFacing>
         <drawData>
           <defaultData>

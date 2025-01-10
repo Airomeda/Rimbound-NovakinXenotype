@@ -4,16 +4,13 @@
   <HediffDef>
     <defName>RB_Novalike</defName>
     <label>supernova blessing</label>
-    <description>Born from the death star, this person will regenerate their missing body part every 30 days. The body will blow up upon death just like how they were born.</description>
+    <defaultLabelColor>(1.0, 1.0, 0.57)</defaultLabelColor>
+    <description>Born from the death star, this person will regenerate their missing body part every 15-30 days. The body will blow up upon death just like how they were born.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <scenarioCanAdd>false</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="AnimalBehaviours.HediffCompProperties_Exploder">
-        <explosionForce>5</explosionForce>
-        <damageDef>Flame</damageDef>
-      </li>
       <li Class="RimboundCore.HediffCompProperties_Exploder">
         <radius>5</radius>
         <damageDef>Flame</damageDef>
@@ -23,7 +20,7 @@
         <damageAmount>30</damageAmount>
       </li>
       <li Class="RimboundCore.HediffCompProperties_BodyRegeneration">
-        <rateInTicks>1800000~1800000</rateInTicks>
+        <rateInTicks>900000~1800000</rateInTicks>
         <healAmount>1</healAmount>
       </li>
     </comps>

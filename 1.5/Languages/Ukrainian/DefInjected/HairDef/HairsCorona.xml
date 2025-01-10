@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Corona Educator -->
+	<RB_Corona_Educator.label>Сяючий педагог</RB_Corona_Educator.label>
+	<!-- EN: Corona Noble -->
+	<RB_Corona_Noble.label>Сяюче благородний</RB_Corona_Noble.label>
+	<!-- EN: Corona Outlaw -->
+	<RB_Corona_Outlaw.label>Сяючий вигнанець</RB_Corona_Outlaw.label>
+	<!-- EN: Corona Fixer -->
+	<RB_Corona_Fixer.label>Сяючий фіксаж</RB_Corona_Fixer.label>
+	<!-- EN: Corona Fiery -->
+	<RB_Corona_Fiery.label>Сяюче полум'я</RB_Corona_Fiery.label>
+	<!-- EN: Corona Stellar -->
+	<RB_Corona_Stellar.label>Сяюча зоря</RB_Corona_Stellar.label>
+	<!-- EN: Corona Flametail -->
+	<RB_Corona_Flametail.label>Сяючий хвостик</RB_Corona_Flametail.label>
+	<!-- EN: Corona Warden -->
+	<RB_Corona_Warden.label>Сяючий доглядач</RB_Corona_Warden.label>
+	<!-- EN: Corona Keeper -->
+	<RB_Corona_Keeper.label>Сяючий вартовик</RB_Corona_Keeper.label>
+	<!-- EN: Corona Eccentric -->
+	<RB_Corona_Eccentric.label>Сяюча ексцентричність</RB_Corona_Eccentric.label>
+	<!-- EN: Corona Spiky -->
+	<RB_Corona_Spiky.label>Сяючі шипи</RB_Corona_Spiky.label>
+	<!-- EN: Corona Comet -->
+	<RB_Corona_Comet.label>Сяюча комета</RB_Corona_Comet.label>
+
+</LanguageData>

@@ -1,23 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RB_Novaborn.label>рождённый сверхновой</RB_Novaborn.label>
-  <RB_Novaborn.description>Носители этого гена имеют газообразное тело, которое появилось на свет в результате гибели звезды. Они невосприимчивы к большинству факторов окружающей среды и здоровья, таких как болезни человека и хронические заболевания.\nПри смерти они взрываются, прямо как и были когда-то рождены.</RB_Novaborn.description>
-
-  <RB_Fusion_Metabolism.label>термоядерный метаболизм</RB_Fusion_Metabolism.label>
-  <RB_Fusion_Metabolism.description>У носителей этого гена в организме происходят особые реакции слияния, которые облегчают и оптимизируют обмен веществ. Это улучшает общее генетическое и метаболическое качество.</RB_Fusion_Metabolism.description>
-
-  <RB_Radiant_Aura.label>сияющая аура</RB_Radiant_Aura.label>
-  <RB_Radiant_Aura.description>Носители этого гена излучают ауру света вокруг своего тела.</RB_Radiant_Aura.description>
-
-  <RB_Voice_Novakin.label>магнитный голос</RB_Voice_Novakin.label>
-  <RB_Voice_Novakin.description>Носители общаются с помощью магнитных волн, которые имитируют человеческий голос.</RB_Voice_Novakin.description>
-
-  <RB_Plasma_Innards.label>Плазменный организм</RB_Plasma_Innards.label>
-  <RB_Plasma_Innards.description>Носители этого гена обладают плазмообразными, восстанавливающимися органами. Они невосприимчивы к большинству факторов здоровья, таких как болезни человека и хронические заболевания.</RB_Plasma_Innards.description>
-
-  <RB_Plasma_Shell.label>Плазменная оболочка</RB_Plasma_Shell.label>
-  <RB_Plasma_Shell.description>Носители этого гена имеют внешнюю плазменную оболочку, которая покрывает все их тело. Они очень устойчивы к экстремальным температурам и невосприимчивы к большинству условий окружающей среды.</RB_Plasma_Shell.description>
-
+	<!-- EN: novaborn -->
+	<RB_Novaborn.label>рождённый сверхновой</RB_Novaborn.label>
+	<!-- EN: Carriers of this gene have gas-like body that was born as a result of the death of a star.\nUpon death, they will explode just like how they were born. -->
+	<RB_Novaborn.description>Носители этого гена имеют газообразное тело, которое появилось на свет в результате гибели звезды.\nИх существование будет окончено так же, как было начато - ярким и красочным взрывом!.</RB_Novaborn.description>
+	<!-- EN: Core gene required by most Novakin related genes. -->
+	<RB_Novaborn.customEffectDescriptions.0>Основной ген, необходимый для большинства генов, связанных с Новакинами.</RB_Novaborn.customEffectDescriptions.0>
+	<!-- EN: Blessed by the star, turning their appearance into a gas-like body. -->
+	<RB_Novaborn.customEffectDescriptions.1>Благословение звезды, дающее газообразный внешний вид.</RB_Novaborn.customEffectDescriptions.1>
+	<!-- EN: Offspring has a chance to inherit their parent xenotype. -->
+	<RB_Novaborn.customEffectDescriptions.2>Потомство может унаследовать ксенотип родителя.</RB_Novaborn.customEffectDescriptions.2>
+	<!-- EN: Explode upon death. -->
+	<RB_Novaborn.customEffectDescriptions.3>Взрываются после смерти.</RB_Novaborn.customEffectDescriptions.3>
+	
+	<!-- EN: plasma shell -->
+	<RB_Plasma_Shell.label>Плазменная оболочка</RB_Plasma_Shell.label>
+	<!-- EN: Carriers of this gene have outer plasma shells that cover their entire body. They are very resistant to extreme temperatures and immune to most environmental conditions. -->
+    <RB_Plasma_Shell.description>Носители этого гена имеют внешнюю плазменную оболочку, которая покрывает все их тело и выполняет функцию кожи. Они очень устойчивы к экстремальным температурам и невосприимчивы к большинству условий окружающей среды.</RB_Plasma_Shell.description>
+	<!-- EN: Tox gas and flame immunity. -->
+	<RB_Plasma_Shell.customEffectDescriptions.0>Неуязвимость к огню и токсинам.</RB_Plasma_Shell.customEffectDescriptions.0>
+	<!-- EN: Extreme environment immunity. -->
+	<RB_Plasma_Shell.customEffectDescriptions.1>Иммунитет к экстремальным условиям окружающей среды.</RB_Plasma_Shell.customEffectDescriptions.1>
+	<!-- EN: Very high temperature resistance. -->
+	<RB_Plasma_Shell.customEffectDescriptions.2>Очень высокая термостойкость.</RB_Plasma_Shell.customEffectDescriptions.2>
+	<!-- EN: Immune to all human disease and chronic condition. -->
+	<RB_Plasma_Shell.customEffectDescriptions.3>Иммунитет ко всем человеческим болезням и хроническим заболеваниям.</RB_Plasma_Shell.customEffectDescriptions.3>
+	<!-- EN: Butcher yields Neutroamine as leather. -->
+	<RB_Plasma_Shell.customEffectDescriptions.4>При разделке даёт Нейтроамин вместо кожи.</RB_Plasma_Shell.customEffectDescriptions.4>
+	<!-- EN: Can survive radiation exposure in outer space. -->
+	<RB_Plasma_Shell.customEffectDescriptions.5>Может выдержать воздействие радиации в открытом космосе.</RB_Plasma_Shell.customEffectDescriptions.5>
+	
+	<!-- EN: plasma innards -->
+	<RB_Plasma_Innards.label>Плазменный организм</RB_Plasma_Innards.label>
+	<!-- EN: Carriers of this gene have plasma-like inner organs that can regenerate themselves. They are immune to most health conditions like human disease and chronic conditions. -->
+    <RB_Plasma_Innards.description>Носители этого гена обладают плазмообразными органами. Они невосприимчивы к большинству факторов здоровья, таких как болезни человека и хронические заболевания, а потерянные части тела и шрамы со временем восстаналиваются.</RB_Plasma_Innards.description>
+	<!-- EN: Immune to most human disease and chronic condition. -->
+    <RB_Plasma_Innards.customEffectDescriptions.0>Невосприимчивы к большинству человеческих и хронических болезней.</RB_Plasma_Innards.customEffectDescriptions.0>
+	<!-- EN: Regenerate missing and heal damaged body part every 15-30 days. -->
+    <RB_Plasma_Innards.customEffectDescriptions.1>Восстанавливают недостающую или повреждённую часть тела каждые 15-30 дней.</RB_Plasma_Innards.customEffectDescriptions.1>
+	<!-- EN: Bleeds chemfuel instead of blood. -->
+    <RB_Plasma_Innards.customEffectDescriptions.2>Кровотечение оставляет на земле лужи химтоплива вместо крови.</RB_Plasma_Innards.customEffectDescriptions.2>
+	<!-- EN: Butcher yields Chemfuel as meat. -->
+    <RB_Plasma_Innards.customEffectDescriptions.3>При разделке даёт химтопливо вместо мяса.</RB_Plasma_Innards.customEffectDescriptions.3>
+	<!-- EN: Can survive direct vacuum exposure without EVA gear. -->
+	<RB_Plasma_Innards.customEffectDescriptions.4>Может выдерживать прямое воздействие вакуума без АКС-костюма.</RB_Plasma_Innards.customEffectDescriptions.4>
+	
+	<!-- EN: fusion metabolism -->
+	<RB_Fusion_Metabolism.label>термоядерный метаболизм</RB_Fusion_Metabolism.label>
+	<!-- EN: fusion-metabolic -->
+	<RB_Fusion_Metabolism.labelShortAdj>термоядерный метаболизм</RB_Fusion_Metabolism.labelShortAdj>
+	<!-- EN: Carriers of this gene have special fusion reactions in their body that facilitate and optimize metabolism. This improves overall genetic and metabolic quality. -->
+    <RB_Fusion_Metabolism.description>У носителей этого гена в организме происходят особые реакции слияния, которые облегчают и оптимизируют обмен веществ. Это улучшает общую генетическую и метаболическую эффективность.</RB_Fusion_Metabolism.description>
+	<!-- EN: Do not mind eating anything. -->
+    <RB_Fusion_Metabolism.customEffectDescriptions.0>Не против есть что угодно.</RB_Fusion_Metabolism.customEffectDescriptions.0>
+	
+	<!-- EN: corona hair -->
+	<RB_Corona_Hair.label>Сияющие волосы</RB_Corona_Hair.label>
+	<!-- EN: Carriers of this gene have sun corona-like hair. -->
+	<RB_Corona_Hair.description>Носители этого гена обладают волосами, напоминающими солнечную корону.</RB_Corona_Hair.description>
+	
+	<!-- EN: radiant aura -->
+	<RB_Radiant_Aura.label>сияющая аура</RB_Radiant_Aura.label>
+	<!-- EN: Carriers of this gene emanate an aura of light around their body. -->
+	<RB_Radiant_Aura.description>Носители этого гена излучают ауру света вокруг своего тела.</RB_Radiant_Aura.description>
+	<!-- EN: Emanates aura around carriers body, does not glow surrounding environment. -->
+	<RB_Radiant_Aura.customEffectDescriptions.0>Излучает ауру вокруг тела носителя, не освещает окружающую среду.</RB_Radiant_Aura.customEffectDescriptions.0>
+	
+	<!-- EN: magnetic voice -->
+	<RB_Voice_Novakin.label>магнитный голос</RB_Voice_Novakin.label>
+	<!-- EN: Carriers vibrate voice via magnetic wave that mimics human-like voice. -->
+	<RB_Voice_Novakin.description>Носители общаются с помощью магнитных волн, которые имитируют человеческий голос.</RB_Voice_Novakin.description>
 
 </LanguageData>

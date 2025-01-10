@@ -8,7 +8,7 @@
     <customEffectDescriptions>
       <li>Core gene required by most Novakin related genes.</li>
       <li>Blessed by the star, turning their appearance into a gas-like body.</li>
-      <li>Can't reproduce or sterile.</li>
+      <li>Offspring has a chance to inherit their parent xenotype.</li>
       <li>Explode upon death.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_Novaborn</iconPath>
@@ -16,10 +16,6 @@
     <displayOrderInCategory>1</displayOrderInCategory>
     <neverGrayHair>true</neverGrayHair>
     <skinIsHairColor>false</skinIsHairColor>
-    <statFactors>
-      <Fertility>0</Fertility>
-    </statFactors>
-    <sterilize>true</sterilize>
     <tattoosVisible>false</tattoosVisible>
     <renderNodeProperties>
       <li>
@@ -47,30 +43,20 @@
       <li>RB_Novakin_Male_Narrow_Pointy</li>
       <li>RB_Novakin_Male_Narrow_Wide</li>
     </forcedHeadTypes>
-    <beardTagFilter>
-      <whitelist>true</whitelist>
-      <tags>
-        <li>NoBeard</li>
-        <li>BeardShort</li>
-        <li>MoustacheOnly</li>
-      </tags>
-    </beardTagFilter>
     <biostatCpx>3</biostatCpx>
     <biostatMet>0</biostatMet>
     <biostatArc>1</biostatArc>
     <exclusionTags>
-      <li>Fertility</li>
       <li>Bodies</li>
       <li>Body</li>
       <li>Heads</li>
       <li>Head</li>
       <li>Jaw</li>
-      <li>BeardStyle</li>
     </exclusionTags>
     <selectionWeight>0</selectionWeight>
     <canGenerateInGeneSet>false</canGenerateInGeneSet>
     <symbolPack>
-      <prefixSymbols>
+      <wholeNameSymbols>
         <li>
           <symbol>gas</symbol>
         </li>
@@ -80,7 +66,7 @@
         <li>
           <symbol>nova</symbol>
         </li>
-      </prefixSymbols>
+      </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
@@ -91,6 +77,18 @@
         <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Bodies/Dessicated/RB_Novakin_DessicatedBody</bodyDessicatedGraphicPath>
         <headDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Dessicated/RB_Novakin_DessicatedHead</headDessicatedGraphicPath>
         <skullGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Skull/RB_Novakin_Skull</skullGraphicPath>
+      </li>
+      <li Class="RimboundCore.GeneFertilityByAgeExtension">
+        <fertilityAgeFactor>
+          <points>
+            <li>(14, 0)</li>
+            <li>(17, 1)</li>
+          </points>
+        </fertilityAgeFactor>
+      </li>
+      <li Class="RimboundCore.GeneInheritanceExtension">
+        <passXenotypeGenes>true</passXenotypeGenes>
+        <xenotypeGenesChance>0.5</xenotypeGenesChance>
       </li>
     </modExtensions>
   </GeneDef>
@@ -135,7 +133,7 @@
       <li>UVSensitivity</li>
     </exclusionTags>
     <selectionWeight>0</selectionWeight>
-    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
     <symbolPack>
       <prefixSymbols>
         <li>
@@ -165,8 +163,8 @@
     <label>plasma innards</label>
     <description>Carriers of this gene have plasma-like inner organs that can regenerate themselves. They are immune to most health conditions like human disease and chronic conditions.</description>
     <customEffectDescriptions>
-      <li>Immune to all human disease and chronic condition.</li>
-      <li>Regenerate missing and heal damaged body part every 30 days.</li>
+      <li>Immune to most human disease and chronic condition.</li>
+      <li>Regenerate missing and heal damaged body part every 15-30 days.</li>
       <li>Bleeds chemfuel instead of blood.</li>
       <li>Butcher yields Chemfuel as meat.</li>
       <li MayRequire="kentington.saveourship2">Can survive direct vacuum exposure without EVA gear.</li>
@@ -188,7 +186,6 @@
     </makeImmuneTo>
     <hediffGiversCannotGive>
       <li>Carcinoma</li>
-      <li>HeartAttack</li>
       <li>BadBack</li>
       <li>Frail</li>
       <li>Cataract</li>
@@ -201,13 +198,10 @@
     <biostatCpx>3</biostatCpx>
     <biostatMet>-1</biostatMet>
     <biostatArc>1</biostatArc>
-    <exclusionTags>
-      <li>Immunity</li>
-    </exclusionTags>
     <selectionWeight>0</selectionWeight>
-    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
     <symbolPack>
-      <prefixSymbols>
+      <wholeNameSymbols>
         <li>
           <symbol>plasmic</symbol>
         </li>
@@ -215,9 +209,9 @@
           <symbol>innards</symbol>
         </li>
         <li>
-          <symbol>regenerate</symbol>
+          <symbol>regeneration</symbol>
         </li>
-      </prefixSymbols>
+      </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
@@ -243,13 +237,12 @@
     <iconPath>UI/Icons/Genes/RB_Gene_FusionMetabolism</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>4</displayOrderInCategory>
-    <randomChosen>false</randomChosen>
     <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
     <biostatCpx>6</biostatCpx>
     <biostatMet>5</biostatMet>
     <biostatArc>1</biostatArc>
     <selectionWeight>0</selectionWeight>
-    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
     <symbolPack>
       <prefixSymbols>
         <li>
@@ -264,18 +257,20 @@
         <li>
           <symbol>feed</symbol>
         </li>
-        <li>
-          <symbol>fusion</symbol>
-        </li>
       </prefixSymbols>
       <suffixSymbols>
         <li>
           <symbol>vore</symbol>
         </li>
+      </suffixSymbols>
+      <wholeNameSymbols>
+        <li>
+          <symbol>fusion</symbol>
+        </li>
         <li>
           <symbol>metabolism</symbol>
         </li>
-      </suffixSymbols>
+      </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
@@ -286,7 +281,61 @@
     </modExtensions>
   </GeneDef>
 
-  <GeneDef ParentName="GeneHeadboneBase">
+  <GeneDef>
+    <defName>RB_Corona_Hair</defName>
+    <label>corona hair</label>
+    <description>Carriers of this gene have sun corona-like hair.</description>
+    <iconPath>UI/Icons/Genes/RB_Gene_CoronaHair</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>8</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <exclusionTags>
+      <li>HairStyle</li>
+      <li>BeardStyle</li>
+      <li>RB_HairStyle</li>
+    </exclusionTags>
+    <beardTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>NoBeard</li>
+      </tags>
+    </beardTagFilter>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>RB_CoronaHair</li>
+      </tags>
+    </hairTagFilter>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <randomChosen>true</randomChosen>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>corona</symbol>
+        </li>
+        <li>
+          <symbol>halo</symbol>
+        </li>
+        <li>
+          <symbol>sunburst</symbol>
+        </li>
+        <li>
+          <symbol>starburst</symbol>
+        </li>
+      </wholeNameSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef>
     <defName>RB_Radiant_Aura</defName>
     <label>radiant aura</label>
     <description>Carriers of this gene emanate an aura of light around their body.</description>
@@ -300,7 +349,14 @@
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
         <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-        <texPath>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_Novakin_Aura</texPath>
+        <bodyTypeGraphicPaths>
+          <Male>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinMale_Aura</Male>
+          <Female>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinFemale_Aura</Female>
+          <Hulk>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinHulk_Aura</Hulk>
+          <Fat>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinFat_Aura</Fat>
+          <Thin>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinThin_Aura</Thin>
+          <Child>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinThin_Aura</Child>
+        </bodyTypeGraphicPaths>
         <drawSize>1.15</drawSize>
         <parentTagDef>Body</parentTagDef>
         <shaderTypeDef>MoteGlow</shaderTypeDef>
@@ -312,40 +368,38 @@
             <layer>71</layer>
           </defaultData>
           <bodyTypeScales>
-            <Male>1</Male>
-            <Female>1</Female>
-            <Hulk>1.25</Hulk>
-            <Fat>1.25</Fat>
-            <Thin>0.95</Thin>
+            <Male>1.02</Male>
+            <Female>1.02</Female>
+            <Hulk>1.13</Hulk>
+            <Fat>1</Fat>
+            <Thin>0.88</Thin>
           </bodyTypeScales>
         </drawData>
       </li>
     </renderNodeProperties>
-    <randomChosen>false</randomChosen>
+    <randomChosen>true</randomChosen>
     <biostatCpx>1</biostatCpx>
     <prerequisite>RB_Novaborn</prerequisite>
     <selectionWeight>0</selectionWeight>
     <canGenerateInGeneSet>false</canGenerateInGeneSet>
     <exclusionTags>
-      <li>RB_RadiantAura</li>
+      <li>RB_Aura</li>
     </exclusionTags>
     <symbolPack>
-      <prefixSymbols>
-        <li>
-          <symbol>radiant</symbol>
-        </li>
-        <li>
-          <symbol>celestial</symbol>
-        </li>
-      </prefixSymbols>
-      <suffixSymbols>
+      <wholeNameSymbols>
         <li>
           <symbol>aura</symbol>
         </li>
         <li>
           <symbol>light</symbol>
         </li>
-      </suffixSymbols>
+        <li>
+          <symbol>radiant</symbol>
+        </li>
+        <li>
+          <symbol>celestial</symbol>
+        </li>
+      </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
       <li Class="VanillaGenesExpanded.GeneExtension">
@@ -356,26 +410,21 @@
     </modExtensions>
   </GeneDef>
 
-  <GeneDef Name="RB_GeneVoiceBase" Abstract="True">
-    <biostatCpx>0</biostatCpx>
-    <displayCategory>RB_Novakin_Category</displayCategory>
-    <randomChosen>false</randomChosen>
-    <exclusionTags>
-      <li>Voice</li>
-      <li>RB_Voice</li>
-    </exclusionTags>
-  </GeneDef>
-
-  <GeneDef ParentName="RB_GeneVoiceBase">
+  <GeneDef>
     <defName>RB_Voice_Novakin</defName>
     <label>magnetic voice</label>
     <description>Carriers vibrate voice via magnetic wave that mimics human-like voice.</description>
     <iconPath>UI/Icons/Genes/RB_Gene_VoiceNovakin</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>6</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
     <soundCall>RB_Pawn_Novakin_Call</soundCall>
     <soundDeath>RB_Pawn_Novakin_Death</soundDeath>
     <soundWounded>RB_Pawn_Novakin_Wounded</soundWounded>
     <prerequisite>RB_Novaborn</prerequisite>
+    <exclusionTags>
+      <li>Voice</li>
+    </exclusionTags>
     <selectionWeight>0</selectionWeight>
     <canGenerateInGeneSet>false</canGenerateInGeneSet>
     <symbolPack>
@@ -390,17 +439,15 @@
           <symbol>electromagnetic</symbol>
         </li>
       </wholeNameSymbols>
-      <prefixSymbols>
+      <suffixSymbols>
+        <li>
+          <symbol>wave</symbol>
+        </li>
         <li>
           <symbol>vibrate</symbol>
         </li>
         <li>
           <symbol>voice</symbol>
-        </li>
-      </prefixSymbols>
-      <suffixSymbols>
-        <li>
-          <symbol>wave</symbol>
         </li>
       </suffixSymbols>
     </symbolPack>

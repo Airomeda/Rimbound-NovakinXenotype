@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RB_Dead_Eye.label>Погляд Мисливця</RB_Dead_Eye.label>
-  <RB_Dead_Eye.description>Підвищує точність стрільби користувача, триває 7 годин.</RB_Dead_Eye.description>
-
-  <RB_Trigger_Finger.label>Шалений Курок</RB_Trigger_Finger.label>
-  <RB_Trigger_Finger.description>Зменшує час перезарядки та прицілювання користувача, триває 7 годин.</RB_Trigger_Finger.description>
-
-  <RB_Magnetic_Shield.label>Магнітна Завіса</RB_Magnetic_Shield.label>
-  <RB_Magnetic_Shield.description>Приглушує біль та зменшує отримувану користувачем шкоду на 25%, триває 7 годин.</RB_Magnetic_Shield.description>
-
-  <RB_IsIt_CECompatible.label>Бойова Кмітливість</RB_IsIt_CECompatible.label>
-  <RB_IsIt_CECompatible.description>Надає користувачеві швидкість, спритність, точність і силу в ближньому бою, триває 7 годин.</RB_IsIt_CECompatible.description>
-
+	<!-- EN: dead eye -->
+	<RB_Dead_Eye.label>Погляд Мисливця</RB_Dead_Eye.label>
+	<!-- EN: Grant accuracy buffs on the caster's shooting, last about 7 hours before the ability wears off. -->
+	<RB_Dead_Eye.description>Підвищує влучність стрільби користувача. Діє протягом 7 годин.</RB_Dead_Eye.description>
+	
+	<!-- EN: trigger finger -->
+	<RB_Trigger_Finger.label>Шалений Курок</RB_Trigger_Finger.label>
+	<!-- EN: Halved aiming cooldown on the caster's shooting, last about 7 hours before the ability wears off. -->
+	<RB_Trigger_Finger.description>Зменшує час перезарядки та прицілювання користувача. Діє протягом 7 годин.</RB_Trigger_Finger.description>
+	
+	<!-- EN: magnetic shield -->
+	<RB_Magnetic_Shield.label>Магнітна Завіса</RB_Magnetic_Shield.label>
+	<!-- EN: Increases damage resistance on the caster's body, last about 7 hours before the ability wears off. -->
+	<RB_Magnetic_Shield.description>Пригнічує біль та знижує отримувану шкоду на 25%. Діє протягом 7 годин.</RB_Magnetic_Shield.description>
+	
+	<!-- EN: is it CE compatible -->
+	<RB_IsIt_CECompatible.label>Бойова Кмітливість</RB_IsIt_CECompatible.label>
+	<!-- EN: Increases melee combat compatibility on the caster's body, last about 7 hours before the ability wears off. -->
+	<RB_IsIt_CECompatible.description>Надає користувачеві швидкість, спритність, точність і силу в ближньому бою. Діє протягом 7 годин.</RB_IsIt_CECompatible.description>
 
 </LanguageData>
