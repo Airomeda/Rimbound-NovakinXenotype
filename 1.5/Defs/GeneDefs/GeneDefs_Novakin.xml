@@ -303,6 +303,7 @@
     <hairTagFilter>
       <whitelist>true</whitelist>
       <tags>
+        <li>Bald</li>
         <li>RB_CoronaHair</li>
       </tags>
     </hairTagFilter>
