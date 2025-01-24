@@ -9,4 +9,11 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/GeneDef[defName="RB_Plasma_Innards"]/statFactors</xpath>
+    <value>
+      <SmokeSensitivity>0</SmokeSensitivity>
+    </value>
+  </Operation>
+
 </Patch>

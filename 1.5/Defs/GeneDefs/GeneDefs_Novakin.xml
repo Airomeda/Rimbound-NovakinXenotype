@@ -172,6 +172,7 @@
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaInnards</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>3</displayOrderInCategory>
+    <statFactors />
     <statOffsets />
     <makeImmuneTo>
       <li>Flu</li>
