@@ -12,9 +12,16 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThoughtDef[defName="AteRawFood" or defName="RotStink" or defName="RotStinkLingering"]/nullifyingGenes</xpath>
+    <xpath>Defs/ThoughtDef[defName="AteRawFood"]/nullifyingGenes</xpath>
     <value>
       <li>RB_Fusion_Metabolism</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName="RotStink" or defName="RotStinkLingering"]/nullifyingGenes</xpath>
+    <value>
+      <li>RB_Plasma_Innards</li>
     </value>
   </Operation>
 
