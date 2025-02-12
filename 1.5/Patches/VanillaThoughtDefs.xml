@@ -2,9 +2,9 @@
 <Patch>
 
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThoughtDef[defName="AteRawFood" or defName="RotStink" or defName="RotStinkLingering"]/nullifyingGenes</xpath>
+    <xpath>Defs/ThoughtDef[defName="AteRawFood"]/nullifyingGenes</xpath>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThoughtDef[defName="AteRawFood" or defName="RotStink" or defName="RotStinkLingering"]</xpath>
+      <xpath>Defs/ThoughtDef[defName="AteRawFood"]</xpath>
       <value>
         <nullifyingGenes />
       </value>
@@ -16,6 +16,16 @@
     <value>
       <li>RB_Fusion_Metabolism</li>
     </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThoughtDef[defName="RotStink" or defName="RotStinkLingering"]/nullifyingGenes</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThoughtDef[defName="RotStink" or defName="RotStinkLingering"]</xpath>
+      <value>
+        <nullifyingGenes />
+      </value>
+    </nomatch>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
