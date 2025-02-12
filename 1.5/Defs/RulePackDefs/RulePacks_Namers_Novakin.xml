@@ -6,12 +6,12 @@
     <rulePack>
       <rulesStrings Inherit="false">
         <li>r_name->[firstName] [lastName]</li>
-        <li>firstName->[name_Novakin]</li>
-        <li>lastName->[name_Celestial]</li>
+        <li>firstName->[firstName_Novakin]</li>
+        <li>lastName->[lastName_Novakin]</li>
       </rulesStrings>
       <rulesFiles>
-        <li>name_Novakin->Names/Names_Novakin</li>
-        <li>name_Celestial->Names/Celestial</li>
+        <li>firstName_Novakin->Names/FirstNames_Novakin</li>
+        <li>lastName_Novakin->Names/LastNames_Novakin</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>

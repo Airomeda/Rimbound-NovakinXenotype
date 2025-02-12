@@ -35,6 +35,12 @@
     <initialWillRange>0~0</initialWillRange>
     <initialResistanceRange>0~2</initialResistanceRange>
     <humanPregnancyChance>0</humanPregnancyChance>
+    <useFactionXenotypes>false</useFactionXenotypes>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <RB_Novakin>1.0</RB_Novakin>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 
 </Defs>
