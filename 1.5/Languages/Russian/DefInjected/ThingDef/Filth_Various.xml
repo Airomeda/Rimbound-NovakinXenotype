@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: chemfuel blood -->
-	<RB_Filth_ChemfuelBlood.label>химтопливная кровь</RB_Filth_ChemfuelBlood.label>
-	<!-- EN: A blood puddle of flammable chemfuel. -->
-	<RB_Filth_ChemfuelBlood.description>Кровавая лужа горючего химтоплива.</RB_Filth_ChemfuelBlood.description>
-	<!-- EN: chemfuel smear -->
-	<RB_Filth_ChemfuelSmear.label>химтопливный след</RB_Filth_ChemfuelSmear.label>
+	<!-- EN: plasma blood -->
+	<RB_Filth_PlasmaBlood.label>химтопливная кровь</RB_Filth_PlasmaBlood.label>
+	<!-- EN: A blood puddle of flammable plasma. -->
+	<RB_Filth_PlasmaBlood.description>Кровавая лужа горючего химтоплива.</RB_Filth_PlasmaBlood.description>
+	<!-- EN: Plasma smear -->
+	<RB_Filth_PlasmaSmear.label>химтопливный след</RB_Filth_PlasmaSmear.label>
 
 </LanguageData>

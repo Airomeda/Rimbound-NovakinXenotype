@@ -8,7 +8,7 @@
     <description>Carriers of this gene have short attention and memory. Though they have a high intuition and aptitude for learning they lack patience and attention span to the point of making them terrible students and teachers, and events harder to recall makes it easier for them to forget both good and bad things. They enjoy the present life more than the past.</description>
     <customEffectDescriptions>
       <li>Moodlet or thought duration lowered by 50%.</li>
-      <li>Global skill loss and learning rate increased by 25%.</li>
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">Global skill loss and learning rate increased by 25%.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_VibrantMind</iconPath>
     <displayOrderInCategory>100</displayOrderInCategory>
@@ -46,11 +46,11 @@
       <li Class="RimboundCore.GeneMemoryExtension">
         <thoughtDurationMultiplier>0.5</thoughtDurationMultiplier>
       </li>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
-        <globalSkillLossMultiplier>1.25</globalSkillLossMultiplier>
+        <globalSkillLossMultiplier>1.35</globalSkillLossMultiplier>
       </li>
     </modExtensions>
   </GeneDef>

@@ -100,7 +100,7 @@
     <xpath>Defs/ThingDef[defName="RB_Snugget"]/comps</xpath>
     <value>
       <li Class="CombatExtended.CompProperties_ArmorDurability">
-        <Durability>477</Durability>
+        <Durability>325</Durability>
         <Regenerates>true</Regenerates>
         <RegenInterval>600</RegenInterval>
         <RegenValue>5</RegenValue>

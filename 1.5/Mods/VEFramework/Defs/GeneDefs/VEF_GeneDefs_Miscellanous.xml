@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GeneDef>
+    <defName>RB_Plasma_Blood</defName>
+    <label>plasma blood</label>
+    <description>Carriers of this gene have a plasma-charged metabolism, they will bleed liquified plasma instead of a normal human blood. The plasma blood is flammable.</description>
+    <customEffectDescriptions>
+      <li>Bleeds plasma instead of blood.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/RB_Gene_PlasmaBlood</iconPath>
+    <displayOrderInCategory>110</displayOrderInCategory>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>1</biostatCpx>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <exclusionTags>
+      <li>Blood</li>
+      <li>BloodType</li>
+      <li>RB_BloodType</li>
+      <li MayRequire="sarg.alphagenes">AG_BloodType</li>
+    </exclusionTags>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>plasma</symbol>
+        </li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li>
+          <symbol>plasm</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+        <customBloodThingDef>RB_Filth_PlasmaBlood</customBloodThingDef>
+        <customBloodIcon>UI/Icons/Medical/RB_PlasmaBlood_Bleeding</customBloodIcon>
+        <customBloodEffect>RB_Damage_HitGas</customBloodEffect>
+        <customBloodSmearThingDef>RB_Filth_PlasmaSmear</customBloodSmearThingDef>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+</Defs>

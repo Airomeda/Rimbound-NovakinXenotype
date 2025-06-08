@@ -26,7 +26,7 @@
       </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
@@ -92,20 +92,17 @@
       <li>RB_PlasmaColor</li>
     </exclusionTags>
     <symbolPack>
-      <prefixSymbols>
+      <wholeNameSymbols>
         <li>
-          <symbol>attention</symbol>
+          <symbol>plasmic</symbol>
         </li>
         <li>
-          <symbol>forget</symbol>
+          <symbol>pigmentation</symbol>
         </li>
-        <li>
-          <symbol>disorder</symbol>
-        </li>
-      </prefixSymbols>
+      </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>

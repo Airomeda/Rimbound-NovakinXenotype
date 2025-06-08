@@ -19,6 +19,57 @@
   </Operation>
 
   <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThoughtDef[defName="AteInsectMeatDirect"]/nullifyingGenes</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThoughtDef[defName="AteInsectMeatDirect"]</xpath>
+      <value>
+        <nullifyingGenes />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName="AteInsectMeatDirect"]/nullifyingGenes</xpath>
+    <value>
+      <li>RB_Fusion_Metabolism</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThoughtDef[defName="AteInsectMeatAsIngredient"]/nullifyingGenes</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThoughtDef[defName="AteInsectMeatAsIngredient"]</xpath>
+      <value>
+        <nullifyingGenes />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName="AteInsectMeatAsIngredient"]/nullifyingGenes</xpath>
+    <value>
+      <li>RB_Fusion_Metabolism</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThoughtDef[defName="AteNutrientPasteMeal"]/nullifyingGenes</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThoughtDef[defName="AteNutrientPasteMeal"]</xpath>
+      <value>
+        <nullifyingGenes />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName="AteNutrientPasteMeal"]/nullifyingGenes</xpath>
+    <value>
+      <li>RB_Fusion_Metabolism</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThoughtDef[defName="RotStink" or defName="RotStinkLingering"]/nullifyingGenes</xpath>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThoughtDef[defName="RotStink" or defName="RotStinkLingering"]</xpath>

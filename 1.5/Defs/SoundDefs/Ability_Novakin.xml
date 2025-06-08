@@ -15,8 +15,8 @@
             <clipPath>Ability/OST_Novakin_IWasTheSun</clipPath>
           </li>
         </grains>
-        <volumeRange>61</volumeRange>
-        <distRange>0~27</distRange>
+        <volumeRange>70</volumeRange>
+        <distRange>0~40</distRange>
       </li>
     </subSounds>
   </SoundDef>

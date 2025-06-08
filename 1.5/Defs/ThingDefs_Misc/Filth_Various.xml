@@ -2,9 +2,9 @@
 <Defs>
 
   <ThingDef ParentName="BaseFilth">
-    <defName>RB_Filth_ChemfuelBlood</defName>
-    <label>chemfuel blood</label>
-    <description>A blood puddle of flammable chemfuel.</description>
+    <defName>RB_Filth_PlasmaBlood</defName>
+    <label>plasma blood</label>
+    <description>A blood puddle of flammable plasma.</description>
     <thingClass>LiquidFuel</thingClass>
     <useHitPoints>true</useHitPoints>
     <tickerType>Normal</tickerType>
@@ -29,8 +29,8 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseFilth">
-    <defName>RB_Filth_ChemfuelSmear</defName>
-    <label>chemfuel smear</label>
+    <defName>RB_Filth_PlasmaSmear</defName>
+    <label>plasma smear</label>
     <thingClass>LiquidFuel</thingClass>
     <useHitPoints>true</useHitPoints>
     <tickerType>Normal</tickerType>

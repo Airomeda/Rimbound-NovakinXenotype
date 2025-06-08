@@ -173,6 +173,41 @@
     <requiredGene>RB_Corona_Hair</requiredGene>
   </HairDef>
 
+  <!-- Community -->
+  <HairDef>
+    <defName>RB_Corona_Ion</defName>
+    <label>Corona Ion</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Female/RB_CoronaHair_Ion</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairShort</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
+  <HairDef>
+    <defName>RB_Corona_Supernova</defName>
+    <label>Corona Supernova</label>
+    <category>RB_Corona_HairStyle</category>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Novakin/Hairs/Female/RB_CoronaHair_Supernova</texPath>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>RB_CoronaHair</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>HairLong</li>
+    </styleTags>
+    <requiredGene>RB_Corona_Hair</requiredGene>
+  </HairDef>
+
   <!-- === Any === -->
   <HairDef>
     <defName>RB_Corona_Spiky</defName>

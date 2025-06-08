@@ -39,7 +39,7 @@
     <RB_Plasma_Innards.customEffectDescriptions.0>Невосприимчивы к большинству человеческих и хронических болезней.</RB_Plasma_Innards.customEffectDescriptions.0>
 	<!-- EN: Regenerate missing and heal damaged body part every 15-30 days. -->
     <RB_Plasma_Innards.customEffectDescriptions.1>Восстанавливают недостающую или повреждённую часть тела каждые 15-30 дней.</RB_Plasma_Innards.customEffectDescriptions.1>
-	<!-- EN: Bleeds chemfuel instead of blood. -->
+	<!-- EN: Bleeds Plasma instead of blood. -->
     <RB_Plasma_Innards.customEffectDescriptions.2>Кровотечение оставляет на земле лужи химтоплива вместо крови.</RB_Plasma_Innards.customEffectDescriptions.2>
 	<!-- EN: Butcher yields Chemfuel as meat. -->
     <RB_Plasma_Innards.customEffectDescriptions.3>При разделке даёт химтопливо вместо мяса.</RB_Plasma_Innards.customEffectDescriptions.3>
