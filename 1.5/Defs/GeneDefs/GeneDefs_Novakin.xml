@@ -74,7 +74,6 @@
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
-        <!-- <hediffToWholeBody>RB_Novalike</hediffToWholeBody> -->
         <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Bodies/Dessicated/RB_Novakin_DessicatedBody</bodyDessicatedGraphicPath>
         <headDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Dessicated/RB_Novakin_DessicatedHead</headDessicatedGraphicPath>
         <skullGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Skull/RB_Novakin_Skull</skullGraphicPath>
