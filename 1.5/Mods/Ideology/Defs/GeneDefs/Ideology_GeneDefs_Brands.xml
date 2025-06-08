@@ -38,7 +38,7 @@
     </statFactors>
     <prerequisite>RB_Novaborn</prerequisite>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Social</noSkillLoss>
         <skillRecreation>Social</skillRecreation>
       </li>

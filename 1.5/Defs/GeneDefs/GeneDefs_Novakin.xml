@@ -5,11 +5,12 @@
     <defName>RB_Novaborn</defName>
     <label>novaborn</label>
     <description>Carriers of this gene have gas-like body that was born as a result of the death of a star.\nUpon death, they will explode just like how they were born.</description>
+    <geneClass>RimboundCore.GeneExtended</geneClass>
     <customEffectDescriptions>
       <li>Core gene required by most Novakin related genes.</li>
       <li>Blessed by the star, turning their appearance into a gas-like body.</li>
       <li>Offspring has a chance to inherit their parent xenotype.</li>
-      <li>Explode upon death.</li>
+      <li>Explode upon death, has a chance for Solar Flare to occur.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_Novaborn</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
@@ -69,11 +70,11 @@
       </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
-        <hediffToWholeBody>RB_Novalike</hediffToWholeBody>
+        <!-- <hediffToWholeBody>RB_Novalike</hediffToWholeBody> -->
         <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Bodies/Dessicated/RB_Novakin_DessicatedBody</bodyDessicatedGraphicPath>
         <headDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Dessicated/RB_Novakin_DessicatedHead</headDessicatedGraphicPath>
         <skullGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Skull/RB_Novakin_Skull</skullGraphicPath>
@@ -90,6 +91,19 @@
         <passXenotypeGenes>true</passXenotypeGenes>
         <xenotypeGenesChance>0.5</xenotypeGenesChance>
       </li>
+      <li Class="RimboundCore.GeneExtension_Exploder">
+        <radius>5</radius>
+        <damageDef>Flame</damageDef>
+        <soundCreated>Explosion_Flame</soundCreated>
+        <thingCreated>Filth_Fuel</thingCreated>
+        <thingCreatedChance>0.2</thingCreatedChance>
+        <damageAmount>30</damageAmount>
+      </li>
+      <li Class="RimboundCore.GeneExtension_Incident">
+        <incidentDef>SolarFlare</incidentDef>
+        <triggerChance>0.5</triggerChance>
+        <allowOverlap>true</allowOverlap>
+      </li>
     </modExtensions>
   </GeneDef>
 
@@ -102,7 +116,7 @@
       <li>Extreme environment immunity.</li>
       <li>Very high temperature resistance.</li>
       <li>Immune to all human disease and chronic condition.</li>
-      <li>Butcher yields Neutroamine as leather.</li>
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">Butcher yields Plasmaskin as leather, processable to Neutroamine.</li>
       <li MayRequire="kentington.saveourship2">Can survive radiation exposure in outer space.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaShell</iconPath>
@@ -148,12 +162,15 @@
       </prefixSymbols>
     </symbolPack>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
         <customWoundsFromFleshtype>RB_Gaslike</customWoundsFromFleshtype>
-        <customLeatherThingDef>Neutroamine</customLeatherThingDef>
+        <customLeatherThingDef>RB_Leather_Plasmaskin</customLeatherThingDef>
+        <defsTreatedAsHumanLeather>
+          <li>RB_Leather_Plasmaskin</li>
+        </defsTreatedAsHumanLeather>
       </li>
     </modExtensions>
   </GeneDef>
@@ -162,11 +179,11 @@
     <defName>RB_Plasma_Innards</defName>
     <label>plasma innards</label>
     <description>Carriers of this gene have plasma-like inner organs that can regenerate themselves. They are immune to most health conditions like human disease and chronic conditions.</description>
+    <geneClass>RimboundCore.GeneBodyRegeneration</geneClass>
     <customEffectDescriptions>
       <li>Immune to most human disease and chronic condition.</li>
       <li>Regenerate missing and heal damaged body part every 15-30 days.</li>
-      <li>Bleeds chemfuel instead of blood.</li>
-      <li>Butcher yields Chemfuel as meat.</li>
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">Butcher yields Chemfuel as meat.</li>
       <li MayRequire="kentington.saveourship2">Can survive direct vacuum exposure without EVA gear.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaInnards</iconPath>
@@ -196,7 +213,7 @@
       <li>HeartArteryBlockage</li>
       <li>HearingLoss</li>
     </hediffGiversCannotGive>
-    <biostatCpx>3</biostatCpx>
+    <biostatCpx>4</biostatCpx>
     <biostatMet>-1</biostatMet>
     <biostatArc>1</biostatArc>
     <selectionWeight>0</selectionWeight>
@@ -215,14 +232,15 @@
       </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
-        <customBloodThingDef>RB_Filth_ChemfuelBlood</customBloodThingDef>
-        <customBloodIcon>UI/Icons/Medical/RB_ChemfuelBlood_Bleeding</customBloodIcon>
-        <customBloodEffect>RB_Damage_HitGas</customBloodEffect>
         <customMeatThingDef>Chemfuel</customMeatThingDef>
+      </li>
+      <li Class="RimboundCore.GeneBodyRegenerationExtension">
+        <rateInTicks>900000~1800000</rateInTicks>
+        <healAmount>1</healAmount>
       </li>
     </modExtensions>
   </GeneDef>
@@ -274,7 +292,7 @@
       </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
@@ -329,7 +347,7 @@
       </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
@@ -362,7 +380,7 @@
         <drawSize>1.15</drawSize>
         <parentTagDef>Body</parentTagDef>
         <shaderTypeDef>MoteGlow</shaderTypeDef>
-        <color>(255, 255, 255, 20)</color>
+        <color>(255, 255, 255, 35)</color>
         <colorType>Skin</colorType>
         <rotDrawMode>Fresh</rotDrawMode>
         <drawData>
@@ -404,7 +422,7 @@
       </wholeNameSymbols>
     </symbolPack>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
@@ -454,7 +472,7 @@
       </suffixSymbols>
     </symbolPack>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>

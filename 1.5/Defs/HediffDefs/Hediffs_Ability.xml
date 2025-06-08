@@ -17,6 +17,7 @@
       <li>
         <statFactors>
           <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+          <AimingDelayFactor>0.75</AimingDelayFactor>
         </statFactors>
       </li>
     </stages>
@@ -26,7 +27,7 @@
     <defName>RB_Trigger_Finger</defName>
     <label>trigger finger</label>
     <defaultLabelColor>(0.47, 0.76, 0.44)</defaultLabelColor>
-    <description>Decreases the user's firing cooldown.\n\n"It's high noon. Let's dance, Partner!."</description>
+    <description>Decreases the user's firing speed.\n\n"It's high noon. Let's dance, Partner!."</description>
     <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_Disappears">
@@ -37,7 +38,8 @@
     <stages>
       <li>
         <statFactors>
-          <VEF_RangeAttackSpeedFactor>5</VEF_RangeAttackSpeedFactor>
+          <RangedCooldownFactor>0.5</RangedCooldownFactor>
+          <VEF_RangeAttackSpeedFactor MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">5</VEF_RangeAttackSpeedFactor>
         </statFactors>
       </li>
     </stages>
@@ -60,6 +62,7 @@
         <painFactor>0.5</painFactor>
         <statFactors>
           <IncomingDamageFactor>0.75</IncomingDamageFactor>
+          <StaggerDurationFactor>0.5</StaggerDurationFactor>
         </statFactors>
       </li>
     </stages>
@@ -81,8 +84,9 @@
       <li>
         <statFactors>
           <MoveSpeed>2</MoveSpeed>
-          <VEF_MeleeAttackSpeedFactor>2</VEF_MeleeAttackSpeedFactor>
-          <VEF_MeleeAttackDamageFactor>2</VEF_MeleeAttackDamageFactor>
+          <MeleeCooldownFactor>0.75</MeleeCooldownFactor>
+          <VEF_MeleeAttackSpeedFactor MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">1.5</VEF_MeleeAttackSpeedFactor>
+          <VEF_MeleeAttackDamageFactor MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">2</VEF_MeleeAttackDamageFactor>
         </statFactors>
       </li>
     </stages>

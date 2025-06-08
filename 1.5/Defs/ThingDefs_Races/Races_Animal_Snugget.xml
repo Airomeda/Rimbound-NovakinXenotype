@@ -28,8 +28,8 @@
       <executionRange>4</executionRange>
       <wildness>0</wildness>
       <trainability>Advanced</trainability>
-      <bloodDef>RB_Filth_ChemfuelBlood</bloodDef>
-      <bloodSmearDef>RB_Filth_ChemfuelSmear</bloodSmearDef>
+      <bloodDef>RB_Filth_PlasmaBlood</bloodDef>
+      <bloodSmearDef>RB_Filth_PlasmaSmear</bloodSmearDef>
       <petness>1</petness>
       <renderTree>RB_SnuggetAura</renderTree>
       <nuzzleMtbHours>12</nuzzleMtbHours>
@@ -148,20 +148,19 @@
       </li>
     </tools>
     <comps>
-      <li Class="AnimalBehaviours.CompProperties_NoFilth" />
-      <li Class="AnimalBehaviours.CompProperties_DiseaseEventImmunity" />
-      <li Class="AnimalBehaviours.CompProperties_DiseaseImmunity">
+      <li Class="AnimalBehaviours.CompProperties_NoFilth" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" />
+      <li Class="AnimalBehaviours.CompProperties_DiseaseEventImmunity" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" />
+      <li Class="AnimalBehaviours.CompProperties_DiseaseImmunity" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <hediffsToRemove>
           <li>Animal_Plague</li>
           <li>Animal_Flu</li>
         </hediffsToRemove>
         <tickInterval>2000</tickInterval>
       </li>
-      <li Class="AnimalBehaviours.CompProperties_Regeneration">
-        <rateInTicks>15000</rateInTicks>
-        <healAmount>1.0</healAmount>
+      <li Class="AnimalBehaviours.CompProperties_Regeneration" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <rateInTicks>2500</rateInTicks>
       </li>
-      <li Class="AnimalBehaviours.CompProperties_AsexualReproduction">
+      <li Class="AnimalBehaviours.CompProperties_AsexualReproduction" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <reproductionIntervalDays>30</reproductionIntervalDays>
         <customString>Cloning in: </customString>
         <asexualCloningMessage>VEF_AsexualCloning</asexualCloningMessage>

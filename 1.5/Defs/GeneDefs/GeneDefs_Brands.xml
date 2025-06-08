@@ -54,7 +54,7 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">RB_Brand_Priest</li>
         </geneDefs>
       </li>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
         <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
         <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
@@ -108,7 +108,7 @@
     <prerequisite>RB_Novaborn</prerequisite>
     <showGizmoWhenDrafted>true</showGizmoWhenDrafted>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Shooting</noSkillLoss>
         <skillRecreation>Shooting</skillRecreation>
       </li>
@@ -160,7 +160,7 @@
     <prerequisite>RB_Novaborn</prerequisite>
     <showGizmoWhenDrafted>true</showGizmoWhenDrafted>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Shooting</noSkillLoss>
         <skillRecreation>Shooting</skillRecreation>
       </li>
@@ -215,7 +215,7 @@
     <prerequisite>RB_Novaborn</prerequisite>
     <showGizmoWhenDrafted>true</showGizmoWhenDrafted>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Melee</noSkillLoss>
         <skillRecreation>Melee</skillRecreation>
       </li>
@@ -262,7 +262,7 @@
     <prerequisite>RB_Novaborn</prerequisite>
     <showGizmoWhenDrafted>true</showGizmoWhenDrafted>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Melee</noSkillLoss>
         <skillRecreation>Melee</skillRecreation>
       </li>
@@ -302,7 +302,7 @@
     </passionMod>
     <prerequisite>RB_Novaborn</prerequisite>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Construction</noSkillLoss>
         <skillRecreation>Construction</skillRecreation>
       </li>
@@ -342,7 +342,7 @@
     </passionMod>
     <prerequisite>RB_Novaborn</prerequisite>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Mining</noSkillLoss>
         <skillRecreation>Mining</skillRecreation>
       </li>
@@ -382,7 +382,7 @@
     </passionMod>
     <prerequisite>RB_Novaborn</prerequisite>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Cooking</noSkillLoss>
         <skillRecreation>Cooking</skillRecreation>
       </li>
@@ -422,7 +422,7 @@
     </passionMod>
     <prerequisite>RB_Novaborn</prerequisite>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Animals</noSkillLoss>
         <skillRecreation>Animals</skillRecreation>
       </li>
@@ -462,7 +462,7 @@
     </passionMod>
     <prerequisite>RB_Novaborn</prerequisite>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Plants</noSkillLoss>
         <skillRecreation>Plants</skillRecreation>
       </li>
@@ -502,7 +502,7 @@
     </passionMod>
     <prerequisite>RB_Novaborn</prerequisite>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Plants</noSkillLoss>
         <skillRecreation>Plants</skillRecreation>
       </li>
@@ -542,7 +542,7 @@
     </passionMod>
     <prerequisite>RB_Novaborn</prerequisite>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Plants</noSkillLoss>
         <skillRecreation>Plants</skillRecreation>
       </li>
@@ -582,7 +582,7 @@
       <modType>AddOneLevel</modType>
     </passionMod>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Medicine</noSkillLoss>
         <skillRecreation>Medicine</skillRecreation>
       </li>
@@ -630,7 +630,7 @@
     </passionMod>
     <prerequisite>RB_Novaborn</prerequisite>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Social</noSkillLoss>
         <skillRecreation>Social</skillRecreation>
       </li>
@@ -682,7 +682,7 @@
     </statOffsets>
     <prerequisite>RB_Novaborn</prerequisite>
     <modExtensions>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <noSkillLoss>Intellectual</noSkillLoss>
         <skillRecreation>Intellectual</skillRecreation>
       </li>
@@ -731,7 +731,7 @@
       <li Class="RimboundCore.GeneMemoryExtension">
         <thoughtDurationMultiplier>1.5</thoughtDurationMultiplier>
       </li>
-      <li Class="VanillaGenesExpanded.GeneExtension">
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <globalSkillLossMultiplier>1.25</globalSkillLossMultiplier>
       </li>
     </modExtensions>
