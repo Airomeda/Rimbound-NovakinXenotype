@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: dead eye -->
+  <RB_Dead_Eye.label>Взгляд Охотника</RB_Dead_Eye.label>
+	<!-- EN: Enhances the user's shooting accuracy.\n\n"You can go anywhere, but you won't be away from my gaze." -->
+  <RB_Dead_Eye.description>Улучшает точность стрельбы пользователя.\n\n"Можешь бежать куда угодно, но тебе не скрыться от моего взора."</RB_Dead_Eye.description>
+	
+	<!-- EN: trigger finger -->
+  <RB_Trigger_Finger.label>Шальной Курок</RB_Trigger_Finger.label>
+	<!-- EN: Decreases the user's firing cooldown.\n\n"It's high noon. Let's dance, Partner!." -->
+  <RB_Trigger_Finger.description>Уменьшает время перезарядки и прицеливания пользователя.\n\n"На часах полдень. Потанцуем!"</RB_Trigger_Finger.description>
+	
+	<!-- EN: magnetic shield -->
+  <RB_Magnetic_Shield.label>Магнитная Завеса</RB_Magnetic_Shield.label>
+	<!-- EN: Enhances the user's magnetic field to increase damage resistance.\n\n"My magnetic wave took that personally." -->
+  <RB_Magnetic_Shield.description>Укрепляет магнитное поле вокруг пользователя, подавляя боль и уменьшая получаемый урон.\n\n"Моё магнитное поле восприняло это на свой счёт."</RB_Magnetic_Shield.description>
+	
+	<!-- EN: is it CE compatible -->
+  <RB_IsIt_CECompatible.label>Боевая закалка</RB_IsIt_CECompatible.label>
+	<!-- EN: Enhances the user's melee compatibility to stronger hits, decreases cooldown, and increases movement speed.\n\n"I alone am the compatible one." -->
+  <RB_IsIt_CECompatible.description>Повышает навыки пользователя в ближнем бою, обеспечивая более сильные и быстрые удары и увеличивая скорость передвижения.\n\n"Один лишь я совместим."</RB_IsIt_CECompatible.description>
+
+</LanguageData>

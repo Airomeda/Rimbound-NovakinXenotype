@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GeneDef>
+    <defName>RB_Novaborn</defName>
+    <label>novaborn</label>
+    <description>Carriers of this gene have gas-like body that was born as a result of the death of a star.\nUpon death, they will explode just like how they were born.</description>
+    <geneClass>RimboundCore.GeneExtended</geneClass>
+    <customEffectDescriptions>
+      <li>Core gene required by most Novakin related genes.</li>
+      <li>Blessed by the star, turning their appearance into a gas-like body.</li>
+      <li>Offspring has a chance to inherit their parent xenotype.</li>
+      <li>Explode upon death, has a chance for Solar Flare to occur.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/RB_Gene_Novaborn</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>1</displayOrderInCategory>
+    <neverGrayHair>true</neverGrayHair>
+    <skinIsHairColor>false</skinIsHairColor>
+    <tattoosVisible>false</tattoosVisible>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_Fur</nodeClass>
+        <workerClass>PawnRenderNodeWorker_Fur</workerClass>
+        <baseLayer>5</baseLayer>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <colorType>Skin</colorType>
+        <parentTagDef>Body</parentTagDef>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+      </li>
+    </renderNodeProperties>
+    <fur>RB_NovakinBody</fur>
+    <forcedHeadTypes>
+      <li>RB_Novakin_Female_Average_Normal</li>
+      <li>RB_Novakin_Female_Average_Pointy</li>
+      <li>RB_Novakin_Female_Average_Wide</li>
+      <li>RB_Novakin_Female_Narrow_Normal</li>
+      <li>RB_Novakin_Female_Narrow_Pointy</li>
+      <li>RB_Novakin_Female_Narrow_Wide</li>
+      <li>RB_Novakin_Male_Average_Normal</li>
+      <li>RB_Novakin_Male_Average_Pointy</li>
+      <li>RB_Novakin_Male_Average_Wide</li>
+      <li>RB_Novakin_Male_Narrow_Normal</li>
+      <li>RB_Novakin_Male_Narrow_Pointy</li>
+      <li>RB_Novakin_Male_Narrow_Wide</li>
+    </forcedHeadTypes>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <biostatArc>1</biostatArc>
+    <exclusionTags>
+      <li>Bodies</li>
+      <li>Body</li>
+      <li>Heads</li>
+      <li>Head</li>
+      <li>Jaw</li>
+    </exclusionTags>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>gas</symbol>
+        </li>
+        <li>
+          <symbol>sun</symbol>
+        </li>
+        <li>
+          <symbol>nova</symbol>
+        </li>
+      </wholeNameSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Bodies/Dessicated/RB_Novakin_DessicatedBody</bodyDessicatedGraphicPath>
+        <headDessicatedGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Dessicated/RB_Novakin_DessicatedHead</headDessicatedGraphicPath>
+        <skullGraphicPath>Things/Pawn/Humanlike/Novakin/Heads/Skull/RB_Novakin_Skull</skullGraphicPath>
+      </li>
+      <li Class="RimboundCore.GeneFertilityByAgeExtension">
+        <fertilityAgeFactor>
+          <points>
+            <li>(14, 0)</li>
+            <li>(17, 1)</li>
+          </points>
+        </fertilityAgeFactor>
+      </li>
+      <li Class="RimboundCore.GeneInheritanceExtension">
+        <passXenotypeGenes>true</passXenotypeGenes>
+        <xenotypeGenesChance>0.5</xenotypeGenesChance>
+      </li>
+      <li Class="RimboundCore.GeneExtension_Exploder">
+        <radius>5</radius>
+        <damageDef>Flame</damageDef>
+        <soundCreated>Explosion_Flame</soundCreated>
+        <thingCreated>Filth_Fuel</thingCreated>
+        <thingCreatedChance>0.2</thingCreatedChance>
+        <damageAmount>30</damageAmount>
+      </li>
+      <li Class="RimboundCore.GeneExtension_Incident">
+        <incidentDef>SolarFlare</incidentDef>
+        <triggerChance>0.5</triggerChance>
+        <allowOverlap>true</allowOverlap>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>RB_Plasma_Shell</defName>
+    <label>plasma shell</label>
+    <description>Carriers of this gene have outer plasma shells that cover their entire body. They are very resistant to extreme temperatures and immune to most environmental conditions.</description>
+    <customEffectDescriptions>
+      <li>Tox gas and flame immunity.</li>
+      <li>Extreme environment immunity.</li>
+      <li>Very high temperature resistance.</li>
+      <li>Immune to all human disease and chronic condition.</li>
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">Butcher yields Plasmaskin as leather, processable to Neutroamine.</li>
+      <li MayRequire="kentington.saveourship2">Can survive radiation exposure in outer space.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/RB_Gene_PlasmaShell</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>2</displayOrderInCategory>
+    <immuneToToxGasExposure>true</immuneToToxGasExposure>
+    <statOffsets>
+      <ComfyTemperatureMax>125</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-125</ComfyTemperatureMin>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+      <ToxicResistance>1</ToxicResistance>
+    </statOffsets>
+    <statFactors>
+      <Flammability>0</Flammability>
+    </statFactors>
+    <damageFactors>
+      <Flame>0.25</Flame>
+    </damageFactors>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <biostatArc>1</biostatArc>
+    <exclusionTags>
+      <li>ToxicEnvironmentResistance</li>
+      <li>ToxResistance</li>
+      <li>FireDamage</li>
+      <li>MinTemperature</li>
+      <li>MaxTemperature</li>
+      <li>UVSensitivity</li>
+    </exclusionTags>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>plasmic</symbol>
+        </li>
+        <li>
+          <symbol>shell</symbol>
+        </li>
+        <li>
+          <symbol>heat</symbol>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+        <customWoundsFromFleshtype>RB_Gaslike</customWoundsFromFleshtype>
+        <customLeatherThingDef>RB_Leather_Plasmaskin</customLeatherThingDef>
+        <defsTreatedAsHumanLeather>
+          <li>RB_Leather_Plasmaskin</li>
+        </defsTreatedAsHumanLeather>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>RB_Plasma_Innards</defName>
+    <label>plasma innards</label>
+    <description>Carriers of this gene have plasma-like inner organs that can regenerate themselves. They are immune to most health conditions like human disease and chronic conditions.</description>
+    <geneClass>RimboundCore.GeneBodyRegeneration</geneClass>
+    <customEffectDescriptions>
+      <li>Immune to most human disease and chronic condition.</li>
+      <li>Regenerate missing and heal damaged body part every 15-30 days.</li>
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">Butcher yields Chemfuel as meat.</li>
+      <li MayRequire="kentington.saveourship2">Can survive direct vacuum exposure without EVA gear.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/RB_Gene_PlasmaInnards</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>3</displayOrderInCategory>
+    <statFactors />
+    <statOffsets />
+    <makeImmuneTo>
+      <li>Flu</li>
+      <li>Malaria</li>
+      <li>SleepingSickness</li>
+      <li>Plague</li>
+      <li>WoundInfection</li>
+      <li>LungRot</li>
+      <li>GutWorms</li>
+      <li>MuscleParasites</li>
+      <li>OrganDecay</li>
+    </makeImmuneTo>
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+      <li>HearingLoss</li>
+    </hediffGiversCannotGive>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <biostatArc>1</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>plasmic</symbol>
+        </li>
+        <li>
+          <symbol>innards</symbol>
+        </li>
+        <li>
+          <symbol>regeneration</symbol>
+        </li>
+      </wholeNameSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+        <customMeatThingDef>Chemfuel</customMeatThingDef>
+      </li>
+      <li Class="RimboundCore.GeneBodyRegenerationExtension">
+        <rateInTicks>900000~1800000</rateInTicks>
+        <healAmount>1</healAmount>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>RB_Fusion_Metabolism</defName>
+    <label>fusion metabolism</label>
+    <labelShortAdj>fusion-metabolic</labelShortAdj>
+    <description>Carriers of this gene have special fusion reactions in their body that facilitate and optimize metabolism. This improves overall genetic and metabolic quality.</description>
+    <customEffectDescriptions>
+      <li>Do not mind eating anything.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/RB_Gene_FusionMetabolism</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>4</displayOrderInCategory>
+    <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>5</biostatMet>
+    <biostatArc>1</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>dura</symbol>
+        </li>
+        <li>
+          <symbol>eat</symbol>
+        </li>
+        <li>
+          <symbol>raw</symbol>
+        </li>
+        <li>
+          <symbol>feed</symbol>
+        </li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li>
+          <symbol>vore</symbol>
+        </li>
+      </suffixSymbols>
+      <wholeNameSymbols>
+        <li>
+          <symbol>fusion</symbol>
+        </li>
+        <li>
+          <symbol>metabolism</symbol>
+        </li>
+      </wholeNameSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>RB_Corona_Hair</defName>
+    <label>corona hair</label>
+    <description>Carriers of this gene have sun corona-like hair.</description>
+    <iconPath>UI/Icons/Genes/RB_Gene_CoronaHair</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>8</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <exclusionTags>
+      <li>HairStyle</li>
+      <li>BeardStyle</li>
+      <li>RB_HairStyle</li>
+    </exclusionTags>
+    <beardTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>NoBeard</li>
+      </tags>
+    </beardTagFilter>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>Bald</li>
+        <li>RB_CoronaHair</li>
+      </tags>
+    </hairTagFilter>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <randomChosen>true</randomChosen>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>corona</symbol>
+        </li>
+        <li>
+          <symbol>halo</symbol>
+        </li>
+        <li>
+          <symbol>sunburst</symbol>
+        </li>
+        <li>
+          <symbol>starburst</symbol>
+        </li>
+      </wholeNameSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>RB_Radiant_Aura</defName>
+    <label>radiant aura</label>
+    <description>Carriers of this gene emanate an aura of light around their body.</description>
+    <customEffectDescriptions>
+      <li>Emanates aura around carriers body, does not glow surrounding environment.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/RB_Gene_RadiantAura</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>5</displayOrderInCategory>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <bodyTypeGraphicPaths>
+          <Male>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinMale_Aura</Male>
+          <Female>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinFemale_Aura</Female>
+          <Hulk>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinHulk_Aura</Hulk>
+          <Fat>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinFat_Aura</Fat>
+          <Thin>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinThin_Aura</Thin>
+          <Child>Things/Pawn/Humanlike/Novakin/BodyAttachments/RB_NovakinThin_Aura</Child>
+        </bodyTypeGraphicPaths>
+        <drawSize>1.15</drawSize>
+        <parentTagDef>Body</parentTagDef>
+        <shaderTypeDef>MoteGlow</shaderTypeDef>
+        <color>(255, 255, 255, 35)</color>
+        <colorType>Skin</colorType>
+        <rotDrawMode>Fresh</rotDrawMode>
+        <drawData>
+          <defaultData>
+            <layer>71</layer>
+          </defaultData>
+          <bodyTypeScales>
+            <Male>1.02</Male>
+            <Female>1.02</Female>
+            <Hulk>1.13</Hulk>
+            <Fat>1</Fat>
+            <Thin>0.88</Thin>
+          </bodyTypeScales>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <randomChosen>true</randomChosen>
+    <biostatCpx>1</biostatCpx>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <exclusionTags>
+      <li>RB_Aura</li>
+    </exclusionTags>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>aura</symbol>
+        </li>
+        <li>
+          <symbol>light</symbol>
+        </li>
+        <li>
+          <symbol>radiant</symbol>
+        </li>
+        <li>
+          <symbol>celestial</symbol>
+        </li>
+      </wholeNameSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>RB_Voice_Novakin</defName>
+    <label>magnetic voice</label>
+    <description>Carriers vibrate voice via magnetic wave that mimics human-like voice.</description>
+    <iconPath>UI/Icons/Genes/RB_Gene_VoiceNovakin</iconPath>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>6</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
+    <soundCall>RB_Pawn_Novakin_Call</soundCall>
+    <soundDeath>RB_Pawn_Novakin_Death</soundDeath>
+    <soundWounded>RB_Pawn_Novakin_Wounded</soundWounded>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <exclusionTags>
+      <li>Voice</li>
+    </exclusionTags>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>vibration</symbol>
+        </li>
+        <li>
+          <symbol>voicewave</symbol>
+        </li>
+        <li>
+          <symbol>electromagnetic</symbol>
+        </li>
+      </wholeNameSymbols>
+      <suffixSymbols>
+        <li>
+          <symbol>wave</symbol>
+        </li>
+        <li>
+          <symbol>vibrate</symbol>
+        </li>
+        <li>
+          <symbol>voice</symbol>
+        </li>
+      </suffixSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VanillaGenesExpanded.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+</Defs>

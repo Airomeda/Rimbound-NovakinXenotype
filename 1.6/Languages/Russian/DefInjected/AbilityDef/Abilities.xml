@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: dead eye -->
+	<RB_Dead_Eye.label>Взгляд Охотника</RB_Dead_Eye.label>
+	<!-- EN: Grant accuracy buffs on the caster's shooting, last about 7 hours before the ability wears off. -->
+	<RB_Dead_Eye.description>Повышает точность стрельбы пользователя, длится 7 часов.</RB_Dead_Eye.description>
+	
+	<!-- EN: trigger finger -->
+	<RB_Trigger_Finger.label>Шальной Курок</RB_Trigger_Finger.label>
+	<!-- EN: Halved aiming cooldown on the caster's shooting, last about 7 hours before the ability wears off. -->
+	<RB_Trigger_Finger.description>Уменьшает время перезарядки и прицеливания пользователя, длится 7 час.</RB_Trigger_Finger.description>
+	
+	<!-- EN: magnetic shield -->
+	<RB_Magnetic_Shield.label>Магнитная Завеса</RB_Magnetic_Shield.label>
+	<!-- EN: Increases damage resistance on the caster's body, last about 7 hours before the ability wears off. -->
+	<RB_Magnetic_Shield.description>Подавляет боль и уменьшает получаемый пользователем урон на 25%, длится 7 часов.</RB_Magnetic_Shield.description>
+	
+	<!-- EN: is it CE compatible -->
+	<RB_IsIt_CECompatible.label>Боевая закалка</RB_IsIt_CECompatible.label>
+	<!-- EN: Increases melee combat compatibility on the caster's body, last about 7 hours before the ability wears off. -->
+	<RB_IsIt_CECompatible.description>Придаёт пользователю скорость, ловкость, силу и точность в ближнем бою, длится 7 часов.</RB_IsIt_CECompatible.description>
+
+</LanguageData>

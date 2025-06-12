@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef>
+    <defName>RB_Make_Neutroamine</defName>
+    <label>extract neutroamine from plasmaskin</label>
+    <description>Make neutroamine by synthesizing plasmaskin.</description>
+    <jobString>Extracting neutroamine from plasmaskin.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Recipe_Drug</soundWorking>
+    <workAmount>600</workAmount>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RB_Leather_Plasmaskin</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RB_Leather_Plasmaskin</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Neutroamine>1</Neutroamine>
+    </products>
+    <skillRequirements>
+      <Intellectual>7</Intellectual>
+    </skillRequirements>
+    <workSkill>Intellectual</workSkill>
+    <displayPriority>0</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>RB_Make_NeutroamineBulk</defName>
+    <label>extract neutroamine from plasmaskin x5</label>
+    <description>Make a batch of neutroamine by synthesizing plasmaskin.</description>
+    <jobString>Extracting neutroamine from plasmaskin.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>BurnDrug</effectWorking>
+    <soundWorking>Recipe_Drug</soundWorking>
+    <workAmount>2500</workAmount>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RB_Leather_Plasmaskin</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RB_Leather_Plasmaskin</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Neutroamine>5</Neutroamine>
+    </products>
+    <skillRequirements>
+      <Intellectual>7</Intellectual>
+    </skillRequirements>
+    <workSkill>Intellectual</workSkill>
+    <displayPriority>0</displayPriority>
+  </RecipeDef>
+
+</Defs>

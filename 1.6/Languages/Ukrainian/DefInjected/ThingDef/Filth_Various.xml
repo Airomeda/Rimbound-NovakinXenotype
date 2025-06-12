@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: plasma blood -->
+	<RB_Filth_PlasmaBlood.label>хімпаливна кров</RB_Filth_PlasmaBlood.label>
+	<!-- EN: A blood puddle of flammable plasma. -->
+	<RB_Filth_PlasmaBlood.description>Калюжа крові з легкозаймистого хімпалива.</RB_Filth_PlasmaBlood.description>
+	<!-- EN: Plasma smear -->
+	<RB_Filth_PlasmaSmear.label>хімпаливний слід</RB_Filth_PlasmaSmear.label>
+
+</LanguageData>
