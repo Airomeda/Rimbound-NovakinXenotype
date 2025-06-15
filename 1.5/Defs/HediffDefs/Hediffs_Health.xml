@@ -5,7 +5,7 @@
     <defName>RB_Novalike</defName>
     <label>supernova blessing</label>
     <defaultLabelColor>(1.0, 1.0, 0.57)</defaultLabelColor>
-    <description>Born from the death star, this person will regenerate their missing body part every 15-30 days. The body will blow up upon death just like how they were born.</description>
+    <description>Blessed by the death star, this person will regenerate their missing body part every 15-30 days. The body will blow up upon death just like how they were born.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <scenarioCanAdd>false</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>

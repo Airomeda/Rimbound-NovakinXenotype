@@ -12,6 +12,9 @@
         <hediffDef>RB_Dead_Eye</hediffDef>
       </li>
     </comps>
+    <verbProperties>
+      <soundCast>RB_Novakin_IWasTheSun</soundCast>
+    </verbProperties>
   </AbilityDef>
 
   <AbilityDef ParentName="RB_CastOnSelf_Abilities">
@@ -25,6 +28,9 @@
         <hediffDef>RB_Trigger_Finger</hediffDef>
       </li>
     </comps>
+    <verbProperties>
+      <soundCast>RB_Novakin_IWasTheSun</soundCast>
+    </verbProperties>
   </AbilityDef>
 
   <AbilityDef ParentName="RB_CastOnSelf_Abilities">
@@ -38,6 +44,9 @@
         <hediffDef>RB_Magnetic_Shield</hediffDef>
       </li>
     </comps>
+    <verbProperties>
+      <soundCast>RB_Novakin_IWasTheSun</soundCast>
+    </verbProperties>
   </AbilityDef>
 
   <AbilityDef ParentName="RB_CastOnSelf_Abilities">
@@ -51,6 +60,9 @@
         <hediffDef>RB_IsIt_CECompatible</hediffDef>
       </li>
     </comps>
+    <verbProperties>
+      <soundCast>RB_Novakin_IWasTheSun</soundCast>
+    </verbProperties>
   </AbilityDef>
 
 </Defs>

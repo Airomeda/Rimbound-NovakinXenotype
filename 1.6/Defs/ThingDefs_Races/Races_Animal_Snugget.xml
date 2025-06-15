@@ -14,6 +14,7 @@
       <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
       <Flammability>0</Flammability>
       <LeatherAmount>0</LeatherAmount>
+      <Wildness>0</Wildness>
     </statBases>
     <race>
       <deathAction>
@@ -26,7 +27,6 @@
       <baseHungerRate>0.55</baseHungerRate>
       <foodType>OmnivoreRoughAnimal</foodType>
       <executionRange>4</executionRange>
-      <wildness>0</wildness>
       <trainability>Advanced</trainability>
       <bloodDef>RB_Filth_PlasmaBlood</bloodDef>
       <bloodSmearDef>RB_Filth_PlasmaSmear</bloodSmearDef>

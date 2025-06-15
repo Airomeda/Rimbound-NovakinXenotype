@@ -18,6 +18,9 @@
         <fleckDef>PsycastPsychicEffect</fleckDef>
       </li>
     </comps>
+    <verbProperties>
+      <soundCast>RB_Novakin_IWasTheSun</soundCast>
+    </verbProperties>
   </AbilityDef>
 
 </Defs>
