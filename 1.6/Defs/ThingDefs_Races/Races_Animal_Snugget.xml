@@ -148,19 +148,19 @@
       </li>
     </tools>
     <comps>
-      <li Class="AnimalBehaviours.CompProperties_NoFilth" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" />
-      <li Class="AnimalBehaviours.CompProperties_DiseaseEventImmunity" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" />
-      <li Class="AnimalBehaviours.CompProperties_DiseaseImmunity" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+      <li Class="VEF.AnimalBehaviours.CompProperties_NoFilth" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" />
+      <li Class="VEF.AnimalBehaviours.CompProperties_DiseaseEventImmunity" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" />
+      <li Class="VEF.AnimalBehaviours.CompProperties_DiseaseImmunity" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <hediffsToRemove>
           <li>Animal_Plague</li>
           <li>Animal_Flu</li>
         </hediffsToRemove>
         <tickInterval>2000</tickInterval>
       </li>
-      <li Class="AnimalBehaviours.CompProperties_Regeneration" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+      <li Class="VEF.AnimalBehaviours.CompProperties_Regeneration" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <rateInTicks>2500</rateInTicks>
       </li>
-      <li Class="AnimalBehaviours.CompProperties_AsexualReproduction" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+      <li Class="VEF.AnimalBehaviours.CompProperties_AsexualReproduction" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
         <reproductionIntervalDays>30</reproductionIntervalDays>
         <customString>Cloning in: </customString>
         <asexualCloningMessage>VEF_AsexualCloning</asexualCloningMessage>

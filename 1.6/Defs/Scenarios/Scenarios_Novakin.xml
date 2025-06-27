@@ -80,7 +80,7 @@
         </li>
 
         <!-- Goodwill -->
-        <li Class="VFECore.ScenPart_ForcedFactionGoodwill" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <li Class="VEF.Factions.ScenPart_ForcedFactionGoodwill" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
           <def>VFEC_ForcedFactionGoodwill</def>
           <affectStartingGoodwill>True</affectStartingGoodwill>
           <startingGoodwillRange>-75~-50</startingGoodwillRange>
