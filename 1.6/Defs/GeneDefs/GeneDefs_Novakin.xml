@@ -101,7 +101,7 @@
       <li Class="RimboundCore.GeneExtension_Incident">
         <incidentDef>SolarFlare</incidentDef>
         <triggerChance>0.5</triggerChance>
-        <allowOverlap>true</allowOverlap>
+        <allowOverlap>false</allowOverlap>
       </li>
     </modExtensions>
   </GeneDef>
