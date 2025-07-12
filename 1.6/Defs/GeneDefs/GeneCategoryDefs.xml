@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GeneCategoryDef>
+    <defName>RB_Novakin_Category</defName>
+    <label>novakin</label>
+    <displayPriorityInXenotype>700</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <EffecterDef>
+    <defName>RB_Plasma_Sparks</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
+        <chancePerTick>0.1</chancePerTick>
+        <positionRadius>0.3</positionRadius>
+        <moteDef>RB_Plasma_Spark_Flash</moteDef>
+        <speed>0.18~0.18</speed>
+        <rotation>0</rotation>
+        <angle>0~360</angle>
+      </li>
+    </children>
+  </EffecterDef>
+
+</Defs>

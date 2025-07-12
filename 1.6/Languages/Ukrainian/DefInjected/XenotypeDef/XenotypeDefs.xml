@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: novakin -->
+	<RB_Novakin.label>новакин</RB_Novakin.label>
+	<!-- EN: Easily one of the most enigmatic known races, the Novakin are sapient plasma-shelled "gas-bags" in a humanoid shape, with metallic "brands" where their faces would be. \nA generally carefree and capricious people with notoriously short memories and attention spans, they live in the moment, wandering the stars in search of adventure, with little reflection on the past. So unconcerned are they with what happened before now, they have forgotten their origins, having never bothered to catalog their history. \nThus where they came from and how they were formed may forever be a mystery. -->
+	<RB_Novakin.description>Несомненно, это одна из самых загадочных известных рас, новакины - разумные "газовые сгустки" гуманоидной формы, с металлическими "клеймами" на месте лиц. \nКак правило, беззаботные и капризные существа с заведомо короткой памятью и рассеянным вниманием, они живут настоящим, блуждая по звездам в поисках приключений, почти не задумываясь о прошлом. Они настолько равнодушны к тому, что происходило до сих пор, что забыли о своем происхождении, так и не удосужившись составить каталог своей истории.  \nПоэтому то, откуда они пришли и как сформировались, навсегда останется тайной.</RB_Novakin.description>
+	<!-- EN: Novakin differs in personality depending on their brand symbol, naturally has short memories and attention spans. They are immune to most diseases, chronic and environmental conditions, have very high-temperature resistance, regenerate their missing or heal damaged body parts every 30 days. -->
+	<RB_Novakin.descriptionShort>Личности новакинов различаются в зависимости от их узора, у них от природы короткая память и плохое внимание. Они невосприимчивы к большинству болезней и экологическим условиям, крайне устойчивы к высоким температурам и каждые 30 дней восстанавливают потерянную или повреждённую часть тела.</RB_Novakin.descriptionShort>
+
+</LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <FleshTypeDef>
+    <defName>RB_Gaslike</defName>
+    <corpseCategory>CorpsesAnimal</corpseCategory>
+    <damageEffecter>RB_Damage_HitGas</damageEffecter>
+    <genericWounds>
+      <li>
+        <texture>Things/Pawn/Humanlike/Novakin/Wounds/RB_WoundGasA</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Humanlike/Novakin/Wounds/RB_WoundGasB</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Humanlike/Novakin/Wounds/RB_WoundGasC</texture>
+      </li>
+    </genericWounds>
+  </FleshTypeDef>
+
+</Defs>

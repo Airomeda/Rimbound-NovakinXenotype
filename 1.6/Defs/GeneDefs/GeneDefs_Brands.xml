@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GeneDef>
+    <defName>RB_Facial_Brands</defName>
+    <label>facial brands</label>
+    <labelShortAdj>face brand</labelShortAdj>
+    <description>Carriers of this gene have a metallic brand-like symbol on their face. Depending on the symbol that decides their personality, one excels in a particular skill or condition.</description>
+    <customEffectDescriptions>
+      <li>This gene will add random facial brand upon addition, useful for player custom xenotype.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/RB_Gene_FacialBrands</iconPath>
+    <geneClass>RimboundCore.GeneRandomize</geneClass>
+    <displayCategory>RB_Novakin_Category</displayCategory>
+    <displayOrderInCategory>7</displayOrderInCategory>
+    <randomChosen>true</randomChosen>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <selectionWeight>0</selectionWeight>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li>
+          <symbol>branding</symbol>
+        </li>
+        <li>
+          <symbol>metallic</symbol>
+        </li>
+        <li>
+          <symbol>personalities</symbol>
+        </li>
+      </wholeNameSymbols>
+    </symbolPack>
+    <modExtensions>
+      <li Class="RimboundCore.GeneRandomizeExtension">
+        <geneDefs>
+          <li>RB_Brand_AccuracyShooting</li>
+          <li>RB_Brand_QuickShooting</li>
+          <li>RB_Brand_MeleeSustain</li>
+          <li>RB_Brand_MeleeBerserk</li>
+          <li>RB_Brand_Construction</li>
+          <li>RB_Brand_Mining</li>
+          <li>RB_Brand_Cooking</li>
+          <li>RB_Brand_Animals</li>
+          <li>RB_Brand_Plants</li>
+          <li>RB_Brand_Crafting</li>
+          <li>RB_Brand_Artistic</li>
+          <li>RB_Brand_Medicine</li>
+          <li>RB_Brand_Social</li>
+          <li>RB_Brand_Intellectual</li>
+          <li>RB_Brand_None</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">RB_Brand_Psychic</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">RB_Brand_Priest</li>
+        </geneDefs>
+      </li>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <backgroundPathEndogenes>UI/Icons/Genes/RB_Endogenes</backgroundPathEndogenes>
+        <backgroundPathXenogenes>UI/Icons/Genes/RB_Xenogenes</backgroundPathXenogenes>
+        <backgroundPathArchite>UI/Icons/Genes/RB_Archite</backgroundPathArchite>
+        <hideGene>true</hideGene>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_AccuracyShooting</defName>
+    <label>facial brand (marksman)</label>
+    <description>Carriers of this brand excel in accurate aiming with ranged weapons.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_Dead_Eye</AbilityDef>
+    </descriptionHyperlinks>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandMarksman</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandMarksman</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <suppressedTraits>
+      <li>
+        <def>Brawler</def>
+      </li>
+    </suppressedTraits>
+    <abilities>
+      <li>RB_Dead_Eye</li>
+    </abilities>
+    <passionMod>
+      <skill>Shooting</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <showGizmoWhenDrafted>true</showGizmoWhenDrafted>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Shooting</noSkillLoss>
+        <skillRecreation>Shooting</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_QuickShooting</defName>
+    <label>facial brand (stellar)</label>
+    <description>Carriers of this brand excel in quick-firing with ranged weapons.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_Trigger_Finger</AbilityDef>
+    </descriptionHyperlinks>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandStellar</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandStellar</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <suppressedTraits>
+      <li>
+        <def>Brawler</def>
+      </li>
+    </suppressedTraits>
+    <abilities>
+      <li>RB_Trigger_Finger</li>
+    </abilities>
+    <passionMod>
+      <skill>Shooting</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <showGizmoWhenDrafted>true</showGizmoWhenDrafted>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Shooting</noSkillLoss>
+        <skillRecreation>Shooting</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_MeleeSustain</defName>
+    <label>facial brand (fortitude)</label>
+    <description>Carriers of this brand excel in sustaining combat engagement with melee weapons.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_Magnetic_Shield</AbilityDef>
+    </descriptionHyperlinks>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandFortitude</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandFortitude</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <suppressedTraits>
+      <li>
+        <def>Wimp</def>
+      </li>
+      <li>
+        <def>Delicate</def>
+      </li>
+    </suppressedTraits>
+    <abilities>
+      <li>RB_Magnetic_Shield</li>
+    </abilities>
+    <passionMod>
+      <skill>Melee</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <showGizmoWhenDrafted>true</showGizmoWhenDrafted>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Melee</noSkillLoss>
+        <skillRecreation>Melee</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_MeleeBerserk</defName>
+    <label>facial brand (moustaChE)</label>
+    <description>Carriers of this brand excel in combat engagement compatibility with melee weapons.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_IsIt_CECompatible</AbilityDef>
+    </descriptionHyperlinks>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandMoustaChE</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandMoustaChE</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <abilities>
+      <li>RB_IsIt_CECompatible</li>
+    </abilities>
+    <passionMod>
+      <skill>Melee</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <showGizmoWhenDrafted>true</showGizmoWhenDrafted>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Melee</noSkillLoss>
+        <skillRecreation>Melee</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Construction</defName>
+    <label>facial brand (square)</label>
+    <description>Carriers of this brand excel in constructing and smoothing buildings.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandSquare</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandSquare</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <passionMod>
+      <skill>Construction</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Construction</noSkillLoss>
+        <skillRecreation>Construction</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Mining</defName>
+    <label>facial brand (spade)</label>
+    <description>Carriers of this brand excel in mining and drilling minerals.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandSpade</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandSpade</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <passionMod>
+      <skill>Mining</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Mining</noSkillLoss>
+        <skillRecreation>Mining</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Cooking</defName>
+    <label>facial brand (heart)</label>
+    <description>Carriers of this brand excel in culinary and brewery works.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandHeart</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandHeart</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <passionMod>
+      <skill>Cooking</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Cooking</noSkillLoss>
+        <skillRecreation>Cooking</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Animals</defName>
+    <label>facial brand (ohm)</label>
+    <description>Carriers of this brand excel in taming, training, and handling animals.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandOhm</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandOhm</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <passionMod>
+      <skill>Animals</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Animals</noSkillLoss>
+        <skillRecreation>Animals</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Plants</defName>
+    <label>facial brand (club)</label>
+    <description>Carriers of this brand excel in growing, cutting, and harvesting plants.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandClub</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandClub</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <passionMod>
+      <skill>Plants</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Plants</noSkillLoss>
+        <skillRecreation>Plants</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Crafting</defName>
+    <label>facial brand (cog)</label>
+    <description>Carriers of this brand excel in crafting and manufacturing products.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandCog</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandCog</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <passionMod>
+      <skill>Crafting</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Plants</noSkillLoss>
+        <skillRecreation>Plants</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Artistic</defName>
+    <label>facial brand (diamond)</label>
+    <description>Carriers of this brand excel in artistic and creative artworks.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandDiamond</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandDiamond</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <passionMod>
+      <skill>Artistic</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Plants</noSkillLoss>
+        <skillRecreation>Plants</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Medicine</defName>
+    <label>facial brand (cross)</label>
+    <description>Carriers of this brand excel in tending and curing patients.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandCross</iconPath>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandCross</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <passionMod>
+      <skill>Medicine</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Medicine</noSkillLoss>
+        <skillRecreation>Medicine</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Social</defName>
+    <label>facial brand (rimstar)</label>
+    <description>Carriers of this brand excel in social and negotiation interactions.</description>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandRimstar</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandRimstar</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <suppressedTraits>
+      <li>
+        <def>AnnoyingVoice</def>
+      </li>
+      <li>
+        <def>CreepyBreathing</def>
+      </li>
+    </suppressedTraits>
+    <passionMod>
+      <skill>Social</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Social</noSkillLoss>
+        <skillRecreation>Social</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Intellectual</defName>
+    <label>facial brand (delta)</label>
+    <description>Carriers of this brand excel in research and drug refining.</description>
+    <customEffectDescriptions>
+      <li>Nullify the research and reading debuff of their natural vibrant mind.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandDelta</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandDelta</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <suppressedTraits>
+      <li>
+        <def>SlowLearner</def>
+      </li>
+    </suppressedTraits>
+    <passionMod>
+      <skill>Intellectual</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <statOffsets>
+      <ResearchSpeed>0.15</ResearchSpeed>
+      <ReadingSpeed>0.15</ReadingSpeed>
+    </statOffsets>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Intellectual</noSkillLoss>
+        <skillRecreation>Intellectual</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_None</defName>
+    <label>facial brandless</label>
+    <description>Carriers of this brand have nothing special aside from remarkable manipulation of keeping body shape without visible brand, they also remember memory longer than others.</description>
+    <customEffectDescriptions>
+      <li>Moodlet or thought duration increased by 50%, total 75% with vibrant mind.</li>
+    </customEffectDescriptions>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandNone</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandNone</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <capMods>
+      <li>
+        <capacity>Manipulation</capacity>
+        <postFactor>1.25</postFactor>
+      </li>
+    </capMods>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <geneClass>RimboundCore.GeneMemory</geneClass>
+    <modExtensions>
+      <li Class="RimboundCore.GeneMemoryExtension">
+        <thoughtDurationMultiplier>1.5</thoughtDurationMultiplier>
+      </li>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <globalSkillLossMultiplier>1.25</globalSkillLossMultiplier>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+</Defs>

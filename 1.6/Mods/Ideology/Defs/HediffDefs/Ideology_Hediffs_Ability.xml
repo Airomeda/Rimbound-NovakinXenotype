@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HediffDef>
+    <defName>RB_Novalike</defName>
+    <label>supernova blessing</label>
+    <defaultLabelColor>(1.0, 1.0, 0.57)</defaultLabelColor>
+    <description>Blessed by the Cultivator, this person will regenerate their missing body part in about 15 days. During the effect this person will explode upon death, just like those who have bestowed the blessing.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_Cultivator_Blessing</AbilityDef>
+    </descriptionHyperlinks>
+    <hediffClass>HediffWithComps</hediffClass>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>900000~900000</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+      <li Class="RimboundCore.HediffCompProperties_Exploder">
+        <radius>5</radius>
+        <damageDef>Flame</damageDef>
+        <soundCreated>Explosion_Flame</soundCreated>
+        <thingCreated>Filth_Fuel</thingCreated>
+        <thingCreatedChance>0.2</thingCreatedChance>
+        <damageAmount>30</damageAmount>
+      </li>
+      <li Class="RimboundCore.HediffCompProperties_BodyRegeneration">
+        <rateInTicks>840000~897500</rateInTicks>
+        <healAmount>1</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
+
+</Defs>

@@ -5,6 +5,10 @@
     <defName>RB_Dead_Eye</defName>
     <label>dead eye</label>
     <description>Grant accuracy buffs on the caster's shooting, last about 7 hours before the ability wears off.</description>
+    <descriptionHyperlinks>
+      <HediffDef>RB_Dead_Eye</HediffDef>
+      <GeneDef>RB_Brand_AccuracyShooting</GeneDef>
+    </descriptionHyperlinks>
     <iconPath>UI/Gizmos/Abilities/RB_Dead_Eye</iconPath>
     <cooldownTicksRange>180000</cooldownTicksRange>
     <comps>
@@ -12,12 +16,19 @@
         <hediffDef>RB_Dead_Eye</hediffDef>
       </li>
     </comps>
+    <verbProperties>
+      <soundCast>RB_Novakin_IWasTheSun</soundCast>
+    </verbProperties>
   </AbilityDef>
 
   <AbilityDef ParentName="RB_CastOnSelf_Abilities">
     <defName>RB_Trigger_Finger</defName>
     <label>trigger finger</label>
     <description>Halved aiming cooldown on the caster's shooting, last about 7 hours before the ability wears off.</description>
+    <descriptionHyperlinks>
+      <HediffDef>RB_Trigger_Finger</HediffDef>
+      <GeneDef>RB_Brand_QuickShooting</GeneDef>
+    </descriptionHyperlinks>
     <iconPath>UI/Gizmos/Abilities/RB_Trigger_Finger</iconPath>
     <cooldownTicksRange>180000</cooldownTicksRange>
     <comps>
@@ -25,12 +36,19 @@
         <hediffDef>RB_Trigger_Finger</hediffDef>
       </li>
     </comps>
+    <verbProperties>
+      <soundCast>RB_Novakin_IWasTheSun</soundCast>
+    </verbProperties>
   </AbilityDef>
 
   <AbilityDef ParentName="RB_CastOnSelf_Abilities">
     <defName>RB_Magnetic_Shield</defName>
     <label>magnetic shield</label>
     <description>Increases damage resistance on the caster's body, last about 7 hours before the ability wears off.</description>
+    <descriptionHyperlinks>
+      <HediffDef>RB_Magnetic_Shield</HediffDef>
+      <GeneDef>RB_Brand_MeleeSustain</GeneDef>
+    </descriptionHyperlinks>
     <iconPath>UI/Gizmos/Abilities/RB_Magnetic_Shield</iconPath>
     <cooldownTicksRange>180000</cooldownTicksRange>
     <comps>
@@ -38,12 +56,19 @@
         <hediffDef>RB_Magnetic_Shield</hediffDef>
       </li>
     </comps>
+    <verbProperties>
+      <soundCast>RB_Novakin_IWasTheSun</soundCast>
+    </verbProperties>
   </AbilityDef>
 
   <AbilityDef ParentName="RB_CastOnSelf_Abilities">
     <defName>RB_IsIt_CECompatible</defName>
     <label>is it CE compatible</label>
     <description>Increases melee combat compatibility on the caster's body, last about 7 hours before the ability wears off.</description>
+    <descriptionHyperlinks>
+      <HediffDef>RB_IsIt_CECompatible</HediffDef>
+      <GeneDef>RB_Brand_MeleeBerserk</GeneDef>
+    </descriptionHyperlinks>
     <iconPath>UI/Gizmos/Abilities/RB_IsIt_CECompatible</iconPath>
     <cooldownTicksRange>180000</cooldownTicksRange>
     <comps>
@@ -51,6 +76,9 @@
         <hediffDef>RB_IsIt_CECompatible</hediffDef>
       </li>
     </comps>
+    <verbProperties>
+      <soundCast>RB_Novakin_IWasTheSun</soundCast>
+    </verbProperties>
   </AbilityDef>
 
 </Defs>

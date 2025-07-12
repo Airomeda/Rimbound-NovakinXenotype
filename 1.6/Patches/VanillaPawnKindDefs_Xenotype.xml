@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[@Name="SpaceRefugeeBase"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <RB_Novakin>0.025</RB_Novakin>
+    </value>
+  </Operation>
+
+</Patch>

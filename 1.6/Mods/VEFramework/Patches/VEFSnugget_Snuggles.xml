@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="VEF.PatchOperationToggableSequence">
+    <enabled>False</enabled>
+    <label>Increase Snugget nuzzle rate from 12 hours to 6 hours</label>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RB_Snugget"]/race/nuzzleMtbHours</xpath>
+        <value>
+          <nuzzleMtbHours>6</nuzzleMtbHours>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

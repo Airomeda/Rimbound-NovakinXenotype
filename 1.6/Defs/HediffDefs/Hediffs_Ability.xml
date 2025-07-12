@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HediffDef ParentName="RB_AbilityHediffBase">
+    <defName>RB_Dead_Eye</defName>
+    <label>dead eye</label>
+    <defaultLabelColor>(0.9, 0.27, 0.3)</defaultLabelColor>
+    <description>Enhances the user's shooting accuracy.\n\n"You can go anywhere, but you won't be away from my gaze."</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_Dead_Eye</AbilityDef>
+    </descriptionHyperlinks>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>17500~17500</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+          <AimingDelayFactor>0.75</AimingDelayFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="RB_AbilityHediffBase">
+    <defName>RB_Trigger_Finger</defName>
+    <label>trigger finger</label>
+    <defaultLabelColor>(0.47, 0.76, 0.44)</defaultLabelColor>
+    <description>Decreases the user's firing speed.\n\n"It's high noon. Let's dance, Partner!."</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_Trigger_Finger</AbilityDef>
+    </descriptionHyperlinks>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>17500~17500</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <RangedCooldownFactor>0.5</RangedCooldownFactor>
+          <VEF_RangeAttackSpeedFactor MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">5</VEF_RangeAttackSpeedFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="RB_AbilityHediffBase">
+    <defName>RB_Magnetic_Shield</defName>
+    <label>magnetic shield</label>
+    <defaultLabelColor>(0.16, 0.67, 0.89)</defaultLabelColor>
+    <description>Enhances the user's magnetic field to increase damage resistance.\n\n"My magnetic wave took that personally."</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_Magnetic_Shield</AbilityDef>
+    </descriptionHyperlinks>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>17500~17500</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.5</painFactor>
+        <statFactors>
+          <IncomingDamageFactor>0.75</IncomingDamageFactor>
+          <StaggerDurationFactor>0.5</StaggerDurationFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="RB_AbilityHediffBase">
+    <defName>RB_IsIt_CECompatible</defName>
+    <label>is it CE compatible</label>
+    <defaultLabelColor>(0.98, 0.93, 0.13)</defaultLabelColor>
+    <description>Enhances the user's melee compatibility to stronger hits, decreases cooldown, and increases movement speed.\n\n"I alone am the compatible one."</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_IsIt_CECompatible</AbilityDef>
+    </descriptionHyperlinks>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>17500~17500</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <MoveSpeed>2</MoveSpeed>
+          <MeleeCooldownFactor>0.75</MeleeCooldownFactor>
+          <VEF_MeleeAttackSpeedFactor MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">1.5</VEF_MeleeAttackSpeedFactor>
+          <VEF_MeleeAttackDamageFactor MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">2</VEF_MeleeAttackDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

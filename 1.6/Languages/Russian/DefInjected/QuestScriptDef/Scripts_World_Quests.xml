@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: 
+		questName->[questTitle_any] : [asker_nameFull] the Novakin
+		questTitle_any->wanted
+		questTitle_any->bounty
+	 -->
+	<RB_Intro_Novakin.questNameRules.rulesStrings>
+    	<li>questName->[questTitle_any]: Новакин [asker_nameFull]</li>
+    	<li>questTitle_any->розыск</li>
+    	<li>questTitle_any->награда</li>
+	</RB_Intro_Novakin.questNameRules.rulesStrings>
+	<!-- EN: 
+		questDescription->[asker_nameFull], a mysterious novakin is calling from nearby. [asker_pronoun] was marked with a bounty by [hunterFaction_name] for doing a felony and is now being hunted by a bounty hunter party. The bounty hunter party of [hunterFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]\n\n[asker_nameFull] wants you to keep [asker_possessive] safe in [map_definite]. If you accept, [asker_pronoun] will arrive immediately, but [asker_pronoun] will be followed by the bounty hunter party you must defeat.\nBe aware that if the bounty comes from a friendly faction they may turn hostile towards you.\n\nNovakins are sapient plasma-shelled humanoids with with metallic "brands" where their faces would be. Novakin differs in personality depending on their brand symbol, naturally has short memories and attention spans but they are excel in what they're interested with according their personality.
+	 -->
+	<RB_Intro_Novakin.questDescriptionRules.rulesStrings>
+		<li>questDescription-&gt;[asker_nameFull], таинственный новакин, связывается с нами из окрестностей. [asker_pronoun] разыскивается фракцией [hunterFaction_name] за нарушение закона, и [asker_possessive] преследует отряд охотников за головами. Отряд преследователей состоит из: \n\n[raid/raidPawnKinds]\n\n[asker_nameFull] хочет, чтобы вы защитили [asker_possessive] в [map_definite]. Если вы согласитесь, [asker_pronoun] прибудет немедленно, но вы должны будете одолеть охотников за головами.\nУчтите, что если награда назначена дружественной фракцией, они могут стать враждебными к вам.\n\n Новакины - разумные плазмообразные гуманоиды с металлическими "клеймами" вместо лиц. Личности новакинов различаются в зависимости от клейма, они от природы имеют короткую память и плохое внимание, но добиваются успеха в том, что им действительно интересно, согласно их личным особенностям.</li>
+	</RB_Intro_Novakin.questDescriptionRules.rulesStrings>
+	<!-- EN: {BASETEXT}\n\nBecause you accepted [asker_nameDef], the band of bounty hunters pursuing [asker_possessive] will arrive soon. -->
+	<RB_Intro_Novakin.LetterLabelAskerBecameHostile.slateRef>{BASETEXT}\n\nПоскольку вы приняли [asker_nameDef], группа охотников за головами, преследующих [asker_possessive], скоро прибудет.</RB_Intro_Novakin.LetterLabelAskerBecameHostile.slateRef>
+	<!-- EN: {BASELABEL}: Pursuing bounty hunters -->
+	<RB_Intro_Novakin.LetterLabelLoyaltySquad.slateRef>{BASELABEL}: Преследующие охотники за головами</RB_Intro_Novakin.LetterLabelLoyaltySquad.slateRef>
+	<!-- EN: {BASETEXT}\n\nThese are the bounty hunters that were hunting [../asker_nameFull]. -->
+	<RB_Intro_Novakin.LetterTextLoyaltySquad.slateRef>{BASETEXT}\n\nЭто охотники за головами, преследующие [../asker_nameFull].</RB_Intro_Novakin.LetterTextLoyaltySquad.slateRef>
+
+</LanguageData>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <AbilityDef ParentName="RB_CastOnSelf_Abilities">
+    <defName>RB_Cultivator_Blessing</defName>
+    <label>gift of the Cultivator</label>
+    <description>Grant a blessing to pawns around the caster, last about 15 days before the effect wears off.</description>
+    <descriptionHyperlinks>
+      <HediffDef>RB_Novalike</HediffDef>
+      <GeneDef>RB_Brand_Priest</GeneDef>
+    </descriptionHyperlinks>
+    <iconPath>UI/Gizmos/Abilities/RB_Cultivator_Blessing</iconPath>
+    <warmupSound>PreachHealth_Warmup</warmupSound>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <warmupMoteSocialSymbol>UI/Gizmos/Abilities/RB_Cultivator_Blessing</warmupMoteSocialSymbol>
+    <showCastingProgressBar>True</showCastingProgressBar>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <cooldownTicksRange>1800000</cooldownTicksRange>
+    <statBases>
+      <Ability_EffectRadius>4.9</Ability_EffectRadius>
+    </statBases>
+    <comps>
+      <li Class="RimboundCore.CompProperties_GiveHediff">
+        <hediffDef>RB_Novalike</hediffDef>
+        <applyToCaster>false</applyToCaster>
+        <applyToRadius>true</applyToRadius>
+      </li>
+      <li Class="CompProperties_AbilityMustBeCapableOf">
+        <workTags>
+          <li>Social</li>
+        </workTags>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>Twinkle</fleckDef>
+      </li>
+    </comps>
+    <verbProperties>
+      <warmupTime>7.0</warmupTime>
+      <soundCast>RB_Novakin_IWasTheSun</soundCast>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+  </AbilityDef>
+
+</Defs>

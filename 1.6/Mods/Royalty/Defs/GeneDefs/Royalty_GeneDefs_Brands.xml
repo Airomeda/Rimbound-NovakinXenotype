@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GeneDef ParentName="RB_GeneBrandsBase">
+    <defName>RB_Brand_Psychic</defName>
+    <label>facial brand (psi)</label>
+    <description>Carriers of this brand are naturally adept in psychic phenomenon via magnetic wave manipulation.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_Psychic_Alteration</AbilityDef>
+    </descriptionHyperlinks>
+    <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandPsi</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>RimboundCore.PawnRenderNodeWorker_Face</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Custom</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>false</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/Humanlike/Novakin/Brands/RB_Novakin_BrandPsi</texPath>
+        <visibleFacing>
+          <li>South</li>
+          <li>East</li>
+          <li>West</li>
+        </visibleFacing>
+        <drawData>
+          <defaultData>
+            <layer>57</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <suppressedTraits>
+      <li>
+        <def>PsychicSensitivity</def>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <def>PsychicSensitivity</def>
+        <degree>-2</degree>
+      </li>
+    </suppressedTraits>
+    <abilities>
+      <li>RB_Psychic_Alteration</li>
+    </abilities>
+    <passionMod>
+      <skill>Intellectual</skill>
+      <modType>AddOneLevel</modType>
+    </passionMod>
+    <statOffsets>
+      <PsychicSensitivity>0.2</PsychicSensitivity>
+      <MeditationFocusGain>0.1</MeditationFocusGain>
+    </statOffsets>
+    <prerequisite>RB_Novaborn</prerequisite>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+        <noSkillLoss>Intellectual</noSkillLoss>
+        <skillRecreation>Intellectual</skillRecreation>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+</Defs>

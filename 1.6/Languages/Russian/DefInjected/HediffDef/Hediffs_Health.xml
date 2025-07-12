@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: supernova blessing -->
+	<RB_Novalike.label>благословение сверхновой</RB_Novalike.label>
+	<!-- EN: Born from the death star, this person will regenerate their missing body part every 15-30 days. The body will blow up upon death just like how they were born. -->
+	<RB_Novalike.description>Будучи звездорождённым, этот человек будет восстанавливать недостающую часть тела или шрам каждые 15-30 дней. Существование тела будет окончено так же, как было начато - ярким и красочным взрывом!</RB_Novalike.description>
+
+</LanguageData>
