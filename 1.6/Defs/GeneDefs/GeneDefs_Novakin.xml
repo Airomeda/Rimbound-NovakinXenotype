@@ -183,7 +183,7 @@
       <li>Immune to most human disease and chronic condition.</li>
       <li>Regenerate missing and heal damaged body part every 15-30 days.</li>
       <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">Butcher yields Chemfuel as meat.</li>
-      <li MayRequire="Ludeon.RimWorld.Odyssey, kentington.saveourship2">Can survive direct vacuum exposure without EVA gear.</li>
+      <li MayRequire="kentington.saveourship2">Can survive direct vacuum exposure without EVA gear.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaInnards</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>

@@ -10,6 +10,12 @@
       <GeneDef>RB_Brand_Priest</GeneDef>
     </descriptionHyperlinks>
     <iconPath>UI/Gizmos/Abilities/RB_Cultivator_Blessing</iconPath>
+    <warmupSound>PreachHealth_Warmup</warmupSound>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <warmupMoteSocialSymbol>UI/Gizmos/Abilities/RB_Cultivator_Blessing</warmupMoteSocialSymbol>
+    <showCastingProgressBar>True</showCastingProgressBar>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
     <cooldownTicksRange>1800000</cooldownTicksRange>
     <statBases>
       <Ability_EffectRadius>4.9</Ability_EffectRadius>
@@ -20,9 +26,26 @@
         <applyToCaster>false</applyToCaster>
         <applyToRadius>true</applyToRadius>
       </li>
+      <li Class="CompProperties_AbilityMustBeCapableOf">
+        <workTags>
+          <li>Social</li>
+        </workTags>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>Twinkle</fleckDef>
+      </li>
     </comps>
     <verbProperties>
+      <warmupTime>7.0</warmupTime>
       <soundCast>RB_Novakin_IWasTheSun</soundCast>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
     </verbProperties>
   </AbilityDef>
 
