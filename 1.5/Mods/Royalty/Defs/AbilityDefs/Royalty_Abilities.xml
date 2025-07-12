@@ -5,6 +5,10 @@
     <defName>RB_Psychic_Alteration</defName>
     <label>psymagnetic alteration</label>
     <description>Decreases current psychic sensitivity and improve neural heat loss on the caster's body, last about a day before the ability wears off.</description>
+    <descriptionHyperlinks>
+      <HediffDef>RB_Supressed_Psychic</HediffDef>
+      <GeneDef>RB_Brand_Psychic</GeneDef>
+    </descriptionHyperlinks>
     <iconPath>UI/Gizmos/Abilities/RB_Psychic_Alteration</iconPath>
     <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>

@@ -6,6 +6,9 @@
     <label>psychic supress</label>
     <defaultLabelColor>(0.8, 0.8, 0.54)</defaultLabelColor>
     <description>Halved the user's psychic sentivity and increases neural heat recovery.\n\n"I've cooled down, but I was the sun."</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_Psychic_Alteration</AbilityDef>
+    </descriptionHyperlinks>
     <isBad>false</isBad>
     <comps Inherit="False">
       <li Class="HediffCompProperties_DisappearsOnDeath" />
