@@ -4,7 +4,7 @@
   <AbilityDef ParentName="RB_CastOnSelf_Abilities">
     <defName>RB_Cultivator_Blessing</defName>
     <label>gift of the Cultivator</label>
-    <description>Grant blessing to the caster's surrounding people, last about 15 days before the effect wears off.</description>
+    <description>Grant a blessing to the target around the caster, last about 15 days before the effect wears off.</description>
     <descriptionHyperlinks>
       <HediffDef>RB_Novalike</HediffDef>
       <GeneDef>RB_Brand_Priest</GeneDef>
