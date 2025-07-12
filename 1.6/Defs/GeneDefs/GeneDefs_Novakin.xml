@@ -116,7 +116,7 @@
       <li>Very high temperature resistance.</li>
       <li>Immune to all human disease and chronic condition.</li>
       <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">Butcher yields Plasmaskin as leather, processable to Neutroamine.</li>
-      <li MayRequire="kentington.saveourship2">Can survive radiation exposure in outer space.</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey, kentington.saveourship2">Can survive radiation exposure in outer space.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaShell</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
@@ -183,13 +183,16 @@
       <li>Immune to most human disease and chronic condition.</li>
       <li>Regenerate missing and heal damaged body part every 15-30 days.</li>
       <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">Butcher yields Chemfuel as meat.</li>
-      <li MayRequire="kentington.saveourship2">Can survive direct vacuum exposure without EVA gear.</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey, kentington.saveourship2">Can survive direct vacuum exposure without EVA gear.</li>
     </customEffectDescriptions>
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaInnards</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>3</displayOrderInCategory>
+    <immuneToVacuumBurns>true</immuneToVacuumBurns>
     <statFactors />
-    <statOffsets />
+    <statOffsets>
+      <VacuumResistance>1.0</VacuumResistance>
+    </statOffsets>
     <makeImmuneTo>
       <li>Flu</li>
       <li>Malaria</li>

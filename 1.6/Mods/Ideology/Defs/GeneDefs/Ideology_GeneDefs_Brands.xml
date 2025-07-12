@@ -5,6 +5,9 @@
     <defName>RB_Brand_Priest</defName>
     <label>facial brand (bulb)</label>
     <description>Carriers of this brand excel in converting other people to their beliefs and are difficult to sway.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>RB_Cultivator_Blessing</AbilityDef>
+    </descriptionHyperlinks>
     <iconPath>UI/Icons/Genes/Brands/RB_Gene_BrandBulb</iconPath>
     <renderNodeProperties>
       <li>
@@ -28,6 +31,9 @@
         </drawData>
       </li>
     </renderNodeProperties>
+    <abilities>
+      <li>RB_Cultivator_Blessing</li>
+    </abilities>
     <passionMod>
       <skill>Social</skill>
       <modType>AddOneLevel</modType>
