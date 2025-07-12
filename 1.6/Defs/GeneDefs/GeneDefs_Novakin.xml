@@ -188,10 +188,10 @@
     <iconPath>UI/Icons/Genes/RB_Gene_PlasmaInnards</iconPath>
     <displayCategory>RB_Novakin_Category</displayCategory>
     <displayOrderInCategory>3</displayOrderInCategory>
-    <immuneToVacuumBurns>true</immuneToVacuumBurns>
+    <immuneToVacuumBurns MayRequire="Ludeon.RimWorld.Odyssey">true</immuneToVacuumBurns>
     <statFactors />
     <statOffsets>
-      <VacuumResistance>1.0</VacuumResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1.0</VacuumResistance>
     </statOffsets>
     <makeImmuneTo>
       <li>Flu</li>
