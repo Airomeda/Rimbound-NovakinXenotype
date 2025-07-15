@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="VFECore.PatchOperationToggableSequence" MayRequire="Ludeon.RimWorld.Ideology">
+    <enabled>True</enabled>
+    <label>Disable "Look change desired" moodlet for Novakin</label>
+    <operations>
+      <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThoughtDef[defName="LookChangeDesired"]/nullifyingGenes</xpath>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/ThoughtDef[defName="LookChangeDesired"]</xpath>
+          <value>
+            <nullifyingGenes>
+              <li>RB_Corona_Hair</li>
+            </nullifyingGenes>
+          </value>
+        </nomatch>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/ThoughtDef[defName="LookChangeDesired"]/nullifyingGenes</xpath>
+          <value>
+            <li>RB_Corona_Hair</li>
+          </value>
+        </match>
+      </Operation>
+    </operations>
+  </Operation>
+
+</Patch>
