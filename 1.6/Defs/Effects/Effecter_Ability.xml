@@ -5,13 +5,16 @@
     <defName>RB_Plasma_Sparks</defName>
     <children>
       <li>
-        <subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
-        <chancePerTick>0.1</chancePerTick>
-        <positionRadius>0.3</positionRadius>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
         <moteDef>RB_Plasma_Spark_Flash</moteDef>
-        <speed>0.18~0.18</speed>
-        <rotation>0</rotation>
-        <angle>0~360</angle>
+        <burstCount>1~2</burstCount>
+        <chancePerTick>0.025</chancePerTick>
+        <rotation>-150~-150</rotation>
+        <spawnLocType>OnTarget</spawnLocType>
+        <scale>0.4~0.5</scale>
+        <positionRadius>0.45</positionRadius>
+        <attachToSpawnThing>true</attachToSpawnThing>
+        <rotateTowardsTargetCenter>true</rotateTowardsTargetCenter>
       </li>
     </children>
   </EffecterDef>

@@ -44,8 +44,7 @@
     <stages>
       <li>
         <statFactors>
-          <RangedCooldownFactor>0.5</RangedCooldownFactor>
-          <VEF_RangeAttackSpeedFactor MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">5</VEF_RangeAttackSpeedFactor>
+          <RangedCooldownFactor>0.25</RangedCooldownFactor>
         </statFactors>
       </li>
     </stages>
@@ -96,8 +95,7 @@
       <li>
         <statFactors>
           <MoveSpeed>2</MoveSpeed>
-          <MeleeCooldownFactor>0.75</MeleeCooldownFactor>
-          <VEF_MeleeAttackSpeedFactor MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">1.5</VEF_MeleeAttackSpeedFactor>
+          <MeleeCooldownFactor>0.5</MeleeCooldownFactor>
           <VEF_MeleeAttackDamageFactor MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">2</VEF_MeleeAttackDamageFactor>
         </statFactors>
       </li>
