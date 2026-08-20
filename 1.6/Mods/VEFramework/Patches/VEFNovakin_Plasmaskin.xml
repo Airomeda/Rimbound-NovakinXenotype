@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="VEF.PatchOperationToggableSequence">
+    <enabled>False</enabled>
+    <label>Disable plasmaskin leather in favor of Neutroamine for Novakin. WARNING: Destructive toggle, new save recommended.</label>
+    <operations>
+
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/GeneDef[defName="RB_Plasma_Shell"]/customEffectDescriptions/li[.="Butcher yields Plasmaskin as leather, processable to Neutroamine."]</xpath>
+        <value>
+          <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">Butcher yields Neutroamine as leather.</li>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/GeneDef[defName="RB_Plasma_Shell"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]/customLeatherThingDef</xpath>
+        <value>
+          <customLeatherThingDef>Neutroamine</customLeatherThingDef>
+        </value>
+      </li>
+
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/GeneDef[defName="RB_Plasma_Shell"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]/defsTreatedAsHumanLeather</xpath>
+      </li>
+
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="RB_Leather_Plasmaskin"]</xpath>
+      </li>
+
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/RecipeDef[defName="RB_Make_Neutroamine"]</xpath>
+      </li>
+
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/RecipeDef[defName="RB_Make_NeutroamineBulk"]</xpath>
+      </li>
+
+    </operations>
+  </Operation>
+
+</Patch>

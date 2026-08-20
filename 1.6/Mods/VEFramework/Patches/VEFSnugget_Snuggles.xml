@@ -5,6 +5,7 @@
     <enabled>False</enabled>
     <label>Increase Snugget nuzzle rate from 12 hours to 6 hours</label>
     <operations>
+
       <li Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="RB_Snugget"]/race/nuzzleMtbHours</xpath>
         <value>
@@ -12,6 +13,7 @@
         </value>
       </li>
     </operations>
+    
   </Operation>
 
 </Patch>

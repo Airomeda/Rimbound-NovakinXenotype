@@ -100,7 +100,7 @@
       </li>
       <li Class="RimboundCore.GeneExtension_Incident">
         <incidentDef>SolarFlare</incidentDef>
-        <triggerChance>0.5</triggerChance>
+        <triggerChance>0.05</triggerChance>
         <allowOverlap>false</allowOverlap>
       </li>
     </modExtensions>
